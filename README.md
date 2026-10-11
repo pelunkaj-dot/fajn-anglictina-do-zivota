@@ -8,7 +8,7 @@ Plný situační kurz A1–B2 a adaptivní trenér slovní zásoby. Buildless HT
 - Mise: skládání, výběr nebo psaní z ověřených variant. Volný text nemá AI sémantické hodnocení; nerozpoznanou formulaci aplikace neprohlašuje za jazykovou chybu.
 - Nápověda a vzor pouze na vyžádání. Britské i americké schválené varianty jsou přijímány.
 - Výslovnost: vyžádané nahrávání, automatický limit 14 s, ukončení tlačítkem, zastavení mikrofonu při odchodu, konverze mono PCM16 WAV 16 kHz, stávající `fdc-gateway/api/pronunciation` s `phoneticAssessment=true`. Shoda slov a výslovnost jsou oddělené. Nedostupnost služby nikdy neznamená úspěch ani chybu uživatele.
-- Poslech přes přesný dostupný hlas `en-GB`/`en-US` v zařízení. Když daný hlas chybí, aplikace to oznámí a neslibuje jiný přízvuk.
+- Poslech přes nový nezávislý endpoint `/api/life-tts` s britskými/americkými hlasovými instrukcemi a mezipamětí v paměti stránky. Při nedostupnosti použije přesný dostupný hlas `en-GB`/`en-US` v zařízení. Když daný hlas chybí, aplikace to oznámí a neslibuje jiný přízvuk.
 - Světlý, tmavý, fialový vzhled; vypnutí města, animací a zvuku; respektování omezení pohybu.
 - Výsledky lokálně v prohlížeči; export/import JSON zálohy. Bez centrálních uživatelských účtů. Při kontrole hlasu audio zpracuje stávající externí služba; aplikace nahrávky neukládá.
 
