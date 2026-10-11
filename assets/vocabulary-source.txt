@@ -1,0 +1,48 @@
+restaurant|A1|menu=jídelní lístek;bill=účet;water=voda;bread=chléb;soup=polévka;chicken=kuře;table=stůl;glass=sklenice
+restaurant|A2|reservation=rezervace;vegetarian=vegetariánský;cheese=sýr;butter=máslo;dessert=dezert;included=zahrnutý;order=objednat;price=cena
+restaurant|B1|service charge=obslužné;dairy products=mléčné výrobky;split the bill=rozdělit účet;recommend=doporučit;allergic=alergický;receipt=účtenka;local dish=místní jídlo;separately=odděleně
+restaurant|B2|cross-contamination=křížová kontaminace;dietary requirements=stravovací požadavky;cancel the order=zrušit objednávku;promptly=bezodkladně;overcharged=naúčtovaný příliš vysoko;food intolerance=potravinová intolerance;refund=vrácení peněz;resolve a complaint=vyřešit stížnost
+travel|A1|ticket=jízdenka;train=vlak;bus=autobus;station=nádraží;platform=nástupiště;leave=odjet;return ticket=zpáteční jízdenka;single ticket=jednosměrná jízdenka
+travel|A2|journey=cesta;change trains=přestupovat;direct train=přímý vlak;discount=sleva;student card=studentský průkaz;departure=odjezd;arrival=příjezd;luggage=zavazadla
+travel|B1|connecting train=návazný vlak;cancelled=zrušený;valid=platný;reserve a seat=rezervovat sedadlo;itinerary=itinerář;delay=zpoždění;timetable=jízdní řád;fare=jízdné
+travel|B2|compensation=kompenzace;submit a claim=podat žádost o kompenzaci;supporting documents=podpůrné doklady;eligible=způsobilý;deadline=lhůta;disruption=narušení provozu;reimbursement=náhrada výdajů;written confirmation=písemné potvrzení
+hotel|A1|room=pokoj;key=klíč;lift=výtah;floor=patro;night=noc;bed=postel;password=heslo;hotel=hotel
+hotel|A2|check out=odhlásit se z hotelu;towel=ručník;air conditioning=klimatizace;breakfast=snídaně;stay=pobyt;reception=recepce;double room=dvoulůžkový pokoj;extra towel=další ručník
+hotel|B1|late check-out=pozdější odhlášení;extra charge=příplatek;store luggage=uschovat zavazadla;employer=zaměstnavatel;noisy=hlučný;available=dostupný;wake-up call=buzení telefonem;room service=pokojová služba
+hotel|B2|river view=výhled na řeku;fully booked=plně obsazený;price reduction=snížení ceny;resolve an issue=vyřešit problém;arrangement=dohoda;specifically=výslovně;discrepancy=nesrovnalost;complimentary=bezplatný
+shopping|A1|T-shirt=tričko;blue=modrý;size=velikost;medium=střední;buy=koupit;shop=obchod;bag=taška;card=karta
+shopping|A2|try on=vyzkoušet si;changing room=převlékací kabinka;jacket=bunda;larger=větší;fit=sedět velikostí;return=vrátit;black=černý;receipt=účtenka
+shopping|B1|headphones=sluchátka;replacement=výměna;refund=vrácení peněz;working day=pracovní den;policy=pravidla;faulty=vadný;proof of purchase=doklad o koupi;warranty=záruka
+shopping|B2|water-resistant=voděodolný;store credit=poukaz do obchodu;correspond to=odpovídat něčemu;processing time=doba vyřízení;correspondence=korespondence;misleading=zavádějící;manufacturing defect=výrobní vada;consumer rights=spotřebitelská práva
+work|A1|teacher=učitel;school=škola;work=pracovat;start=začít;office=kancelář;job=zaměstnání;colleague=kolega;Sunday=neděle
+work|A2|presentation=prezentace;prepare=připravit;file=soubor;meeting=schůzka;send=poslat;finish=dokončit;lunch=oběd;by Friday=do pátku
+work|B1|behind schedule=ve zpoždění za plánem;supplier=dodavatel;extend a deadline=prodloužit termín;responsibility=odpovědnost;report=zpráva;keep updated=průběžně informovat;progress=pokrok;workload=pracovní zátěž
+work|B2|feasibility=proveditelnost;maintenance=údržba;take into account=zohlednit;pilot project=pilotní projekt;roll out=zavést;criteria=kritéria;proposal=návrh;reservations=výhrady
+health|A1|doctor=lékař;headache=bolest hlavy;fever=horečka;ill=nemocný;wait=čekat;toilet=toaleta;pain=bolest;help=pomoc
+health|A2|sore throat=bolest v krku;medicine=lék;allergy=alergie;insurance card=průkaz pojištěnce;pharmacy=lékárna;appointment=objednaná návštěva;cough=kašel;symptom=příznak
+health|B1|dizzy=mající závratě;check-up=kontrola u lékaře;follow-up appointment=následná kontrola;penicillin=penicilin;instructions=pokyny;stand up=vstát;prescription=recept na léky;medical history=anamnéza
+health|B2|persist=přetrvávat;nausea=nevolnost;side effect=nežádoucí účinek;likelihood=pravděpodobnost;treatment=léčba;preparation=příprava;assessment=posouzení;underlying cause=základní příčina
+social|A1|name=jméno;friend=přítel;music=hudba;live=bydlet;speak=mluvit;English=angličtina;meet=setkat se;country=země
+social|A2|weekend=víkend;cinema=kino;invite=pozvat;outside=venku;Saturday=sobota;together=společně;bring=přinést;plan=plán
+social|B1|meet up=sejít se;make plans=naplánovat si něco;preference=preference;instead=místo toho;book a table=rezervovat stůl;available=mající čas;get together=sejít se;turn down an invitation=odmítnout pozvání
+social|B2|adjust to=zvyknout si na;spontaneously=spontánně;hesitant=váhající;appreciate=ocenit;settle in=zabydlet se;reassure=uklidnit;considerate=ohleduplný;mutual understanding=vzájemné porozumění
+home|A1|flat=byt;kitchen=kuchyň;bedroom=ložnice;garden=zahrada;living room=obývací pokoj;small=malý;near=poblíž;door=dveře
+home|A2|rent=nájem;bills=účty za energie;move in=nastěhovat se;pet=domácí zvíře;allowed=povolený;monthly=měsíční;view a flat=prohlédnout si byt;furnished=zařízený nábytkem
+home|B1|tap=kohoutek;drip=kapat;plumber=instalatér;neighbour=soused;repair=oprava;leak=únik vody;landlord=pronajímatel;tenant=nájemce
+home|B2|lease=nájemní smlouva;clause=ustanovení smlouvy;deposit=kauce;minor repairs=drobné opravy;revise=upravit;explicitly=výslovně;tenancy=nájemní vztah;wear and tear=běžné opotřebení
+study|A1|student=student;book=kniha;notebook=sešit;page=stránka;learn=učit se;understand=rozumět;read=číst;write=psát
+study|A2|course=kurz;class=lekce;textbook=učebnice;timetable=rozvrh;twice a week=dvakrát týdně;details=podrobnosti;evening=večer;attend=navštěvovat
+study|B1|trial lesson=zkušební lekce;sign up=přihlásit se;speaking skills=dovednosti v mluvení;respond=odpovědět;fill in=vyplnit;take part=zúčastnit se;group size=velikost skupiny;look forward to=těšit se na
+study|B2|recurring mistakes=opakující se chyby;provided=za předpokladu že;devote time=věnovat čas;achievable=dosažitelný;evaluate=vyhodnotit;targeted feedback=cílená zpětná vazba;learning outcome=výsledek učení;critical thinking=kritické myšlení
+services|A1|letter=dopis;stamp=známka;envelope=obálka;post=poslat poštou;phone=telefon;number=číslo;message=zpráva;email=e-mail
+services|A2|call back=zavolat zpět;available=dostupný;leave a message=zanechat zprávu;customer service=zákaznická služba;pass on a message=předat zprávu;send=poslat;contact=kontaktovat;reply=odpověď
+services|B1|connection=připojení;router=router;restart=restartovat;outage=výpadek;fault=závada;restore=obnovit;reference number=číslo případu;technical support=technická podpora
+services|B2|authorise=povolit;consent=souhlas;suspend=pozastavit;investigate=prošetřit;escalate=předat k vyššímu řešení;formal response=oficiální odpověď;unexpected charge=neočekávaný poplatek;timeframe=časový rámec
+outdoors|A1|park=park;walk=procházka;sunny=slunečný;warm=teplý;water=voda;ready=připravený;tree=strom;rain=déšť
+outdoors|A2|path=cesta;lake=jezero;hill=kopec;steep=strmý;grass=tráva;break=přestávka;far=daleko;kilometre=kilometr
+outdoors|B1|forecast=předpověď;route=trasa;trail=stezka;woods=les;well marked=dobře značený;download=stáhnout;stay together=zůstat spolu;chance of rain=pravděpodobnost deště
+outdoors|B2|endangered=ohrožený;habitat=přirozené prostředí;disturbance=rušení;conservation=ochrana přírody;reusable=znovupoužitelný;disposable=jednorázový;wildlife=volně žijící živočichové;single-use packaging=jednorázové obaly
+culture|A1|film=film;ticket=vstupenka;show=představení;entrance=vchod;photo=fotografie;Friday=pátek;sing=zpívat;dance=tančit
+culture|A2|performance=představení;seat=sedadlo;balcony=balkon;interval=přestávka v představení;collect tickets=vyzvednout vstupenky;concert=koncert;last=trvat;student discount=studentská sleva
+culture|B1|predictable=předvídatelný;lead actor=hlavní herec;convincing=přesvědčivý;recommend=doporučit;compare=porovnat;based on=založený na;ending=závěr;worth watching=stojící za zhlédnutí
+culture|B2|ambiguity=nejednoznačnost;interpretation=výklad;adaptation=adaptace;cinematography=kameramanská práce;isolation=izolace;pacing=tempo vyprávění;thought-provoking=podněcující k zamyšlení;oversimplify=příliš zjednodušit
