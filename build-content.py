@@ -5,9 +5,6 @@ translations={};lines=(root/'assets/prompt-translations.txt').read_text().splitl
 for i in range(0,len(lines),7):
  topic,level=lines[i].split('|');translations[(topic,level)]=lines[i+1:i+7]
 assert len(translations)==48
-# Contextual corrections: each translation follows the actual six source prompts.
-translations[('hotel','A2')][3:]=['Ano, je zahrnutá.','Samozřejmě.','Někoho za vámi pošleme nahoru.']
-translations[('services','A1')][4:]=['Tady máte.','Tři libry.']
 foundations=json.loads((root/'assets/foundations.json').read_text())
 glossary=json.loads((root/'assets/chunk-glossary.json').read_text())
 def chunks(answer,topic,level):

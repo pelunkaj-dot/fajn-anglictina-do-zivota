@@ -65,9 +65,9 @@ hotel|A2
 Na kolik nocí zůstáváte?
 Snídaně se podává dole.
 Od sedmi do deseti.
+Ano, je zahrnutá.
 Samozřejmě.
 Někoho za vámi pošleme nahoru.
-Je s vaším pokojem všechno v pořádku?
 hotel|B1
 Je s vaším pokojem všechno v pořádku?
 To mě mrzí.
@@ -255,8 +255,8 @@ Dobrý den. Jak vám mohu pomoci?
 Kam to posíláte?
 Potřebujete známku?
 Ještě něco?
+Tady máte.
 Tři libry.
-Dobrý den, zákaznická služba.
 services|A2
 Dobrý den, zákaznická služba.
 Kdo volá?
