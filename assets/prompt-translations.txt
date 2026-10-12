@@ -1,0 +1,336 @@
+restaurant|A1
+Dobrý den. Pro kolik osob má být stůl?
+Tady je váš stůl.
+Co byste si dali k jídlu?
+A co byste si dali k pití?
+Dáte si dezert?
+Přejete si ještě něco?
+restaurant|A2
+Dobrý večer. Máte rezervaci?
+Chcete se podívat na jídelní lístek?
+Co vám mohu nabídnout?
+Dáte si trochu chleba?
+Jak vám chutná?
+Jak chcete zaplatit?
+restaurant|B1
+Už jste se rozhodli, co si objednáte?
+Naše dnešní specialita obsahuje smetanu.
+Můžeme připravit něco jiného.
+Tady je vaše objednávka.
+Přejete si účet?
+Celková částka je na účtence.
+restaurant|B2
+Jaké máte požadavky na stravu?
+Ořechy neobsahuje, ale používáme je v kuchyni.
+Příprava vašeho jídla může trvat čtyřicet minut.
+Omlouvám se za zpoždění.
+Tady je váš účet.
+Hned to opravím.
+travel|A1
+Dobrý den. Kam byste chtěli jet?
+Jednosměrnou, nebo zpáteční?
+Bude to dvacet liber.
+Odjíždí v deset.
+Je to nástupiště čtyři.
+Nástupiště čtyři.
+travel|A2
+Kam dnes cestujete?
+Vlak jede v půl desáté.
+Asi hodinu.
+Ne, je to přímý vlak.
+Mohu vidět váš studentský průkaz?
+Vše máte připravené.
+travel|B1
+Jak vám mohu pomoci?
+Můžete jet následujícím spojem.
+Ano, platí.
+Kde přestupujete?
+Další vlak odjíždí za deset minut.
+Rezervace není potřeba.
+travel|B2
+V čem je problém?
+Kdy jste přijeli?
+Možná vám budeme moci pomoci.
+Musíte podat žádost o kompenzaci.
+Uschovejte si jízdenku a účtenku.
+Žádost můžete podat online.
+hotel|A1
+Vítejte. Máte rezervaci?
+Jak se jmenujete?
+Tady je váš klíč.
+Váš pokoj je ve druhém patře.
+Je po vaší pravici.
+Je na vaší kartě od pokoje.
+hotel|A2
+Na kolik nocí zůstáváte?
+Snídaně se podává dole.
+Od sedmi do deseti.
+Samozřejmě.
+Někoho za vámi pošleme nahoru.
+Je s vaším pokojem všechno v pořádku?
+hotel|B1
+Je s vaším pokojem všechno v pořádku?
+To mě mrzí.
+Jeden máme volný.
+Ne, příplatek by se neplatil.
+Můžeme to prodloužit do jedné.
+Jistě.
+hotel|B2
+Jak vám můžeme pomoci?
+Co jste očekávali?
+Tento typ pokoje je plně obsazený.
+Promluvím s vedoucím.
+Můžeme nabídnout slevu.
+Samozřejmě.
+shopping|A1
+Dobrý den. Mohu pomoci?
+Jakou barvu byste chtěli?
+Jakou máte velikost?
+Tady máte.
+Stojí to dvanáct liber.
+Ano, můžete.
+shopping|A2
+Co hledáte?
+Zkuste tuto.
+Jsou tamhle.
+Máme větší velikost.
+Ano, máme.
+Uschovejte si účtenku.
+shopping|B1
+Jak vám dnes mohu pomoci?
+Je s nimi nějaký problém?
+Máte účtenku?
+Chtěli byste je vyměnit?
+Podívám se na naše pravidla.
+Obvykle tři pracovní dny.
+shopping|B2
+Jaký je problém s vaší objednávkou?
+Mohli byste vysvětlit rozdíl?
+Použili jste to?
+Mohli bychom nabídnout poukaz do obchodu.
+Nejprve to musíme prošetřit.
+Ozveme se vám příští týden.
+work|A1
+Dobrý den. Jak se jmenujete?
+Čím se živíte?
+Kde pracujete?
+Kdy začínáte pracovat?
+Pracujete v neděli?
+Těší mě.
+work|A2
+Na čem pracujete?
+Kdy to má být hotové?
+Potřebujete něco?
+Jistě. Kdy máte čas?
+Druhá hodina mi vyhovuje.
+Děkuji, že mě průběžně informujete.
+work|B1
+Jak pokračuje projekt?
+Co způsobilo zpoždění?
+Můžeme ještě dodržet termín?
+To by mělo být možné.
+Prosím, průběžně informujte tým.
+Zítra zhodnotíme pokrok.
+work|B2
+Podporujete navržený postup?
+Která část vám dělá starosti?
+Co byste navrhli?
+Ovlivnilo by to harmonogram?
+Jak bychom měřili úspěch?
+Sepišme to.
+health|A1
+Dobrý den. Jak vám mohu pomoci?
+Co vám je?
+Máte zvýšenou teplotu?
+Jeden den, nebo dva dny?
+Prosím, počkejte tady.
+Je dál na chodbě.
+health|A2
+V čem je problém?
+Kdy to začalo?
+Berete nějaké léky?
+Máte svůj průkaz pojištěnce?
+Lékař vás za chvíli přijme.
+Samozřejmě.
+health|B1
+Můžete popsat své příznaky?
+Děje se to pořád?
+Stalo se vám to už dříve?
+Máte alergii na nějaké léky?
+Vysvětlím další postup.
+Jistě.
+health|B2
+Jak se váš stav změnil?
+Všimli jste si nějakých nežádoucích účinků?
+Mohli bychom zvážit jinou možnost.
+Proberu je s vámi.
+Zařídíme nějaká vyšetření.
+Pošleme vám písemné informace.
+social|A1
+Ahoj! Jak se jmenuješ?
+Odkud jsi?
+Kde bydlíš?
+Co rád děláš?
+Mluvíš anglicky?
+Těší mě.
+social|A2
+Co děláš tento víkend?
+To zní dobře.
+Moc rád. V kolik?
+Kde se sejdeme?
+Mohu přivést kamaráda?
+Uvidíme se v sobotu!
+social|B1
+Přijdeš na večírek?
+To je škoda.
+Úterý by mohlo vyhovovat.
+Tak zajděme na večeři.
+Nějaké klidné místo by bylo příjemné.
+To zní dobře.
+social|B2
+Dnes jsi nějaký tichý.
+Co bylo nejtěžší?
+Zapojil ses do nějakých místních skupin?
+Mohl bych tě představit několika lidem.
+Scházíme se ve čtvrtek.
+Vůbec mi to nevadí.
+home|A1
+Kde bydlíte?
+Kolik je tam pokojů?
+Je tam zahrada?
+Kde je kuchyň?
+Máte rádi svůj domov?
+Je to poblíž školy?
+home|A2
+Máte zájem o ten byt?
+Je to osm set liber.
+Ne, nejsou zahrnuty.
+Na začátku příštího měsíce.
+Kočky jsou povoleny.
+Chcete si byt prohlédnout?
+home|B1
+Je v bytě nějaký problém?
+Jak dlouho už se to děje?
+Zavolám instalatéra.
+Pravděpodobně zítra dopoledne.
+Mohl by je pustit dovnitř soused?
+Prosím, dejte mi vědět.
+home|B2
+Proč chcete projednat nájemní smlouvu?
+Které ustanovení vám dělá starosti?
+To záleží na okolnostech.
+Můžeme upravit znění.
+Nemovitost musí být v dobrém stavu.
+To je rozumný návrh.
+study|A1
+Co byste chtěli studovat?
+Jste student?
+Máte sešit?
+Prosím, otevřete knihu.
+Stránka deset.
+Vysvětlím to znovu.
+study|A2
+Máte zájem o večerní kurz?
+Příští pondělí.
+Dvakrát týdně.
+To odpovídá našemu rozvrhu.
+Jednu vám poskytneme.
+Pošlu vám podrobnosti.
+study|B1
+Už jste si vybrali kurz?
+Co vám připadá obtížné?
+Nabízíme konverzační kurz.
+Obvykle šest.
+Ano, příští čtvrtek.
+Prosím, vyplňte tento formulář.
+study|B2
+Jaké jsou vaše studijní cíle?
+Jaká zpětná vazba vám pomáhá?
+Dali byste přednost individuálním lekcím?
+Kolik času můžete věnovat studiu?
+Kurz můžeme přizpůsobit.
+Každý měsíc zhodnotíme vaše cíle.
+services|A1
+Dobrý den. Jak vám mohu pomoci?
+Kam to posíláte?
+Potřebujete známku?
+Ještě něco?
+Tři libry.
+Dobrý den, zákaznická služba.
+services|A2
+Dobrý den, zákaznická služba.
+Kdo volá?
+Momentálně není k dispozici.
+Samozřejmě.
+Jaké je vaše číslo?
+Předám vaši zprávu.
+services|B1
+Jak vám mohu pomoci?
+Restartovali jste router?
+Kdy problém začal?
+Provedeme několik kontrol.
+Vypadá to na místní závadu.
+Pošleme vám aktuální informace.
+services|B2
+Co chcete projednat?
+Za co je ten poplatek?
+Podle našich záznamů byla služba aktivována.
+Prošetříme to.
+Předám případ k vyššímu řešení.
+Dostanete e-mail.
+outdoors|A1
+Máte rádi procházky?
+Kam chcete jít?
+Jaké je počasí?
+Je zima?
+Máte vodu?
+Vyrazíme?
+outdoors|A2
+Kam vede tato cesta?
+Ano, vede.
+Asi tři kilometry.
+Je tam jeden strmý kopec.
+Zastavme se tady.
+Ano, to je v pořádku.
+outdoors|B1
+Podívali jste se na předpověď?
+Měli bychom změnit trasu?
+Lesem vede stezka.
+Většina je dobře značená.
+To se hodí.
+Souhlasím.
+outdoors|B2
+Proč je tato oblast chráněná?
+Hnízdí tu několik druhů ptáků.
+Prosím, držte se značených cest.
+Také vybízíme lidi, aby omezovali odpad.
+To je dobrý nápad.
+Pořádáme akce každý měsíc.
+culture|A1
+Co rád děláš?
+Přejete si vstupenku?
+Na který den?
+Představení začíná v sedm.
+Tamhle.
+Během představení ne.
+culture|A2
+Které představení byste chtěli vidět?
+Kolik vstupenek potřebujete?
+Na balkoně jsou volná místa.
+Ano, se studentským průkazem.
+Asi dvě hodiny.
+Ano, po první hodině.
+culture|B1
+Co si myslíte o tom filmu?
+A co herci?
+Doporučili byste ho?
+Vznikl podle knihy?
+Chtěli byste si ji přečíst?
+Příští týden zajděme na další film.
+culture|B2
+Jak byste si vyložili závěr?
+Vystihla filmová adaptace kvality románu?
+Co vás zaujalo po vizuální stránce?
+Některým divákům to připadalo příliš pomalé.
+Podívali byste se na to znovu?
+Komu byste to doporučili?

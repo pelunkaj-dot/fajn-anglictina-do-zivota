@@ -1,0 +1,48 @@
+restaurant|A1|Hello. A table for how many people?|Teď požádej o stůl pro čtyři.|A table for four, please.|Stůl pro čtyři, prosím.|Can we have a table for four, please?
+restaurant|A2|What can I get you?|Tentokrát si objednej polévku bez smetany.|I'd like the soup without cream, please.|Dal bych si polévku bez smetany, prosím.|Can I have the soup without cream, please?
+restaurant|B1|What are your dietary requirements?|Tentokrát vysvětli, že máš alergii na ořechy.|I'm allergic to nuts.|Mám alergii na ořechy.|I have a nut allergy.
+restaurant|B2|The dish contains several ingredients.|Tentokrát požádej o ověření, zda dezert obsahuje mléčné výrobky.|Could you check whether the dessert contains dairy products?|Mohl byste ověřit, zda dezert obsahuje mléčné výrobky?|Would you mind checking whether there are dairy products in the dessert?
+travel|A1|Where would you like to go?|Tentokrát řekni, že chceš jet do Oxfordu.|I'd like to go to Oxford.|Chtěl bych jet do Oxfordu.|I want to go to Oxford.
+travel|A2|Where are you travelling today?|Tentokrát požádej o tři jízdenky do Londýna.|Three tickets to London, please.|Tři jízdenky do Londýna, prosím.|I'd like three tickets to London, please.
+travel|B1|Can you still reach your destination?|Tentokrát řekni, že potřebuješ stihnout návazný autobus.|I need to catch a connecting bus.|Potřebuji stihnout návazný autobus.|I have a bus connection to catch.
+travel|B2|Why did you miss your flight?|Tentokrát vysvětli, že zpoždění způsobilo zmeškání letu.|The delay caused me to miss my flight.|Kvůli zpoždění jsem zmeškal let.|I missed my flight because of the delay.
+hotel|A1|What is your name?|Tentokrát se představ jako Sam Green.|My name is Sam Green.|Jmenuji se Sam Green.|I'm Sam Green.
+hotel|A2|How many nights are you staying?|Tentokrát řekni, že zůstaneš dvě noci.|I'm staying for two nights.|Zůstanu dvě noci.|I'll be here for two nights.
+hotel|B1|Would you like to change rooms?|Tentokrát požádej o pokoj v nižším patře.|Could I move to a room on a lower floor?|Mohl bych se přestěhovat do pokoje v nižším patře?|Could you give me a room on a lower floor?
+hotel|B2|What did your reservation include?|Tentokrát vysvětli, že rezervace výslovně uváděla snídani.|My reservation specifically stated that breakfast was included.|Má rezervace výslovně uváděla, že snídaně je zahrnutá.|The booking explicitly included breakfast.
+shopping|A1|What are you looking for?|Tentokrát řekni, že hledáš bundu.|I'm looking for a jacket.|Hledám bundu.|I'd like a jacket.
+shopping|A2|Does it fit?|Tentokrát řekni, že je bunda příliš velká.|This jacket is too big.|Tato bunda je příliš velká.|It's too big for me.
+shopping|B1|How can I help you today?|Tentokrát řekni, že chceš vrátit tyto boty.|I'd like to return these shoes.|Chtěl bych vrátit tyto boty.|I'd like to bring these shoes back.
+shopping|B2|What would you prefer?|Tentokrát požádej o výměnu místo poukazu do obchodu.|I'd prefer a replacement rather than store credit.|Raději bych výměnu než poukaz do obchodu.|I'd rather receive a replacement than a voucher.
+work|A1|What do you do?|Tentokrát řekni, že jsi lékař.|I'm a doctor.|Jsem lékař.|I am a doctor.
+work|A2|When is it due?|Tentokrát řekni, že to musíš dokončit do pondělí.|I need to finish it by Monday.|Musím to dokončit do pondělí.|It needs to be ready by Monday.
+work|B1|Can we change the deadline?|Tentokrát navrhni prodloužení termínu o tři dny.|Could we extend the deadline by three days?|Mohli bychom prodloužit termín o tři dny?|Could we have three more days to finish it?
+work|B2|Which costs haven't been considered?|Tentokrát řekni, že odhad nákladů opomíjí školení.|The cost estimate doesn't take training into account.|Odhad nákladů nezohledňuje školení.|Training costs haven't been factored into the estimate.
+health|A1|What is wrong?|Tentokrát řekni, že tě bolí v krku.|I have a sore throat.|Bolí mě v krku.|I've got a sore throat.
+health|A2|When did it start?|Tentokrát řekni, že to začalo v pondělí.|It started on Monday.|Začalo to v pondělí.|On Monday.
+health|B1|When do you feel worse?|Tentokrát řekni, že se to zhoršuje při chůzi.|It gets worse when I walk.|Zhoršuje se to, když chodím.|Walking makes it worse.
+health|B2|How have you felt since starting the medication?|Tentokrát řekni, že od zahájení léčby máš závratě.|I've been experiencing dizziness since I started the medication.|Od zahájení užívání léků mám závratě.|I've felt dizzy since starting the medication.
+social|A1|Hi! What's your name?|Tentokrát se představ jako Tom.|My name is Tom.|Jmenuji se Tom.|I'm Tom.
+social|A2|What time shall we meet?|Tentokrát navrhni setkání v sedm.|Let's meet at seven.|Sejděme se v sedm.|Shall we meet at seven o'clock?
+social|B1|Is Wednesday convenient?|Tentokrát řekni, že ve středu můžeš až po práci.|I'm only free after work on Wednesday.|Ve středu mám čas až po práci.|I can meet after work on Wednesday.
+social|B2|Would you like to invite anyone else?|Tentokrát se zeptej, zda můžeš přivést sestru.|Would it be all right if I brought my sister?|Bylo by v pořádku, kdybych přivedl sestru?|Would you mind if my sister came along?
+home|A1|Where do you live?|Tentokrát řekni, že bydlíš v malém domě.|I live in a small house.|Bydlím v malém domě.|My home is a small house.
+home|A2|How can I help?|Tentokrát se zeptej na týdenní nájem.|How much is the weekly rent?|Kolik činí týdenní nájem?|What's the rent per week?
+home|B1|When did the problem start?|Tentokrát řekni, že to začalo před třemi dny.|It started three days ago.|Začalo to před třemi dny.|It's been happening for three days.
+home|B2|Which conditions would you like clarified?|Tentokrát se zeptej na podmínky ukončení nájemní smlouvy.|Under what conditions could the lease be terminated?|Za jakých podmínek by mohla být nájemní smlouva ukončena?|What are the conditions for ending the tenancy?
+study|A1|What would you like to study?|Tentokrát řekni, že chceš studovat španělštinu.|I'd like to study Spanish.|Chtěl bych studovat španělštinu.|I want to learn Spanish.
+study|A2|Which days are you available?|Tentokrát řekni, že můžeš v úterý a ve čtvrtek.|I'm free on Tuesdays and Thursdays.|Mám čas v úterý a ve čtvrtek.|I can attend on Tuesdays and Thursdays.
+study|B1|What would you like to improve?|Tentokrát řekni, že chceš zlepšit hlavně poslech.|I'd mainly like to improve my listening skills.|Chtěl bych zlepšit především poslech.|Listening is the skill I'd most like to improve.
+study|B2|What kind of feedback would you prefer?|Tentokrát požádej o konkrétní zpětnou vazbu k výslovnosti.|I'd appreciate specific feedback on my pronunciation.|Ocenil bych konkrétní zpětnou vazbu ke své výslovnosti.|I'd find targeted feedback on my pronunciation helpful.
+services|A1|Hello. How can I help?|Tentokrát řekni, že chceš poslat balík.|I'd like to send a parcel.|Chtěl bych poslat balík.|I want to post a parcel.
+services|A2|What message would you like to leave?|Tentokrát řekni, že pošleš svou adresu e-mailem.|I'll send my address by email.|Pošlu svou adresu e-mailem.|I'll email you my address.
+services|B1|When did the connection stop working?|Tentokrát řekni, že připojení přestalo fungovat dnes ráno.|It stopped working this morning.|Přestalo fungovat dnes ráno.|The connection went down this morning.
+services|B2|Which charge are you questioning?|Tentokrát řekni, že na vyúčtování jsou dva neočekávané poplatky.|There are two unexpected charges on my bill.|Na mém vyúčtování jsou dva neočekávané poplatky.|I've noticed two charges on my bill that I wasn't expecting.
+outdoors|A1|What's the weather like?|Tentokrát řekni, že je zima.|It's cold.|Je zima.|The weather is cold.
+outdoors|A2|When do you need to be back?|Tentokrát řekni, že musíš být zpět před šestou.|I need to be back before six.|Musím být zpět před šestou.|I have to get back before six o'clock.
+outdoors|B1|What does the forecast say?|Tentokrát řekni, že zítra může sněžit.|It might snow tomorrow.|Zítra může sněžit.|There's a chance of snow tomorrow.
+outdoors|B2|How can we reduce waste?|Tentokrát navrhni znovupoužitelné lahve místo jednorázových lahví.|We could use reusable bottles instead of disposable bottles.|Mohli bychom používat znovupoužitelné lahve místo jednorázových lahví.|Reusable bottles would be a better alternative to single-use bottles.
+culture|A1|What do you like doing?|Tentokrát řekni, že máš rád hudbu.|I like music.|Mám rád hudbu.|I love music.
+culture|A2|Which performance would you like to see?|Tentokrát řekni, že chceš vidět nedělní koncert.|I'd like to see the concert on Sunday.|Chtěl bych vidět nedělní koncert.|I'm interested in Sunday's concert.
+culture|B1|Have you read the novel?|Tentokrát řekni, že jsi knihu už četl.|I've already read the book.|Knihu už jsem četl.|I have already read the book.
+culture|B2|What helped create suspense?|Tentokrát řekni, že hudba posílila pocit napětí.|The music reinforced the sense of tension.|Hudba posílila pocit napětí.|The music emphasised the tension.

@@ -3,7 +3,7 @@
 Plný situační kurz A1–B2 a adaptivní trenér slovní zásoby. Buildless HTML + ES modules; původní `mluvme_en.html` se nemění.
 
 - 12 tematických okruhů × 4 úrovně = 48 misí, 288 autorských komunikačních zadání.
-- 672 položek trenéru (384 slov/spojení + 288 vět), filtrování úrovně/tématu/typu/paměťového stavu.
+- 744 položek trenéru (384 slov/spojení + 288 původních vět + 48 obměn + 24 základních spojení), filtrování úrovně/tématu/typu/paměťového stavu.
 - Výběr, psaní, poslech a kartičky. Chyby se vracejí do aktuální série, další termín opakování se ukládá. Intervaly 5 minut / 1 / 3 / 7 / 14 / 30 dnů. Sebehodnocení kartiček je důvěra v uživatele.
 - Mise: skládání, výběr nebo psaní z ověřených variant. Volný text nemá AI sémantické hodnocení; nerozpoznanou formulaci aplikace neprohlašuje za jazykovou chybu.
 - Nápověda a vzor pouze na vyžádání. Britské i americké schválené varianty jsou přijímány.
@@ -24,4 +24,12 @@ A1: krátké konkrétní potřeby; A2: běžné detaily; B1: řešení problém�
 
 ## Ověření první verze
 
-Obsahové testy prošly pro všech 48 misí a 672 položek. Prohlížečové testy dokončily všech 48 misí přes UI, kontrolovaly všechny režimy, ověřené alternativy, nápovědu na vyžádání, uložení rozepsaného vstupu, rekurenci chyb, zálohy, hlasový požadavek a mobilní rozložení. Snímky byly vizuálně zkontrolovány. Živá služba vrátila britský i americký zvuk a skutečné hodnocení hlásek; nejde o náhradu kontroly lidského hlasu na cílovém zařízení.
+Obsahové testy prošly pro všech 48 misí a 744 položek. Prohlížečové testy dokončily všech 48 misí přes UI, kontrolovaly všechny režimy, ověřené alternativy, nápovědu na vyžádání, uložení rozepsaného vstupu, rekurenci chyb, zálohy, hlasový požadavek a mobilní rozložení. Snímky byly vizuálně zkontrolovány. Živá služba vrátila britský i americký zvuk a skutečné hodnocení hlásek; nejde o náhradu kontroly lidského hlasu na cílovém zařízení.
+
+## Opory a didaktický průchod
+
+Každá původní i obměněná situace má autorský český význam repliky, významová spojení a možnost poslechu. A1 začíná od nuly; A2–B2 si mohou připomenout nižší základy přímo v situaci. Opory se otevírají pouze na vyžádání. Překlad otázky, zopakování ani zpomalení neoznačují odpověď jako podpořenou. Vodítko a vzor se evidují jako opora, otevřená spojení se uloží k upevnění bez zvýšení počtu chyb. Po použití opory se na konci mise objeví obměněná situace. Samostatné použití vyžaduje ověřenou obměnu bez opory a neúspěšného pokusu; pouhé přečtení vzoru nestačí.
+
+Můj pokrok rozlišuje prošel / s oporou / použil samostatně, přehled úrovní a témat, chybové a zapomenuté položky, splatné opakování a zvlášť výslovnost. Slabá místa lze otevřít rovnou k procvičení, včetně zapomenutých základů z nižší úrovně. Původní výsledky a preference zůstávají zachované. Staré dokončené mise nejsou zpětně vydávány za ověřené samostatné obměny.
+
+Při prvním neúspěchu zůstává zápis nebo nabídka zachována. Další pokus nabídne otevření vodítka, ale sám odpověď neodkryje. Psanou neznámou formulaci aplikace stále neumí sémanticky ověřit; nepovažuje ji automaticky za jazykovou chybu.
