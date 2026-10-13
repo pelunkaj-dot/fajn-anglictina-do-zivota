@@ -20,6 +20,7 @@ jobs:
           node-version: 22
       - run: npm test
       - run: python3 build-content.py && git diff --exit-code assets/course.json
+      - run: python3 build-demo.py && git diff --exit-code demo.html assets/demo-app.js assets/demo-city.js assets/demo-course.json assets/demo-guide.js assets/demo-style.css
       - run: npm install --no-save playwright@1.56.1
       - run: npx playwright install --with-deps chromium
       - name: Browser checks
@@ -27,6 +28,7 @@ jobs:
           python3 -m http.server 8123 --bind 127.0.0.1 > /tmp/life-server.log 2>&1 &
           node tests/browser.mjs
           node tests/learning.browser.mjs
+          node tests/demo.browser.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -46,7 +48,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir public
-          cp index.html public/
+          cp index.html demo.html public/
           cp -R assets public/
           rm public/assets/course-source.json public/assets/vocabulary-source.txt
       - uses: actions/upload-pages-artifact@v3

@@ -1,0 +1,2725 @@
+{
+  "foundations": [
+    {
+      "id": "i-am",
+      "level": "A1",
+      "en": "I am",
+      "cz": "Jsem",
+      "note": "I = já. Am je tvar slovesa být, který používáme s I. Zkráceně I'm."
+    },
+    {
+      "id": "i-have",
+      "level": "A1",
+      "en": "I have",
+      "cz": "Mám",
+      "note": "I have vyjadřuje, že něco mám. Zkrácená varianta I've got se také používá."
+    },
+    {
+      "id": "could-you",
+      "level": "A2",
+      "en": "Could you",
+      "cz": "Mohl byste",
+      "note": "Zdvořilá žádost. Za Could you dej základní tvar slovesa, například Could you help me?"
+    },
+    {
+      "id": "by-friday",
+      "level": "A2",
+      "en": "by Friday",
+      "cz": "do pátku",
+      "note": "By označuje nejzazší termín. Until označuje trvání až do určité doby; významy se liší."
+    },
+    {
+      "id": "i-have-already",
+      "level": "B1",
+      "en": "I have already",
+      "cz": "Už jsem",
+      "note": "Za tímto začátkem v předpřítomném čase následuje příčestí, například I have already read it = Už jsem to četl."
+    },
+    {
+      "id": "might",
+      "level": "B1",
+      "en": "might",
+      "cz": "možná",
+      "note": "Vyjadřuje možnost, ne jistotu. It might rain = Možná bude pršet."
+    },
+    {
+      "id": "provided",
+      "level": "B2",
+      "en": "provided that",
+      "cz": "za předpokladu že",
+      "note": "Uvozuje podmínku. Podobné spojení je as long as. V různých větách se význam může lišit."
+    }
+  ],
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "topics": [
+    {
+      "id": "restaurant",
+      "title": "Restaurace a kavárna",
+      "place": "Corner Café",
+      "colour": "#dc895d",
+      "icon": "cup"
+    },
+    {
+      "id": "travel",
+      "title": "Cestování a doprava",
+      "place": "Central Station",
+      "colour": "#e5af49",
+      "icon": "train"
+    },
+    {
+      "id": "shopping",
+      "title": "Nakupování a reklamace",
+      "place": "Market Street",
+      "colour": "#c984b3",
+      "icon": "shop"
+    }
+  ],
+  "missions": [
+    {
+      "id": "restaurant-A1",
+      "topic": "restaurant",
+      "level": "A1",
+      "title": "Restaurace a kavárna",
+      "turns": [
+        {
+          "id": "restaurant-A1-0",
+          "prompt": "Hello. A table for how many people?",
+          "intent": "Požádej o stůl pro dva.",
+          "answer": "A table for two, please.",
+          "translation": "Stůl pro dva, prosím.",
+          "accepted": [
+            "A table for two, please.",
+            "Can we have a table for two, please?",
+            "Two, please.",
+            "For two.",
+            "Two."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: A table for…",
+          "promptCz": "Dobrý den. Pro kolik osob má být stůl?",
+          "chunks": [
+            {
+              "en": "A table",
+              "cz": "stůl"
+            },
+            {
+              "en": "for two",
+              "cz": "pro dva"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-A1-1",
+          "prompt": "Here is your table.",
+          "intent": "Požádej o jídelní lístek.",
+          "answer": "The menu, please.",
+          "translation": "Jídelní lístek, prosím.",
+          "accepted": [
+            "The menu, please.",
+            "Can I have the menu, please?",
+            "A menu, please.",
+            "Can we see the menu?"
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: The menu,…",
+          "promptCz": "Tady je váš stůl.",
+          "chunks": [
+            {
+              "en": "The menu",
+              "cz": "jídelní lístek"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-A1-2",
+          "prompt": "What would you like to eat?",
+          "intent": "Objednej si kuřecí polévku.",
+          "answer": "Chicken soup, please.",
+          "translation": "Kuřecí polévku, prosím.",
+          "accepted": [
+            "Chicken soup, please.",
+            "I would like chicken soup, please.",
+            "I'd like chicken soup, please.",
+            "Can I have chicken soup, please?",
+            "Chicken soup."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Chicken soup,…",
+          "promptCz": "Co byste si dali k jídlu?",
+          "chunks": [
+            {
+              "en": "Chicken soup",
+              "cz": "kuřecí polévku"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contraction": {
+            "short": "I'd like chicken soup, please.",
+            "full": "I would like chicken soup, please.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          },
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "restaurant-A1-transfer",
+        "prompt": "Hello. A table for how many people?",
+        "promptCz": "Dobrý den. Pro kolik osob má být stůl?",
+        "intent": "Teď požádej o stůl pro čtyři.",
+        "answer": "A table for four, please.",
+        "translation": "Stůl pro čtyři, prosím.",
+        "accepted": [
+          "A table for four, please.",
+          "Can we have a table for four, please?",
+          "Four, please.",
+          "For four.",
+          "Four."
+        ],
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: A table for…",
+        "chunks": [
+          {
+            "en": "A table",
+            "cz": "stůl"
+          },
+          {
+            "en": "for four",
+            "cz": "pro čtyři"
+          },
+          {
+            "en": "please",
+            "cz": "prosím"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "restaurant-A2",
+      "topic": "restaurant",
+      "level": "A2",
+      "title": "Restaurace a kavárna",
+      "turns": [
+        {
+          "id": "restaurant-A2-0",
+          "prompt": "Good evening. Do you have a reservation?",
+          "intent": "Řekni, že máš rezervaci na sedmou.",
+          "answer": "I have a reservation for seven o'clock.",
+          "translation": "Mám rezervaci na sedmou hodinu.",
+          "accepted": [
+            "I have a reservation for seven o'clock.",
+            "I've booked a table for seven o'clock.",
+            "Yes, for seven o'clock.",
+            "Yes, at seven.",
+            "A reservation for seven."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I have a…",
+          "promptCz": "Dobrý večer. Máte rezervaci?",
+          "chunks": [
+            {
+              "en": "I have",
+              "cz": "mám"
+            },
+            {
+              "en": "a reservation",
+              "cz": "rezervaci"
+            },
+            {
+              "en": "for seven o'clock",
+              "cz": "na sedmou hodinu"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-A2-1",
+          "prompt": "Would you like to see the menu?",
+          "intent": "Požádej o vegetariánské menu.",
+          "answer": "Do you have a vegetarian menu?",
+          "translation": "Máte vegetariánské menu?",
+          "accepted": [
+            "Do you have a vegetarian menu?",
+            "Is there a vegetarian menu?",
+            "A vegetarian menu, please."
+          ],
+          "hint": "Použij otázku Do you… Začátek vzoru: Do you have…",
+          "promptCz": "Chcete se podívat na jídelní lístek?",
+          "chunks": [
+            {
+              "en": "a vegetarian menu",
+              "cz": "vegetariánské menu"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-A2-2",
+          "prompt": "What can I get you?",
+          "intent": "Objednej si těstoviny bez sýra.",
+          "answer": "I'd like the pasta without cheese, please.",
+          "translation": "Dal bych si těstoviny bez sýra, prosím.",
+          "accepted": [
+            "I'd like the pasta without cheese, please.",
+            "Can I have the pasta without cheese, please?",
+            "Pasta without cheese, please.",
+            "The pasta, no cheese, please."
+          ],
+          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like the…",
+          "promptCz": "Co vám mohu nabídnout?",
+          "chunks": [
+            {
+              "en": "I'd like the pasta",
+              "cz": "dal bych si těstoviny"
+            },
+            {
+              "en": "without cheese",
+              "cz": "bez sýra"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "restaurant-A2-transfer",
+        "prompt": "What can I get you?",
+        "promptCz": "Co vám mohu nabídnout?",
+        "intent": "Tentokrát si objednej polévku bez smetany.",
+        "answer": "I'd like the soup without cream, please.",
+        "translation": "Dal bych si polévku bez smetany, prosím.",
+        "accepted": [
+          "I'd like the soup without cream, please.",
+          "Can I have the soup without cream, please?",
+          "Soup without cream, please.",
+          "The soup, no cream, please."
+        ],
+        "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like the…",
+        "chunks": [
+          {
+            "en": "I'd like",
+            "cz": "dal bych si / chtěl bych"
+          },
+          {
+            "en": "please",
+            "cz": "prosím"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "restaurant-B1",
+      "topic": "restaurant",
+      "level": "B1",
+      "title": "Restaurace a kavárna",
+      "turns": [
+        {
+          "id": "restaurant-B1-0",
+          "prompt": "Have you decided what to order?",
+          "intent": "Požádej o doporučení místního jídla.",
+          "answer": "Could you recommend a local dish?",
+          "translation": "Mohl byste doporučit místní jídlo?",
+          "accepted": [
+            "Could you recommend a local dish?",
+            "What local dish would you recommend?",
+            "Any local dishes you recommend?"
+          ],
+          "hint": "Zdvořilou žádost můžeš začít pomocí Could… Začátek vzoru: Could you recommend…",
+          "promptCz": "Už jste se rozhodli, co si objednáte?",
+          "chunks": [
+            {
+              "en": "Could you",
+              "cz": "mohl byste"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-B1-1",
+          "prompt": "Our special contains cream.",
+          "intent": "Vysvětli alergii na mléčné výrobky.",
+          "answer": "I'm allergic to dairy products.",
+          "translation": "Mám alergii na mléčné výrobky.",
+          "accepted": [
+            "I'm allergic to dairy products.",
+            "I have an allergy to dairy products.",
+            "I have a dairy allergy.",
+            "I am allergic to dairy."
+          ],
+          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm allergic to…",
+          "promptCz": "Naše dnešní specialita obsahuje smetanu.",
+          "chunks": [
+            {
+              "en": "I'm allergic to",
+              "cz": "mám alergii na"
+            },
+            {
+              "en": "dairy products",
+              "cz": "mléčné výrobky"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-B1-2",
+          "prompt": "We can make something else.",
+          "intent": "Zeptej se, zda lze jídlo připravit bez másla.",
+          "answer": "Could you prepare it without butter?",
+          "translation": "Mohli byste ho připravit bez másla?",
+          "accepted": [
+            "Could you prepare it without butter?",
+            "Would it be possible to make it without butter?",
+            "Without butter, please.",
+            "Can you make it without butter?"
+          ],
+          "hint": "Zdvořilou žádost můžeš začít pomocí Could… Začátek vzoru: Could you prepare…",
+          "promptCz": "Můžeme připravit něco jiného.",
+          "chunks": [
+            {
+              "en": "Could you",
+              "cz": "mohl byste"
+            },
+            {
+              "en": "without butter",
+              "cz": "bez másla"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "restaurant-B1-transfer",
+        "prompt": "What are your dietary requirements?",
+        "promptCz": "Jaké máte požadavky na stravu?",
+        "intent": "Tentokrát vysvětli, že máš alergii na ořechy.",
+        "answer": "I'm allergic to nuts.",
+        "translation": "Mám alergii na ořechy.",
+        "accepted": [
+          "I'm allergic to nuts.",
+          "I have a nut allergy.",
+          "Nuts give me an allergic reaction."
+        ],
+        "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm allergic to…",
+        "chunks": [
+          {
+            "en": "I'm allergic to",
+            "cz": "mám alergii na"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "restaurant-B2",
+      "topic": "restaurant",
+      "level": "B2",
+      "title": "Restaurace a kavárna",
+      "turns": [
+        {
+          "id": "restaurant-B2-0",
+          "prompt": "What are your dietary requirements?",
+          "intent": "Požádej o ověření, zda omáčka obsahuje ořechy.",
+          "answer": "Could you check whether the sauce contains nuts?",
+          "translation": "Mohl byste ověřit, zda omáčka obsahuje ořechy?",
+          "accepted": [
+            "Could you check whether the sauce contains nuts?",
+            "Would you mind checking whether there are nuts in the sauce?",
+            "Does the sauce have nuts in it?",
+            "Can you check the sauce for nuts?"
+          ],
+          "hint": "Zdvořilou žádost můžeš začít pomocí Could… Začátek vzoru: Could you check…",
+          "promptCz": "Jaké máte požadavky na stravu?",
+          "chunks": [
+            {
+              "en": "Could you check",
+              "cz": "mohl byste ověřit"
+            },
+            {
+              "en": "whether",
+              "cz": "zda"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-B2-1",
+          "prompt": "It doesn't contain nuts, but we use them in the kitchen.",
+          "intent": "Zeptej se na riziko křížové kontaminace.",
+          "answer": "Is there a risk of cross-contamination?",
+          "translation": "Hrozí riziko křížové kontaminace?",
+          "accepted": [
+            "Is there a risk of cross-contamination?",
+            "Could there be any cross-contamination?",
+            "Could it have traces of nuts?",
+            "Could nuts from the kitchen get into it?"
+          ],
+          "hint": "Na existenci něčeho se ptej pomocí Is there… Začátek vzoru: Is there a…",
+          "promptCz": "Ořechy neobsahuje, ale používáme je v kuchyni.",
+          "chunks": [
+            {
+              "en": "Is there",
+              "cz": "je k dispozici / je tam"
+            },
+            {
+              "en": "cross-contamination",
+              "cz": "křížová kontaminace"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "restaurant-B2-2",
+          "prompt": "Your meal may take forty minutes.",
+          "intent": "Řekni, že za půl hodiny musíš odejít.",
+          "answer": "I'm afraid we need to leave in half an hour.",
+          "translation": "Bohužel musíme za půl hodiny odejít.",
+          "accepted": [
+            "I'm afraid we need to leave in half an hour.",
+            "Unfortunately, we have to leave in thirty minutes.",
+            "We have to leave in thirty minutes.",
+            "We need to leave in half an hour."
+          ],
+          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm afraid we…",
+          "promptCz": "Příprava vašeho jídla může trvat čtyřicet minut.",
+          "chunks": [
+            {
+              "en": "I'm",
+              "cz": "jsem"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "restaurant-B2-transfer",
+        "prompt": "The dish contains several ingredients.",
+        "promptCz": "Jídlo obsahuje několik přísad.",
+        "intent": "Tentokrát požádej o ověření, zda dezert obsahuje mléčné výrobky.",
+        "answer": "Could you check whether the dessert contains dairy products?",
+        "translation": "Mohl byste ověřit, zda dezert obsahuje mléčné výrobky?",
+        "accepted": [
+          "Could you check whether the dessert contains dairy products?",
+          "Would you mind checking whether there are dairy products in the dessert?",
+          "Does the dessert contain dairy?",
+          "Can you check if there is dairy in the dessert?"
+        ],
+        "hint": "Zdvořilou žádost můžeš začít pomocí Could… Začátek vzoru: Could you check…",
+        "chunks": [
+          {
+            "en": "Could you check",
+            "cz": "mohl byste ověřit"
+          },
+          {
+            "en": "whether",
+            "cz": "zda"
+          },
+          {
+            "en": "dairy products",
+            "cz": "mléčné výrobky"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "travel-A1",
+      "topic": "travel",
+      "level": "A1",
+      "title": "Cestování a doprava",
+      "turns": [
+        {
+          "id": "travel-A1-0",
+          "prompt": "Hello. Where would you like to go?",
+          "intent": "Řekni, že chceš jet do Londýna.",
+          "answer": "London, please.",
+          "translation": "Do Londýna, prosím.",
+          "accepted": [
+            "London, please.",
+            "I would like to go to London.",
+            "I'd like to go to London.",
+            "I want to go to London.",
+            "To London.",
+            "London."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: London,…",
+          "promptCz": "Dobrý den. Kam byste chtěli jet?",
+          "chunks": [
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contraction": {
+            "short": "I'd like to go to London.",
+            "full": "I would like to go to London.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          },
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-A1-1",
+          "prompt": "Single or return?",
+          "intent": "Požádej o zpáteční jízdenku.",
+          "answer": "A return ticket, please.",
+          "translation": "Zpáteční jízdenku, prosím.",
+          "accepted": [
+            "A return ticket, please.",
+            "A round-trip ticket, please.",
+            "Return, please.",
+            "A return, please.",
+            "Return."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: A return ticket,…",
+          "promptCz": "Jednosměrnou, nebo zpáteční?",
+          "chunks": [
+            {
+              "en": "A return ticket",
+              "cz": "zpáteční jízdenku"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-A1-2",
+          "prompt": "That will be twenty pounds.",
+          "intent": "Zeptej se, kdy vlak odjíždí.",
+          "answer": "What time does the train leave?",
+          "translation": "V kolik hodin vlak odjíždí?",
+          "accepted": [
+            "What time does the train leave?",
+            "When does the train leave?",
+            "What time does it leave?"
+          ],
+          "hint": "Začni otázkou What… Začátek vzoru: What time does…",
+          "promptCz": "Bude to dvacet liber.",
+          "chunks": [
+            {
+              "en": "What time",
+              "cz": "v kolik hodin"
+            },
+            {
+              "en": "does the train leave",
+              "cz": "vlak odjíždí (v otázce)"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "travel-A1-transfer",
+        "prompt": "Where would you like to go?",
+        "promptCz": "Kam byste chtěli jet?",
+        "intent": "Tentokrát řekni, že chceš jet do Oxfordu.",
+        "answer": "Oxford, please.",
+        "translation": "Do Oxfordu, prosím.",
+        "accepted": [
+          "Oxford, please.",
+          "I would like to go to Oxford.",
+          "I'd like to go to Oxford.",
+          "I want to go to Oxford.",
+          "To Oxford.",
+          "Oxford."
+        ],
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Oxford,…",
+        "chunks": [
+          {
+            "en": "please",
+            "cz": "prosím"
+          }
+        ],
+        "transfer": true,
+        "contraction": {
+          "short": "I'd like to go to Oxford.",
+          "full": "I would like to go to Oxford.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        },
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "travel-A2",
+      "topic": "travel",
+      "level": "A2",
+      "title": "Cestování a doprava",
+      "turns": [
+        {
+          "id": "travel-A2-0",
+          "prompt": "Where are you travelling today?",
+          "intent": "Požádej o dvě jízdenky do Oxfordu.",
+          "answer": "Two tickets to Oxford, please.",
+          "translation": "Dvě jízdenky do Oxfordu, prosím.",
+          "accepted": [
+            "Two tickets to Oxford, please.",
+            "I'd like two tickets to Oxford, please.",
+            "Two to Oxford, please.",
+            "Two tickets for Oxford, please."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Two tickets to…",
+          "promptCz": "Kam dnes cestujete?",
+          "chunks": [
+            {
+              "en": "Two tickets",
+              "cz": "dvě vstupenky / dvě jízdenky (podle situace)"
+            },
+            {
+              "en": "to Oxford",
+              "cz": "do Oxfordu"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-A2-1",
+          "prompt": "There is a train at half past nine.",
+          "intent": "Zeptej se, jak dlouho cesta trvá.",
+          "answer": "How long does the journey take?",
+          "translation": "Jak dlouho cesta trvá?",
+          "accepted": [
+            "How long does the journey take?",
+            "How long is the journey?",
+            "How long does it take?"
+          ],
+          "hint": "Začni otázkou How… a upřesni, na co se ptáš. Začátek vzoru: How long does…",
+          "promptCz": "Vlak jede v půl desáté.",
+          "chunks": [
+            {
+              "en": "How long",
+              "cz": "jak dlouho"
+            },
+            {
+              "en": "does the journey take",
+              "cz": "cesta trvá (v otázce)"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-A2-2",
+          "prompt": "About an hour.",
+          "intent": "Zeptej se, zda musíš přestupovat.",
+          "answer": "Do I need to change trains?",
+          "translation": "Musím přestupovat?",
+          "accepted": [
+            "Do I need to change trains?",
+            "Do we have to change trains?",
+            "Do I have to change?",
+            "Is it direct?"
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Do I need…",
+          "promptCz": "Asi hodinu.",
+          "chunks": [
+            {
+              "en": "Do I need to",
+              "cz": "musím / potřebuji"
+            },
+            {
+              "en": "change trains",
+              "cz": "přestupovat"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "travel-A2-transfer",
+        "prompt": "Where are you travelling today?",
+        "promptCz": "Kam dnes cestujete?",
+        "intent": "Tentokrát požádej o tři jízdenky do Londýna.",
+        "answer": "Three tickets to London, please.",
+        "translation": "Tři jízdenky do Londýna, prosím.",
+        "accepted": [
+          "Three tickets to London, please.",
+          "I'd like three tickets to London, please.",
+          "Three to London, please.",
+          "Three tickets for London, please."
+        ],
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Three tickets to…",
+        "chunks": [
+          {
+            "en": "Three",
+            "cz": "tři"
+          },
+          {
+            "en": "please",
+            "cz": "prosím"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "travel-B1",
+      "topic": "travel",
+      "level": "B1",
+      "title": "Cestování a doprava",
+      "turns": [
+        {
+          "id": "travel-B1-0",
+          "prompt": "How can I help?",
+          "intent": "Řekni, že byl tvůj vlak zrušen.",
+          "answer": "My train has been cancelled.",
+          "translation": "Můj vlak byl zrušen.",
+          "accepted": [
+            "My train has been cancelled.",
+            "The train I was going to take has been cancelled.",
+            "My train was cancelled.",
+            "The train I was taking has been cancelled."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: My train has…",
+          "promptCz": "Jak vám mohu pomoci?",
+          "chunks": [
+            {
+              "en": "has been cancelled",
+              "cz": "byl zrušen"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-B1-1",
+          "prompt": "You can catch the next service.",
+          "intent": "Zeptej se, zda na něj platí tvoje jízdenka.",
+          "answer": "Is my ticket valid on the next train?",
+          "translation": "Platí moje jízdenka na další vlak?",
+          "accepted": [
+            "Is my ticket valid on the next train?",
+            "Can I use my ticket on the next train?",
+            "Does my ticket work on the next train?"
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Is my ticket…",
+          "promptCz": "Můžete jet následujícím spojem.",
+          "chunks": [
+            {
+              "en": "Is",
+              "cz": "je"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-B1-2",
+          "prompt": "Yes, it is.",
+          "intent": "Vysvětli, že potřebuješ stihnout návazný vlak.",
+          "answer": "I need to catch a connecting train.",
+          "translation": "Potřebuji stihnout návazný vlak.",
+          "accepted": [
+            "I need to catch a connecting train.",
+            "I have a train connection to catch.",
+            "I have a connecting train to catch.",
+            "I need to make my train connection."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I need to…",
+          "promptCz": "Ano, platí.",
+          "chunks": [
+            {
+              "en": "I need",
+              "cz": "potřebuji"
+            },
+            {
+              "en": "a connecting train",
+              "cz": "návazný vlak"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "travel-B1-transfer",
+        "prompt": "Can you still reach your destination?",
+        "promptCz": "Můžete se ještě dostat do cíle?",
+        "intent": "Tentokrát řekni, že potřebuješ stihnout návazný autobus.",
+        "answer": "I need to catch a connecting bus.",
+        "translation": "Potřebuji stihnout návazný autobus.",
+        "accepted": [
+          "I need to catch a connecting bus.",
+          "I have a bus connection to catch.",
+          "I have a connecting bus to catch.",
+          "I need to make my bus connection."
+        ],
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I need to…",
+        "chunks": [
+          {
+            "en": "I need",
+            "cz": "potřebuji"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "travel-B2",
+      "topic": "travel",
+      "level": "B2",
+      "title": "Cestování a doprava",
+      "turns": [
+        {
+          "id": "travel-B2-0",
+          "prompt": "What seems to be the problem?",
+          "intent": "Vysvětli, že zpoždění způsobilo zmeškání přípoje.",
+          "answer": "The delay caused me to miss my connection.",
+          "translation": "Kvůli zpoždění jsem zmeškal přípoj.",
+          "accepted": [
+            "The delay caused me to miss my connection.",
+            "I missed my connecting train because of the delay.",
+            "I missed my connection because of the delay.",
+            "The delay made me miss my connection."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: The delay caused…",
+          "promptCz": "V čem je problém?",
+          "chunks": [
+            {
+              "en": "The delay caused me to",
+              "cz": "Kvůli zpoždění jsem"
+            },
+            {
+              "en": "miss my connection",
+              "cz": "zmeškat přípoj"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-B2-1",
+          "prompt": "When did you arrive?",
+          "intent": "Řekni, že vlak přijel o více než hodinu později.",
+          "answer": "The train arrived more than an hour late.",
+          "translation": "Vlak přijel s více než hodinovým zpožděním.",
+          "accepted": [
+            "The train arrived more than an hour late.",
+            "It was over an hour late when we arrived.",
+            "More than an hour late.",
+            "It was over an hour late."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: The train arrived…",
+          "promptCz": "Kdy jste přijeli?",
+          "chunks": [
+            {
+              "en": "The train arrived",
+              "cz": "vlak přijel"
+            },
+            {
+              "en": "more than an hour late",
+              "cz": "s více než hodinovým zpožděním"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "travel-B2-2",
+          "prompt": "We may be able to help.",
+          "intent": "Zeptej se na nárok na kompenzaci.",
+          "answer": "Am I entitled to compensation?",
+          "translation": "Mám nárok na kompenzaci?",
+          "accepted": [
+            "Am I entitled to compensation?",
+            "Would I be eligible for compensation?",
+            "Can I get compensation?",
+            "Do I qualify for compensation?"
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Am I entitled…",
+          "promptCz": "Možná vám budeme moci pomoci.",
+          "chunks": [
+            {
+              "en": "entitled to compensation",
+              "cz": "mající nárok na kompenzaci"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "travel-B2-transfer",
+        "prompt": "Why did you miss your flight?",
+        "promptCz": "Proč jste zmeškali let?",
+        "intent": "Tentokrát vysvětli, že zpoždění způsobilo zmeškání letu.",
+        "answer": "The delay caused me to miss my flight.",
+        "translation": "Kvůli zpoždění jsem zmeškal let.",
+        "accepted": [
+          "The delay caused me to miss my flight.",
+          "I missed my flight because of the delay.",
+          "The delay made me miss my flight."
+        ],
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: The delay caused…",
+        "chunks": [
+          {
+            "en": "The delay caused me to",
+            "cz": "Kvůli zpoždění jsem"
+          },
+          {
+            "en": "miss my flight",
+            "cz": "zmeškat let"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "shopping-A1",
+      "topic": "shopping",
+      "level": "A1",
+      "title": "Nakupování a reklamace",
+      "turns": [
+        {
+          "id": "shopping-A1-0",
+          "prompt": "Hello. Can I help?",
+          "intent": "Řekni, že hledáš tričko.",
+          "answer": "A T-shirt, please.",
+          "translation": "Tričko, prosím.",
+          "accepted": [
+            "A T-shirt, please.",
+            "I am looking for a T-shirt.",
+            "I'm looking for a T-shirt.",
+            "I'd like a T-shirt.",
+            "A T-shirt.",
+            "I want a T-shirt."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: A T-shirt,…",
+          "promptCz": "Dobrý den. Mohu pomoci?",
+          "chunks": [
+            {
+              "en": "A T-shirt",
+              "cz": "tričko"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contraction": {
+            "short": "I'm looking for a T-shirt.",
+            "full": "I am looking for a T-shirt.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          },
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-A1-1",
+          "prompt": "Which colour would you like?",
+          "intent": "Řekni, že chceš modré.",
+          "answer": "Blue, please.",
+          "translation": "Modré, prosím.",
+          "accepted": [
+            "Blue, please.",
+            "I'd like a blue one.",
+            "A blue one, please.",
+            "Blue.",
+            "I would like blue.",
+            "I would like blue, please.",
+            "I would like a blue one."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Blue,…",
+          "promptCz": "Jakou barvu byste chtěli?",
+          "chunks": [
+            {
+              "en": "Blue",
+              "cz": "modré"
+            },
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-A1-2",
+          "prompt": "What size are you?",
+          "intent": "Řekni, že potřebuješ velikost M.",
+          "answer": "Medium, please.",
+          "translation": "Velikost M, prosím.",
+          "accepted": [
+            "Medium, please.",
+            "I need a medium.",
+            "Medium.",
+            "Size M, please.",
+            "M."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Medium,…",
+          "promptCz": "Jakou máte velikost?",
+          "chunks": [
+            {
+              "en": "please",
+              "cz": "prosím"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "shopping-A1-transfer",
+        "prompt": "What are you looking for?",
+        "promptCz": "Co hledáte?",
+        "intent": "Tentokrát řekni, že hledáš bundu.",
+        "answer": "A jacket, please.",
+        "translation": "Bundu, prosím.",
+        "accepted": [
+          "A jacket, please.",
+          "I am looking for a jacket.",
+          "I'm looking for a jacket.",
+          "I'd like a jacket.",
+          "A jacket.",
+          "I want a jacket."
+        ],
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: A jacket,…",
+        "chunks": [
+          {
+            "en": "A jacket",
+            "cz": "bundu"
+          },
+          {
+            "en": "please",
+            "cz": "prosím"
+          }
+        ],
+        "transfer": true,
+        "contraction": {
+          "short": "I'm looking for a jacket.",
+          "full": "I am looking for a jacket.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        },
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "shopping-A2",
+      "topic": "shopping",
+      "level": "A2",
+      "title": "Nakupování a reklamace",
+      "turns": [
+        {
+          "id": "shopping-A2-0",
+          "prompt": "What are you looking for?",
+          "intent": "Řekni, že potřebuješ zimní bundu.",
+          "answer": "I'm looking for a winter jacket.",
+          "translation": "Hledám zimní bundu.",
+          "accepted": [
+            "I'm looking for a winter jacket.",
+            "I need a winter jacket.",
+            "A winter jacket, please.",
+            "A winter jacket."
+          ],
+          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm looking for…",
+          "promptCz": "Co hledáte?",
+          "chunks": [
+            {
+              "en": "I'm looking for",
+              "cz": "hledám"
+            },
+            {
+              "en": "a winter jacket",
+              "cz": "zimní bundu"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-A2-1",
+          "prompt": "Try this one.",
+          "intent": "Zeptej se, kde jsou kabinky.",
+          "answer": "Where are the changing rooms?",
+          "translation": "Kde jsou převlékací kabinky?",
+          "accepted": [
+            "Where are the changing rooms?",
+            "Where can I try it on?",
+            "Where are the fitting rooms?"
+          ],
+          "hint": "Na místo se ptej pomocí Where… Začátek vzoru: Where are the…",
+          "promptCz": "Zkuste tuto.",
+          "chunks": [
+            {
+              "en": "Where are",
+              "cz": "kde jsou"
+            },
+            {
+              "en": "the changing rooms",
+              "cz": "převlékací kabinky"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-A2-2",
+          "prompt": "They're over there.",
+          "intent": "Řekni, že je bunda příliš malá.",
+          "answer": "This jacket is too small.",
+          "translation": "Tato bunda je příliš malá.",
+          "accepted": [
+            "This jacket is too small.",
+            "It's too small for me.",
+            "Too small.",
+            "It's too small."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: This jacket is…",
+          "promptCz": "Jsou tamhle.",
+          "chunks": [
+            {
+              "en": "This jacket is too small",
+              "cz": "tato bunda je příliš malá"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "shopping-A2-transfer",
+        "prompt": "Does it fit?",
+        "promptCz": "Sedí vám to?",
+        "intent": "Tentokrát řekni, že je bunda příliš velká.",
+        "answer": "This jacket is too big.",
+        "translation": "Tato bunda je příliš velká.",
+        "accepted": [
+          "This jacket is too big.",
+          "It's too big for me.",
+          "Too big.",
+          "It's too big."
+        ],
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: This jacket is…",
+        "chunks": [
+          {
+            "en": "is",
+            "cz": "je"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "shopping-B1",
+      "topic": "shopping",
+      "level": "B1",
+      "title": "Nakupování a reklamace",
+      "turns": [
+        {
+          "id": "shopping-B1-0",
+          "prompt": "How can I help you today?",
+          "intent": "Řekni, že chceš vrátit sluchátka.",
+          "answer": "I'd like to return these headphones.",
+          "translation": "Chtěl bych vrátit tato sluchátka.",
+          "accepted": [
+            "I'd like to return these headphones.",
+            "I'd like to bring these headphones back.",
+            "I want to return these headphones.",
+            "Can I return these headphones?"
+          ],
+          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+          "promptCz": "Jak vám dnes mohu pomoci?",
+          "chunks": [
+            {
+              "en": "I'd like",
+              "cz": "dal bych si / chtěl bych"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-B1-1",
+          "prompt": "Is there a problem with them?",
+          "intent": "Řekni, že přestala fungovat po týdnu.",
+          "answer": "They stopped working after a week.",
+          "translation": "Po týdnu přestala fungovat.",
+          "accepted": [
+            "They stopped working after a week.",
+            "They only worked for a week.",
+            "They broke after a week.",
+            "They didn't work after one week."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: They stopped working…",
+          "promptCz": "Je s nimi nějaký problém?",
+          "chunks": [
+            {
+              "en": "They stopped working",
+              "cz": "přestala fungovat"
+            },
+            {
+              "en": "after a week",
+              "cz": "po týdnu"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-B1-2",
+          "prompt": "Have you got the receipt?",
+          "intent": "Řekni, že máš potvrzení v e-mailu.",
+          "answer": "I have the receipt in my email.",
+          "translation": "Mám doklad v e-mailu.",
+          "accepted": [
+            "I have the receipt in my email.",
+            "I've got an email receipt.",
+            "It's in my email.",
+            "The receipt is in my email."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I have the…",
+          "promptCz": "Máte účtenku?",
+          "chunks": [
+            {
+              "en": "I have",
+              "cz": "mám"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "shopping-B1-transfer",
+        "prompt": "How can I help you today?",
+        "promptCz": "Jak vám dnes mohu pomoci?",
+        "intent": "Tentokrát řekni, že chceš vrátit tyto boty.",
+        "answer": "I'd like to return these shoes.",
+        "translation": "Chtěl bych vrátit tyto boty.",
+        "accepted": [
+          "I'd like to return these shoes.",
+          "I'd like to bring these shoes back.",
+          "I want to return these shoes.",
+          "Can I return these shoes?"
+        ],
+        "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+        "chunks": [
+          {
+            "en": "I'd like",
+            "cz": "dal bych si / chtěl bych"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    },
+    {
+      "id": "shopping-B2",
+      "topic": "shopping",
+      "level": "B2",
+      "title": "Nakupování a reklamace",
+      "turns": [
+        {
+          "id": "shopping-B2-0",
+          "prompt": "What is the issue with your order?",
+          "intent": "Řekni, že doručené zboží neodpovídá popisu.",
+          "answer": "The item I received doesn't correspond to the description.",
+          "translation": "Doručené zboží neodpovídá popisu.",
+          "accepted": [
+            "The item I received doesn't correspond to the description.",
+            "What was delivered doesn't match the product description.",
+            "What arrived isn't what was described.",
+            "The item doesn't match the description."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: The item I…",
+          "promptCz": "Jaký je problém s vaší objednávkou?",
+          "chunks": [
+            {
+              "en": "the description",
+              "cz": "popis / popisu (podle věty)"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-B2-1",
+          "prompt": "Could you explain the difference?",
+          "intent": "Řekni, že výrobek byl inzerován jako voděodolný.",
+          "answer": "The product was advertised as water-resistant.",
+          "translation": "Výrobek byl inzerován jako voděodolný.",
+          "accepted": [
+            "The product was advertised as water-resistant.",
+            "The advertisement described it as water-resistant.",
+            "It was advertised as water-resistant.",
+            "The advert said it was water-resistant."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: The product was…",
+          "promptCz": "Mohli byste vysvětlit rozdíl?",
+          "chunks": [
+            {
+              "en": "The product was advertised as",
+              "cz": "výrobek byl inzerován jako"
+            },
+            {
+              "en": "water-resistant",
+              "cz": "voděodolný"
+            }
+          ],
+          "contextReviewed": true
+        },
+        {
+          "id": "shopping-B2-2",
+          "prompt": "Have you used it?",
+          "intent": "Řekni, že jsi přesně dodržel pokyny.",
+          "answer": "I followed the instructions exactly.",
+          "translation": "Přesně jsem dodržel pokyny.",
+          "accepted": [
+            "I followed the instructions exactly.",
+            "I used it exactly as instructed.",
+            "I did exactly what the instructions said."
+          ],
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I followed the…",
+          "promptCz": "Použili jste to?",
+          "chunks": [
+            {
+              "en": "I followed the instructions",
+              "cz": "dodržel jsem pokyny"
+            },
+            {
+              "en": "exactly",
+              "cz": "přesně"
+            }
+          ],
+          "contextReviewed": true
+        }
+      ],
+      "transfer": {
+        "id": "shopping-B2-transfer",
+        "prompt": "What would you prefer?",
+        "promptCz": "Čemu byste dali přednost?",
+        "intent": "Tentokrát požádej o výměnu místo poukazu do obchodu.",
+        "answer": "I'd prefer a replacement rather than store credit.",
+        "translation": "Raději bych výměnu než poukaz do obchodu.",
+        "accepted": [
+          "I'd prefer a replacement rather than store credit.",
+          "I'd rather receive a replacement than a voucher.",
+          "A replacement, not store credit, please.",
+          "I'd rather have a replacement than store credit."
+        ],
+        "hint": "Vyjádři svou preferenci pomocí I would prefer… Začátek vzoru: I'd prefer a…",
+        "chunks": [
+          {
+            "en": "I'd prefer",
+            "cz": "dal bych přednost"
+          },
+          {
+            "en": "rather than",
+            "cz": "spíše než"
+          }
+        ],
+        "transfer": true,
+        "contextReviewed": true
+      }
+    }
+  ],
+  "vocabulary": [
+    {
+      "id": "phrase-restaurant-A1-0",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "A table for two, please.",
+      "cz": "Stůl pro dva, prosím.",
+      "accepted": [
+        "A table for two, please.",
+        "Can we have a table for two, please?",
+        "Two, please.",
+        "For two.",
+        "Two."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-A1-1",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "The menu, please.",
+      "cz": "Jídelní lístek, prosím.",
+      "accepted": [
+        "The menu, please.",
+        "Can I have the menu, please?",
+        "A menu, please.",
+        "Can we see the menu?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-A1-2",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "Chicken soup, please.",
+      "cz": "Kuřecí polévku, prosím.",
+      "accepted": [
+        "Chicken soup, please.",
+        "I would like chicken soup, please.",
+        "I'd like chicken soup, please.",
+        "Can I have chicken soup, please?",
+        "Chicken soup."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-A2-0",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "I have a reservation for seven o'clock.",
+      "cz": "Mám rezervaci na sedmou hodinu.",
+      "accepted": [
+        "I have a reservation for seven o'clock.",
+        "I've booked a table for seven o'clock.",
+        "Yes, for seven o'clock.",
+        "Yes, at seven.",
+        "A reservation for seven."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-A2-1",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "Do you have a vegetarian menu?",
+      "cz": "Máte vegetariánské menu?",
+      "accepted": [
+        "Do you have a vegetarian menu?",
+        "Is there a vegetarian menu?",
+        "A vegetarian menu, please."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-A2-2",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "I'd like the pasta without cheese, please.",
+      "cz": "Dal bych si těstoviny bez sýra, prosím.",
+      "accepted": [
+        "I'd like the pasta without cheese, please.",
+        "Can I have the pasta without cheese, please?",
+        "Pasta without cheese, please.",
+        "The pasta, no cheese, please."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B1-0",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "Could you recommend a local dish?",
+      "cz": "Mohl byste doporučit místní jídlo?",
+      "accepted": [
+        "Could you recommend a local dish?",
+        "What local dish would you recommend?",
+        "Any local dishes you recommend?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B1-1",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "I'm allergic to dairy products.",
+      "cz": "Mám alergii na mléčné výrobky.",
+      "accepted": [
+        "I'm allergic to dairy products.",
+        "I have an allergy to dairy products.",
+        "I have a dairy allergy.",
+        "I am allergic to dairy."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B1-2",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "Could you prepare it without butter?",
+      "cz": "Mohli byste ho připravit bez másla?",
+      "accepted": [
+        "Could you prepare it without butter?",
+        "Would it be possible to make it without butter?",
+        "Without butter, please.",
+        "Can you make it without butter?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B2-0",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "Could you check whether the sauce contains nuts?",
+      "cz": "Mohl byste ověřit, zda omáčka obsahuje ořechy?",
+      "accepted": [
+        "Could you check whether the sauce contains nuts?",
+        "Would you mind checking whether there are nuts in the sauce?",
+        "Does the sauce have nuts in it?",
+        "Can you check the sauce for nuts?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B2-1",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "Is there a risk of cross-contamination?",
+      "cz": "Hrozí riziko křížové kontaminace?",
+      "accepted": [
+        "Is there a risk of cross-contamination?",
+        "Could there be any cross-contamination?",
+        "Could it have traces of nuts?",
+        "Could nuts from the kitchen get into it?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B2-2",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "I'm afraid we need to leave in half an hour.",
+      "cz": "Bohužel musíme za půl hodiny odejít.",
+      "accepted": [
+        "I'm afraid we need to leave in half an hour.",
+        "Unfortunately, we have to leave in thirty minutes.",
+        "We have to leave in thirty minutes.",
+        "We need to leave in half an hour."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A1-0",
+      "topic": "travel",
+      "level": "A1",
+      "en": "London, please.",
+      "cz": "Do Londýna, prosím.",
+      "accepted": [
+        "London, please.",
+        "I would like to go to London.",
+        "I'd like to go to London.",
+        "I want to go to London.",
+        "To London.",
+        "London."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A1-1",
+      "topic": "travel",
+      "level": "A1",
+      "en": "A return ticket, please.",
+      "cz": "Zpáteční jízdenku, prosím.",
+      "accepted": [
+        "A return ticket, please.",
+        "A round-trip ticket, please.",
+        "Return, please.",
+        "A return, please.",
+        "Return."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A1-2",
+      "topic": "travel",
+      "level": "A1",
+      "en": "What time does the train leave?",
+      "cz": "V kolik hodin vlak odjíždí?",
+      "accepted": [
+        "What time does the train leave?",
+        "When does the train leave?",
+        "What time does it leave?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A2-0",
+      "topic": "travel",
+      "level": "A2",
+      "en": "Two tickets to Oxford, please.",
+      "cz": "Dvě jízdenky do Oxfordu, prosím.",
+      "accepted": [
+        "Two tickets to Oxford, please.",
+        "I'd like two tickets to Oxford, please.",
+        "Two to Oxford, please.",
+        "Two tickets for Oxford, please."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A2-1",
+      "topic": "travel",
+      "level": "A2",
+      "en": "How long does the journey take?",
+      "cz": "Jak dlouho cesta trvá?",
+      "accepted": [
+        "How long does the journey take?",
+        "How long is the journey?",
+        "How long does it take?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A2-2",
+      "topic": "travel",
+      "level": "A2",
+      "en": "Do I need to change trains?",
+      "cz": "Musím přestupovat?",
+      "accepted": [
+        "Do I need to change trains?",
+        "Do we have to change trains?",
+        "Do I have to change?",
+        "Is it direct?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B1-0",
+      "topic": "travel",
+      "level": "B1",
+      "en": "My train has been cancelled.",
+      "cz": "Můj vlak byl zrušen.",
+      "accepted": [
+        "My train has been cancelled.",
+        "The train I was going to take has been cancelled.",
+        "My train was cancelled.",
+        "The train I was taking has been cancelled."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B1-1",
+      "topic": "travel",
+      "level": "B1",
+      "en": "Is my ticket valid on the next train?",
+      "cz": "Platí moje jízdenka na další vlak?",
+      "accepted": [
+        "Is my ticket valid on the next train?",
+        "Can I use my ticket on the next train?",
+        "Does my ticket work on the next train?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B1-2",
+      "topic": "travel",
+      "level": "B1",
+      "en": "I need to catch a connecting train.",
+      "cz": "Potřebuji stihnout návazný vlak.",
+      "accepted": [
+        "I need to catch a connecting train.",
+        "I have a train connection to catch.",
+        "I have a connecting train to catch.",
+        "I need to make my train connection."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B2-0",
+      "topic": "travel",
+      "level": "B2",
+      "en": "The delay caused me to miss my connection.",
+      "cz": "Kvůli zpoždění jsem zmeškal přípoj.",
+      "accepted": [
+        "The delay caused me to miss my connection.",
+        "I missed my connecting train because of the delay.",
+        "I missed my connection because of the delay.",
+        "The delay made me miss my connection."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B2-1",
+      "topic": "travel",
+      "level": "B2",
+      "en": "The train arrived more than an hour late.",
+      "cz": "Vlak přijel s více než hodinovým zpožděním.",
+      "accepted": [
+        "The train arrived more than an hour late.",
+        "It was over an hour late when we arrived.",
+        "More than an hour late.",
+        "It was over an hour late."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B2-2",
+      "topic": "travel",
+      "level": "B2",
+      "en": "Am I entitled to compensation?",
+      "cz": "Mám nárok na kompenzaci?",
+      "accepted": [
+        "Am I entitled to compensation?",
+        "Would I be eligible for compensation?",
+        "Can I get compensation?",
+        "Do I qualify for compensation?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A1-0",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "A T-shirt, please.",
+      "cz": "Tričko, prosím.",
+      "accepted": [
+        "A T-shirt, please.",
+        "I am looking for a T-shirt.",
+        "I'm looking for a T-shirt.",
+        "I'd like a T-shirt.",
+        "A T-shirt.",
+        "I want a T-shirt."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A1-1",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "Blue, please.",
+      "cz": "Modré, prosím.",
+      "accepted": [
+        "Blue, please.",
+        "I'd like a blue one.",
+        "A blue one, please.",
+        "Blue.",
+        "I would like blue.",
+        "I would like blue, please.",
+        "I would like a blue one."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A1-2",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "Medium, please.",
+      "cz": "Velikost M, prosím.",
+      "accepted": [
+        "Medium, please.",
+        "I need a medium.",
+        "Medium.",
+        "Size M, please.",
+        "M."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A2-0",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "I'm looking for a winter jacket.",
+      "cz": "Hledám zimní bundu.",
+      "accepted": [
+        "I'm looking for a winter jacket.",
+        "I need a winter jacket.",
+        "A winter jacket, please.",
+        "A winter jacket."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A2-1",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "Where are the changing rooms?",
+      "cz": "Kde jsou převlékací kabinky?",
+      "accepted": [
+        "Where are the changing rooms?",
+        "Where can I try it on?",
+        "Where are the fitting rooms?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A2-2",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "This jacket is too small.",
+      "cz": "Tato bunda je příliš malá.",
+      "accepted": [
+        "This jacket is too small.",
+        "It's too small for me.",
+        "Too small.",
+        "It's too small."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B1-0",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "I'd like to return these headphones.",
+      "cz": "Chtěl bych vrátit tato sluchátka.",
+      "accepted": [
+        "I'd like to return these headphones.",
+        "I'd like to bring these headphones back.",
+        "I want to return these headphones.",
+        "Can I return these headphones?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B1-1",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "They stopped working after a week.",
+      "cz": "Po týdnu přestala fungovat.",
+      "accepted": [
+        "They stopped working after a week.",
+        "They only worked for a week.",
+        "They broke after a week.",
+        "They didn't work after one week."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B1-2",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "I have the receipt in my email.",
+      "cz": "Mám doklad v e-mailu.",
+      "accepted": [
+        "I have the receipt in my email.",
+        "I've got an email receipt.",
+        "It's in my email.",
+        "The receipt is in my email."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B2-0",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "The item I received doesn't correspond to the description.",
+      "cz": "Doručené zboží neodpovídá popisu.",
+      "accepted": [
+        "The item I received doesn't correspond to the description.",
+        "What was delivered doesn't match the product description.",
+        "What arrived isn't what was described.",
+        "The item doesn't match the description."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B2-1",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "The product was advertised as water-resistant.",
+      "cz": "Výrobek byl inzerován jako voděodolný.",
+      "accepted": [
+        "The product was advertised as water-resistant.",
+        "The advertisement described it as water-resistant.",
+        "It was advertised as water-resistant.",
+        "The advert said it was water-resistant."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B2-2",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "I followed the instructions exactly.",
+      "cz": "Přesně jsem dodržel pokyny.",
+      "accepted": [
+        "I followed the instructions exactly.",
+        "I used it exactly as instructed.",
+        "I did exactly what the instructions said."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "word-restaurant-A1-0",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "menu",
+      "cz": "jídelní lístek",
+      "accepted": [
+        "menu"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-A1-1",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "bill",
+      "cz": "účet",
+      "accepted": [
+        "bill",
+        "check"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-A1-2",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "water",
+      "cz": "voda",
+      "accepted": [
+        "water"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-A1-3",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "bread",
+      "cz": "chléb",
+      "accepted": [
+        "bread"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-A2-0",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "reservation",
+      "cz": "rezervace",
+      "accepted": [
+        "reservation"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-A2-1",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "vegetarian",
+      "cz": "vegetariánský",
+      "accepted": [
+        "vegetarian"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-A2-2",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "cheese",
+      "cz": "sýr",
+      "accepted": [
+        "cheese"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-A2-3",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "butter",
+      "cz": "máslo",
+      "accepted": [
+        "butter"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B1-0",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "service charge",
+      "cz": "obslužné",
+      "accepted": [
+        "service charge"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B1-1",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "dairy products",
+      "cz": "mléčné výrobky",
+      "accepted": [
+        "dairy products"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B1-2",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "split the bill",
+      "cz": "rozdělit účet",
+      "accepted": [
+        "split the bill"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B1-3",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "recommend",
+      "cz": "doporučit",
+      "accepted": [
+        "recommend"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B2-0",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "cross-contamination",
+      "cz": "křížová kontaminace",
+      "accepted": [
+        "cross-contamination"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B2-1",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "dietary requirements",
+      "cz": "stravovací požadavky",
+      "accepted": [
+        "dietary requirements"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B2-2",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "cancel the order",
+      "cz": "zrušit objednávku",
+      "accepted": [
+        "cancel the order"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-restaurant-B2-3",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "promptly",
+      "cz": "bezodkladně",
+      "accepted": [
+        "promptly"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A1-0",
+      "topic": "travel",
+      "level": "A1",
+      "en": "ticket",
+      "cz": "jízdenka",
+      "accepted": [
+        "ticket"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A1-1",
+      "topic": "travel",
+      "level": "A1",
+      "en": "train",
+      "cz": "vlak",
+      "accepted": [
+        "train"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A1-2",
+      "topic": "travel",
+      "level": "A1",
+      "en": "bus",
+      "cz": "autobus",
+      "accepted": [
+        "bus"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A1-3",
+      "topic": "travel",
+      "level": "A1",
+      "en": "station",
+      "cz": "nádraží",
+      "accepted": [
+        "station"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A2-0",
+      "topic": "travel",
+      "level": "A2",
+      "en": "journey",
+      "cz": "cesta",
+      "accepted": [
+        "journey"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A2-1",
+      "topic": "travel",
+      "level": "A2",
+      "en": "change trains",
+      "cz": "přestupovat",
+      "accepted": [
+        "change trains"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A2-2",
+      "topic": "travel",
+      "level": "A2",
+      "en": "direct train",
+      "cz": "přímý vlak",
+      "accepted": [
+        "direct train"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-A2-3",
+      "topic": "travel",
+      "level": "A2",
+      "en": "discount",
+      "cz": "sleva",
+      "accepted": [
+        "discount"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B1-0",
+      "topic": "travel",
+      "level": "B1",
+      "en": "connecting train",
+      "cz": "návazný vlak",
+      "accepted": [
+        "connecting train"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B1-1",
+      "topic": "travel",
+      "level": "B1",
+      "en": "cancelled",
+      "cz": "zrušený",
+      "accepted": [
+        "cancelled"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B1-2",
+      "topic": "travel",
+      "level": "B1",
+      "en": "valid",
+      "cz": "platný",
+      "accepted": [
+        "valid"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B1-3",
+      "topic": "travel",
+      "level": "B1",
+      "en": "reserve a seat",
+      "cz": "rezervovat sedadlo",
+      "accepted": [
+        "reserve a seat"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B2-0",
+      "topic": "travel",
+      "level": "B2",
+      "en": "compensation",
+      "cz": "kompenzace",
+      "accepted": [
+        "compensation"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B2-1",
+      "topic": "travel",
+      "level": "B2",
+      "en": "submit a claim",
+      "cz": "podat žádost o kompenzaci",
+      "accepted": [
+        "submit a claim"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B2-2",
+      "topic": "travel",
+      "level": "B2",
+      "en": "supporting documents",
+      "cz": "podpůrné doklady",
+      "accepted": [
+        "supporting documents"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-travel-B2-3",
+      "topic": "travel",
+      "level": "B2",
+      "en": "eligible",
+      "cz": "způsobilý",
+      "accepted": [
+        "eligible"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A1-0",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "T-shirt",
+      "cz": "tričko",
+      "accepted": [
+        "T-shirt"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A1-1",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "blue",
+      "cz": "modrý",
+      "accepted": [
+        "blue"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A1-2",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "size",
+      "cz": "velikost",
+      "accepted": [
+        "size"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A1-3",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "medium",
+      "cz": "střední",
+      "accepted": [
+        "medium"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A2-0",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "try on",
+      "cz": "vyzkoušet si",
+      "accepted": [
+        "try on"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A2-1",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "changing room",
+      "cz": "převlékací kabinka",
+      "accepted": [
+        "changing room",
+        "fitting room"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A2-2",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "jacket",
+      "cz": "bunda",
+      "accepted": [
+        "jacket"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-A2-3",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "larger",
+      "cz": "větší",
+      "accepted": [
+        "larger"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B1-0",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "headphones",
+      "cz": "sluchátka",
+      "accepted": [
+        "headphones"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B1-1",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "replacement",
+      "cz": "výměna",
+      "accepted": [
+        "replacement"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B1-2",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "refund",
+      "cz": "vrácení peněz",
+      "accepted": [
+        "refund"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B1-3",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "working day",
+      "cz": "pracovní den",
+      "accepted": [
+        "working day"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B2-0",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "water-resistant",
+      "cz": "voděodolný",
+      "accepted": [
+        "water-resistant"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B2-1",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "store credit",
+      "cz": "poukaz do obchodu",
+      "accepted": [
+        "store credit"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B2-2",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "correspond to",
+      "cz": "odpovídat něčemu",
+      "accepted": [
+        "correspond to"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "word-shopping-B2-3",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "processing time",
+      "cz": "doba vyřízení",
+      "accepted": [
+        "processing time"
+      ],
+      "kind": "word"
+    },
+    {
+      "id": "phrase-restaurant-A1-transfer",
+      "topic": "restaurant",
+      "level": "A1",
+      "en": "A table for four, please.",
+      "cz": "Stůl pro čtyři, prosím.",
+      "accepted": [
+        "A table for four, please.",
+        "Can we have a table for four, please?",
+        "Four, please.",
+        "For four.",
+        "Four."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-A2-transfer",
+      "topic": "restaurant",
+      "level": "A2",
+      "en": "I'd like the soup without cream, please.",
+      "cz": "Dal bych si polévku bez smetany, prosím.",
+      "accepted": [
+        "I'd like the soup without cream, please.",
+        "Can I have the soup without cream, please?",
+        "Soup without cream, please.",
+        "The soup, no cream, please."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B1-transfer",
+      "topic": "restaurant",
+      "level": "B1",
+      "en": "I'm allergic to nuts.",
+      "cz": "Mám alergii na ořechy.",
+      "accepted": [
+        "I'm allergic to nuts.",
+        "I have a nut allergy.",
+        "Nuts give me an allergic reaction."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-restaurant-B2-transfer",
+      "topic": "restaurant",
+      "level": "B2",
+      "en": "Could you check whether the dessert contains dairy products?",
+      "cz": "Mohl byste ověřit, zda dezert obsahuje mléčné výrobky?",
+      "accepted": [
+        "Could you check whether the dessert contains dairy products?",
+        "Would you mind checking whether there are dairy products in the dessert?",
+        "Does the dessert contain dairy?",
+        "Can you check if there is dairy in the dessert?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A1-transfer",
+      "topic": "travel",
+      "level": "A1",
+      "en": "Oxford, please.",
+      "cz": "Do Oxfordu, prosím.",
+      "accepted": [
+        "Oxford, please.",
+        "I would like to go to Oxford.",
+        "I'd like to go to Oxford.",
+        "I want to go to Oxford.",
+        "To Oxford.",
+        "Oxford."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-A2-transfer",
+      "topic": "travel",
+      "level": "A2",
+      "en": "Three tickets to London, please.",
+      "cz": "Tři jízdenky do Londýna, prosím.",
+      "accepted": [
+        "Three tickets to London, please.",
+        "I'd like three tickets to London, please.",
+        "Three to London, please.",
+        "Three tickets for London, please."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B1-transfer",
+      "topic": "travel",
+      "level": "B1",
+      "en": "I need to catch a connecting bus.",
+      "cz": "Potřebuji stihnout návazný autobus.",
+      "accepted": [
+        "I need to catch a connecting bus.",
+        "I have a bus connection to catch.",
+        "I have a connecting bus to catch.",
+        "I need to make my bus connection."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-travel-B2-transfer",
+      "topic": "travel",
+      "level": "B2",
+      "en": "The delay caused me to miss my flight.",
+      "cz": "Kvůli zpoždění jsem zmeškal let.",
+      "accepted": [
+        "The delay caused me to miss my flight.",
+        "I missed my flight because of the delay.",
+        "The delay made me miss my flight."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A1-transfer",
+      "topic": "shopping",
+      "level": "A1",
+      "en": "A jacket, please.",
+      "cz": "Bundu, prosím.",
+      "accepted": [
+        "A jacket, please.",
+        "I am looking for a jacket.",
+        "I'm looking for a jacket.",
+        "I'd like a jacket.",
+        "A jacket.",
+        "I want a jacket."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-A2-transfer",
+      "topic": "shopping",
+      "level": "A2",
+      "en": "This jacket is too big.",
+      "cz": "Tato bunda je příliš velká.",
+      "accepted": [
+        "This jacket is too big.",
+        "It's too big for me.",
+        "Too big.",
+        "It's too big."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B1-transfer",
+      "topic": "shopping",
+      "level": "B1",
+      "en": "I'd like to return these shoes.",
+      "cz": "Chtěl bych vrátit tyto boty.",
+      "accepted": [
+        "I'd like to return these shoes.",
+        "I'd like to bring these shoes back.",
+        "I want to return these shoes.",
+        "Can I return these shoes?"
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "phrase-shopping-B2-transfer",
+      "topic": "shopping",
+      "level": "B2",
+      "en": "I'd prefer a replacement rather than store credit.",
+      "cz": "Raději bych výměnu než poukaz do obchodu.",
+      "accepted": [
+        "I'd prefer a replacement rather than store credit.",
+        "I'd rather receive a replacement than a voucher.",
+        "A replacement, not store credit, please.",
+        "I'd rather have a replacement than store credit."
+      ],
+      "kind": "phrase"
+    },
+    {
+      "id": "foundation-i-am",
+      "topic": "basics",
+      "level": "A1",
+      "en": "I am",
+      "cz": "Jsem",
+      "accepted": [
+        "I am"
+      ],
+      "kind": "word",
+      "note": "I = já. Am je tvar slovesa být, který používáme s I. Zkráceně I'm."
+    },
+    {
+      "id": "foundation-i-have",
+      "topic": "basics",
+      "level": "A1",
+      "en": "I have",
+      "cz": "Mám",
+      "accepted": [
+        "I have"
+      ],
+      "kind": "word",
+      "note": "I have vyjadřuje, že něco mám. Zkrácená varianta I've got se také používá."
+    },
+    {
+      "id": "foundation-could-you",
+      "topic": "basics",
+      "level": "A2",
+      "en": "Could you",
+      "cz": "Mohl byste",
+      "accepted": [
+        "Could you"
+      ],
+      "kind": "word",
+      "note": "Zdvořilá žádost. Za Could you dej základní tvar slovesa, například Could you help me?"
+    },
+    {
+      "id": "foundation-by-friday",
+      "topic": "basics",
+      "level": "A2",
+      "en": "by Friday",
+      "cz": "do pátku",
+      "accepted": [
+        "by Friday"
+      ],
+      "kind": "word",
+      "note": "By označuje nejzazší termín. Until označuje trvání až do určité doby; významy se liší."
+    },
+    {
+      "id": "foundation-i-have-already",
+      "topic": "basics",
+      "level": "B1",
+      "en": "I have already",
+      "cz": "Už jsem",
+      "accepted": [
+        "I have already"
+      ],
+      "kind": "word",
+      "note": "Za tímto začátkem v předpřítomném čase následuje příčestí, například I have already read it = Už jsem to četl."
+    },
+    {
+      "id": "foundation-might",
+      "topic": "basics",
+      "level": "B1",
+      "en": "might",
+      "cz": "možná",
+      "accepted": [
+        "might"
+      ],
+      "kind": "word",
+      "note": "Vyjadřuje možnost, ne jistotu. It might rain = Možná bude pršet."
+    },
+    {
+      "id": "foundation-provided",
+      "topic": "basics",
+      "level": "B2",
+      "en": "provided that",
+      "cz": "za předpokladu že",
+      "accepted": [
+        "provided that"
+      ],
+      "kind": "word",
+      "note": "Uvozuje podmínku. Podobné spojení je as long as. V různých větách se význam může lišit."
+    }
+  ]
+}
