@@ -326,17 +326,18 @@
           "id": "restaurant-A1-2",
           "prompt": "What would you like to eat?",
           "intent": "Objednej si kuřecí polévku.",
-          "answer": "I'd like chicken soup, please.",
+          "answer": "I would like chicken soup, please.",
           "translation": "Dal bych si kuřecí polévku, prosím.",
           "accepted": [
+            "I would like chicken soup, please.",
             "I'd like chicken soup, please.",
             "Can I have chicken soup, please?"
           ],
-          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like chicken…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
           "promptCz": "Co byste si dali k jídlu?",
           "chunks": [
             {
-              "en": "I'd like",
+              "en": "I would like",
               "cz": "dal bych si / chtěl bych"
             },
             {
@@ -347,7 +348,12 @@
               "en": "please",
               "cz": "prosím"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'd like chicken soup, please.",
+            "full": "I would like chicken soup, please.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "restaurant-A1-3",
@@ -960,24 +966,30 @@
           "id": "travel-A1-0",
           "prompt": "Hello. Where would you like to go?",
           "intent": "Řekni, že chceš jet do Londýna.",
-          "answer": "I'd like to go to London.",
+          "answer": "I would like to go to London.",
           "translation": "Chtěl bych jet do Londýna.",
           "accepted": [
+            "I would like to go to London.",
             "I'd like to go to London.",
             "I want to go to London."
           ],
-          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
           "promptCz": "Dobrý den. Kam byste chtěli jet?",
           "chunks": [
             {
-              "en": "I'd like",
+              "en": "I would like",
               "cz": "dal bych si / chtěl bych"
             },
             {
               "en": "to go to",
               "cz": "jet do"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'd like to go to London.",
+            "full": "I would like to go to London.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "travel-A1-1",
@@ -1050,7 +1062,7 @@
         },
         {
           "id": "travel-A1-4",
-          "prompt": "It's platform four.",
+          "prompt": "It is platform four.",
           "intent": "Požádej o zopakování.",
           "answer": "Can you repeat that, please?",
           "translation": "Můžete to zopakovat, prosím?",
@@ -1100,16 +1112,17 @@
         "prompt": "Where would you like to go?",
         "promptCz": "Kam byste chtěli jet?",
         "intent": "Tentokrát řekni, že chceš jet do Oxfordu.",
-        "answer": "I'd like to go to Oxford.",
+        "answer": "I would like to go to Oxford.",
         "translation": "Chtěl bych jet do Oxfordu.",
         "accepted": [
+          "I would like to go to Oxford.",
           "I'd like to go to Oxford.",
           "I want to go to Oxford."
         ],
-        "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
         "chunks": [
           {
-            "en": "I'd like",
+            "en": "I would like",
             "cz": "dal bych si / chtěl bych"
           },
           {
@@ -1117,7 +1130,12 @@
             "cz": "do Oxfordu"
           }
         ],
-        "transfer": true
+        "transfer": true,
+        "contraction": {
+          "short": "I'd like to go to Oxford.",
+          "full": "I would like to go to Oxford.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        }
       }
     },
     {
@@ -1698,7 +1716,7 @@
         },
         {
           "id": "hotel-A1-4",
-          "prompt": "It's on your right.",
+          "prompt": "It is on your right.",
           "intent": "Zeptej se na heslo k Wi-Fi.",
           "answer": "What is the Wi-Fi password?",
           "translation": "Jaké je heslo k Wi-Fi?",
@@ -1721,7 +1739,7 @@
         },
         {
           "id": "hotel-A1-5",
-          "prompt": "It's on your key card.",
+          "prompt": "It is on your key card.",
           "intent": "Poděkuj a popřej dobrou noc.",
           "answer": "Thank you. Good night.",
           "translation": "Děkuji. Dobrou noc.",
@@ -2244,47 +2262,59 @@
           "id": "shopping-A1-0",
           "prompt": "Hello. Can I help?",
           "intent": "Řekni, že hledáš tričko.",
-          "answer": "I'm looking for a T-shirt.",
+          "answer": "I am looking for a T-shirt.",
           "translation": "Hledám tričko.",
           "accepted": [
+            "I am looking for a T-shirt.",
             "I'm looking for a T-shirt.",
             "I'd like a T-shirt."
           ],
-          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm looking for…",
+          "hint": "Začni podmětem I a slovesem am. Začátek vzoru: I am looking…",
           "promptCz": "Dobrý den. Mohu pomoci?",
           "chunks": [
             {
-              "en": "I'm looking for",
+              "en": "I am looking for",
               "cz": "hledám"
             },
             {
               "en": "a T-shirt",
               "cz": "tričko"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'm looking for a T-shirt.",
+            "full": "I am looking for a T-shirt.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "shopping-A1-1",
           "prompt": "Which colour would you like?",
           "intent": "Řekni, že chceš modré.",
-          "answer": "I'd like a blue one.",
+          "answer": "I would like a blue one.",
           "translation": "Chtěl bych modré.",
           "accepted": [
+            "I would like a blue one.",
             "I'd like a blue one.",
             "A blue one, please."
           ],
-          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like a…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
           "promptCz": "Jakou barvu byste chtěli?",
           "chunks": [
             {
-              "en": "I'd like",
+              "en": "I would like",
               "cz": "dal bych si / chtěl bych"
             },
             {
               "en": "a blue one",
               "cz": "modré (tričko)"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'd like a blue one.",
+            "full": "I would like a blue one.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "shopping-A1-2",
@@ -2330,7 +2360,7 @@
         },
         {
           "id": "shopping-A1-4",
-          "prompt": "It's twelve pounds.",
+          "prompt": "It is twelve pounds.",
           "intent": "Zeptej se, zda můžeš platit kartou.",
           "answer": "Can I pay by card?",
           "translation": "Mohu platit kartou?",
@@ -2355,24 +2385,30 @@
           "id": "shopping-A1-5",
           "prompt": "Yes, you can.",
           "intent": "Řekni, že si tričko vezmeš.",
-          "answer": "I'll take it, please.",
+          "answer": "I will take it, please.",
           "translation": "Vezmu si ho, prosím.",
           "accepted": [
+            "I will take it, please.",
             "I'll take it, please.",
             "I'd like to buy it, please."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I'll take it,…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I will take…",
           "promptCz": "Ano, můžete.",
           "chunks": [
             {
-              "en": "I'll take it",
+              "en": "I will take it",
               "cz": "vezmu si to"
             },
             {
               "en": "please",
               "cz": "prosím"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'll take it, please.",
+            "full": "I will take it, please.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         }
       ],
       "transfer": {
@@ -2380,16 +2416,17 @@
         "prompt": "What are you looking for?",
         "promptCz": "Co hledáte?",
         "intent": "Tentokrát řekni, že hledáš bundu.",
-        "answer": "I'm looking for a jacket.",
+        "answer": "I am looking for a jacket.",
         "translation": "Hledám bundu.",
         "accepted": [
+          "I am looking for a jacket.",
           "I'm looking for a jacket.",
           "I'd like a jacket."
         ],
-        "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm looking for…",
+        "hint": "Začni podmětem I a slovesem am. Začátek vzoru: I am looking…",
         "chunks": [
           {
-            "en": "I'm looking for",
+            "en": "I am looking for",
             "cz": "hledám"
           },
           {
@@ -2397,7 +2434,12 @@
             "cz": "bundu"
           }
         ],
-        "transfer": true
+        "transfer": true,
+        "contraction": {
+          "short": "I'm looking for a jacket.",
+          "full": "I am looking for a jacket.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        }
       }
     },
     {
@@ -2890,7 +2932,7 @@
       "turns": [
         {
           "id": "work-A1-0",
-          "prompt": "Hello. What's your name?",
+          "prompt": "Hello. What is your name?",
           "intent": "Představ se jako Sam.",
           "answer": "My name is Sam.",
           "translation": "Jmenuji se Sam.",
@@ -2911,24 +2953,29 @@
           "id": "work-A1-1",
           "prompt": "What do you do?",
           "intent": "Řekni, že jsi učitel.",
-          "answer": "I'm a teacher.",
+          "answer": "I am a teacher.",
           "translation": "Jsem učitel.",
           "accepted": [
             "I'm a teacher.",
             "I am a teacher."
           ],
-          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm a…",
+          "hint": "Začni podmětem I a slovesem am. Začátek vzoru: I am a…",
           "promptCz": "Čím se živíte?",
           "chunks": [
             {
-              "en": "I'm",
+              "en": "I am",
               "cz": "jsem"
             },
             {
               "en": "a teacher",
               "cz": "učitel"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'm a teacher.",
+            "full": "I am a teacher.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "work-A1-2",
@@ -2980,24 +3027,30 @@
           "id": "work-A1-4",
           "prompt": "Do you work on Sundays?",
           "intent": "Řekni, že v neděli nepracuješ.",
-          "answer": "I don't work on Sundays.",
+          "answer": "I do not work on Sundays.",
           "translation": "V neděli nepracuji.",
           "accepted": [
+            "I do not work on Sundays.",
             "I don't work on Sundays.",
             "No, I don't."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I don't work…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I do not…",
           "promptCz": "Pracujete v neděli?",
           "chunks": [
             {
-              "en": "I don't work",
+              "en": "I do not work",
               "cz": "nepracuji"
             },
             {
               "en": "on Sundays",
               "cz": "v neděli (pravidelně)"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I don't work on Sundays.",
+            "full": "I do not work on Sundays.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "work-A1-5",
@@ -3024,16 +3077,16 @@
         "prompt": "What do you do?",
         "promptCz": "Čím se živíte?",
         "intent": "Tentokrát řekni, že jsi lékař.",
-        "answer": "I'm a doctor.",
+        "answer": "I am a doctor.",
         "translation": "Jsem lékař.",
         "accepted": [
           "I'm a doctor.",
           "I am a doctor."
         ],
-        "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm a…",
+        "hint": "Začni podmětem I a slovesem am. Začátek vzoru: I am a…",
         "chunks": [
           {
-            "en": "I'm",
+            "en": "I am",
             "cz": "jsem"
           },
           {
@@ -3041,7 +3094,12 @@
             "cz": "lékaře / lékař (podle věty)"
           }
         ],
-        "transfer": true
+        "transfer": true,
+        "contraction": {
+          "short": "I'm a doctor.",
+          "full": "I am a doctor.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        }
       }
     },
     {
@@ -3669,7 +3727,7 @@
         },
         {
           "id": "health-A1-5",
-          "prompt": "It's down the hall.",
+          "prompt": "It is down the hall.",
           "intent": "Poděkuj.",
           "answer": "Thank you.",
           "translation": "Děkuji.",
@@ -4202,7 +4260,7 @@
       "turns": [
         {
           "id": "social-A1-0",
-          "prompt": "Hi! What's your name?",
+          "prompt": "Hi! What is your name?",
           "intent": "Představ se jako Anna.",
           "answer": "My name is Anna.",
           "translation": "Jmenuji se Anna.",
@@ -4223,24 +4281,30 @@
           "id": "social-A1-1",
           "prompt": "Where are you from?",
           "intent": "Řekni, že jsi z České republiky.",
-          "answer": "I'm from the Czech Republic.",
+          "answer": "I am from the Czech Republic.",
           "translation": "Jsem z České republiky.",
           "accepted": [
+            "I am from the Czech Republic.",
             "I'm from the Czech Republic.",
             "I come from the Czech Republic."
           ],
-          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm from the…",
+          "hint": "Začni podmětem I a slovesem am. Začátek vzoru: I am from…",
           "promptCz": "Odkud jsi?",
           "chunks": [
             {
-              "en": "I'm from",
+              "en": "I am from",
               "cz": "jsem z"
             },
             {
               "en": "the Czech Republic",
               "cz": "České republiky / Česká republika (podle věty)"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'm from the Czech Republic.",
+            "full": "I am from the Czech Republic.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "social-A1-2",
@@ -4329,7 +4393,7 @@
       ],
       "transfer": {
         "id": "social-A1-transfer",
-        "prompt": "Hi! What's your name?",
+        "prompt": "Hi! What is your name?",
         "promptCz": "Ahoj! Jak se jmenuješ?",
         "intent": "Tentokrát se představ jako Tom.",
         "answer": "My name is Tom.",
@@ -4870,24 +4934,30 @@
           "id": "home-A1-2",
           "prompt": "Is there a garden?",
           "intent": "Řekni, že tam zahrada není.",
-          "answer": "There isn't a garden.",
+          "answer": "There is not a garden.",
           "translation": "Není tam zahrada.",
           "accepted": [
+            "There is not a garden.",
             "There isn't a garden.",
             "No, there is no garden."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: There isn't a…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: There is not…",
           "promptCz": "Je tam zahrada?",
           "chunks": [
             {
-              "en": "There isn't",
+              "en": "There is not",
               "cz": "není tam"
             },
             {
               "en": "a garden",
               "cz": "zahrada"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "There isn't a garden.",
+            "full": "There is not a garden.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "home-A1-3",
@@ -4943,24 +5013,30 @@
           "id": "home-A1-5",
           "prompt": "Is it near the school?",
           "intent": "Řekni, že je poblíž školy.",
-          "answer": "It's near the school.",
+          "answer": "It is near the school.",
           "translation": "Je poblíž školy.",
           "accepted": [
+            "It is near the school.",
             "It's near the school.",
             "It's close to the school."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It's near the…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It is near…",
           "promptCz": "Je to poblíž školy?",
           "chunks": [
             {
-              "en": "It's near",
+              "en": "It is near",
               "cz": "je poblíž"
             },
             {
               "en": "the school",
               "cz": "školy / škola (podle věty)"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "It's near the school.",
+            "full": "It is near the school.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         }
       ],
       "transfer": {
@@ -5456,47 +5532,58 @@
           "id": "study-A1-0",
           "prompt": "What would you like to study?",
           "intent": "Řekni, že chceš studovat angličtinu.",
-          "answer": "I'd like to study English.",
+          "answer": "I would like to study English.",
           "translation": "Chtěl bych studovat angličtinu.",
           "accepted": [
+            "I would like to study English.",
             "I'd like to study English.",
             "I want to learn English."
           ],
-          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
           "promptCz": "Co byste chtěli studovat?",
           "chunks": [
             {
-              "en": "I'd like",
+              "en": "I would like",
               "cz": "dal bych si / chtěl bych"
             },
             {
               "en": "to study English",
               "cz": "studovat angličtinu"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'd like to study English.",
+            "full": "I would like to study English.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "study-A1-1",
           "prompt": "Are you a student?",
           "intent": "Řekni, že jsi student.",
-          "answer": "I'm a student.",
+          "answer": "I am a student.",
           "translation": "Jsem student.",
           "accepted": [
             "I'm a student.",
             "I am a student."
           ],
-          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm a…",
+          "hint": "Začni podmětem I a slovesem am. Začátek vzoru: I am a…",
           "promptCz": "Jste student?",
           "chunks": [
             {
-              "en": "I'm",
+              "en": "I am",
               "cz": "jsem"
             },
             {
               "en": "a student",
               "cz": "student"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'm a student.",
+            "full": "I am a student.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "study-A1-2",
@@ -5544,20 +5631,26 @@
           "id": "study-A1-4",
           "prompt": "Page ten.",
           "intent": "Řekni, že nerozumíš.",
-          "answer": "I don't understand.",
+          "answer": "I do not understand.",
           "translation": "Nerozumím.",
           "accepted": [
+            "I do not understand.",
             "I don't understand.",
             "I'm sorry, I don't understand."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I don't…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I do not…",
           "promptCz": "Stránka deset.",
           "chunks": [
             {
-              "en": "I don't understand",
+              "en": "I do not understand",
               "cz": "nerozumím"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I don't understand.",
+            "full": "I do not understand.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "study-A1-5",
@@ -5584,16 +5677,17 @@
         "prompt": "What would you like to study?",
         "promptCz": "Co byste chtěli studovat?",
         "intent": "Tentokrát řekni, že chceš studovat španělštinu.",
-        "answer": "I'd like to study Spanish.",
+        "answer": "I would like to study Spanish.",
         "translation": "Chtěl bych studovat španělštinu.",
         "accepted": [
+          "I would like to study Spanish.",
           "I'd like to study Spanish.",
           "I want to learn Spanish."
         ],
-        "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
         "chunks": [
           {
-            "en": "I'd like",
+            "en": "I would like",
             "cz": "dal bych si / chtěl bych"
           },
           {
@@ -5601,7 +5695,12 @@
             "cz": "studovat španělštinu"
           }
         ],
-        "transfer": true
+        "transfer": true,
+        "contraction": {
+          "short": "I'd like to study Spanish.",
+          "full": "I would like to study Spanish.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        }
       }
     },
     {
@@ -6092,17 +6191,18 @@
           "id": "services-A1-0",
           "prompt": "Hello. How can I help?",
           "intent": "Řekni, že chceš poslat dopis.",
-          "answer": "I'd like to send a letter.",
+          "answer": "I would like to send a letter.",
           "translation": "Chtěl bych poslat dopis.",
           "accepted": [
+            "I would like to send a letter.",
             "I'd like to send a letter.",
             "I want to post a letter."
           ],
-          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
           "promptCz": "Dobrý den. Jak vám mohu pomoci?",
           "chunks": [
             {
-              "en": "I'd like",
+              "en": "I would like",
               "cz": "dal bych si / chtěl bych"
             },
             {
@@ -6113,7 +6213,12 @@
               "en": "a letter",
               "cz": "dopis"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'd like to send a letter.",
+            "full": "I would like to send a letter.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "services-A1-1",
@@ -6228,16 +6333,17 @@
         "prompt": "Hello. How can I help?",
         "promptCz": "Dobrý den. Jak vám mohu pomoci?",
         "intent": "Tentokrát řekni, že chceš poslat balík.",
-        "answer": "I'd like to send a parcel.",
+        "answer": "I would like to send a parcel.",
         "translation": "Chtěl bych poslat balík.",
         "accepted": [
+          "I would like to send a parcel.",
           "I'd like to send a parcel.",
           "I want to post a parcel."
         ],
-        "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
         "chunks": [
           {
-            "en": "I'd like",
+            "en": "I would like",
             "cz": "dal bych si / chtěl bych"
           },
           {
@@ -6249,7 +6355,12 @@
             "cz": "balík"
           }
         ],
-        "transfer": true
+        "transfer": true,
+        "contraction": {
+          "short": "I'd like to send a parcel.",
+          "full": "I would like to send a parcel.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        }
       }
     },
     {
@@ -6767,62 +6878,80 @@
           "id": "outdoors-A1-1",
           "prompt": "Where do you want to go?",
           "intent": "Řekni, že chceš jít do parku.",
-          "answer": "I'd like to go to the park.",
+          "answer": "I would like to go to the park.",
           "translation": "Chtěl bych jít do parku.",
           "accepted": [
+            "I would like to go to the park.",
             "I'd like to go to the park.",
             "I want to go to the park."
           ],
-          "hint": "Vyjádři přání pomocí I would like… Začátek vzoru: I'd like to…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
           "promptCz": "Kam chcete jít?",
           "chunks": [
             {
-              "en": "I'd like",
+              "en": "I would like",
               "cz": "dal bych si / chtěl bych"
             },
             {
               "en": "to go to the park",
               "cz": "jít do parku"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'd like to go to the park.",
+            "full": "I would like to go to the park.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "outdoors-A1-2",
-          "prompt": "What's the weather like?",
+          "prompt": "What is the weather like?",
           "intent": "Řekni, že je slunečno.",
-          "answer": "It's sunny.",
+          "answer": "It is sunny.",
           "translation": "Je slunečno.",
           "accepted": [
+            "It is sunny.",
             "It's sunny.",
             "The weather is sunny."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It's…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It is…",
           "promptCz": "Jaké je počasí?",
           "chunks": [
             {
-              "en": "It's sunny",
+              "en": "It is sunny",
               "cz": "je slunečno"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "It's sunny.",
+            "full": "It is sunny.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "outdoors-A1-3",
           "prompt": "Is it cold?",
           "intent": "Řekni, že je teplo.",
-          "answer": "It's warm.",
+          "answer": "It is warm.",
           "translation": "Je teplo.",
           "accepted": [
+            "It is warm.",
             "It's warm.",
             "No, it's warm."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It's…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It is…",
           "promptCz": "Je zima?",
           "chunks": [
             {
-              "en": "It's warm",
+              "en": "It is warm",
               "cz": "je teplo"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "It's warm.",
+            "full": "It is warm.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         },
         {
           "id": "outdoors-A1-4",
@@ -6847,41 +6976,53 @@
           "id": "outdoors-A1-5",
           "prompt": "Shall we go?",
           "intent": "Řekni, že jsi připraven.",
-          "answer": "I'm ready.",
+          "answer": "I am ready.",
           "translation": "Jsem připraven.",
           "accepted": [
+            "I am ready.",
             "I'm ready.",
             "I'm ready to go."
           ],
-          "hint": "Začni podmětem I a slovesem am, zkráceně I am → I’m. Začátek vzoru: I'm…",
+          "hint": "Začni podmětem I a slovesem am. Začátek vzoru: I am…",
           "promptCz": "Vyrazíme?",
           "chunks": [
             {
-              "en": "I'm ready",
+              "en": "I am ready",
               "cz": "jsem připraven"
             }
-          ]
+          ],
+          "contraction": {
+            "short": "I'm ready.",
+            "full": "I am ready.",
+            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+          }
         }
       ],
       "transfer": {
         "id": "outdoors-A1-transfer",
-        "prompt": "What's the weather like?",
+        "prompt": "What is the weather like?",
         "promptCz": "Jaké je počasí?",
         "intent": "Tentokrát řekni, že je zima.",
-        "answer": "It's cold.",
+        "answer": "It is cold.",
         "translation": "Je zima.",
         "accepted": [
+          "It is cold.",
           "It's cold.",
           "The weather is cold."
         ],
-        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It's…",
+        "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: It is…",
         "chunks": [
           {
-            "en": "It's cold",
+            "en": "It is cold",
             "cz": "je zima"
           }
         ],
-        "transfer": true
+        "transfer": true,
+        "contraction": {
+          "short": "It's cold.",
+          "full": "It is cold.",
+          "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
+        }
       }
     },
     {
@@ -8079,9 +8220,10 @@
       "id": "phrase-restaurant-A1-2",
       "topic": "restaurant",
       "level": "A1",
-      "en": "I'd like chicken soup, please.",
+      "en": "I would like chicken soup, please.",
       "cz": "Dal bych si kuřecí polévku, prosím.",
       "accepted": [
+        "I would like chicken soup, please.",
         "I'd like chicken soup, please.",
         "Can I have chicken soup, please?"
       ],
@@ -8343,9 +8485,10 @@
       "id": "phrase-travel-A1-0",
       "topic": "travel",
       "level": "A1",
-      "en": "I'd like to go to London.",
+      "en": "I would like to go to London.",
       "cz": "Chtěl bych jet do Londýna.",
       "accepted": [
+        "I would like to go to London.",
         "I'd like to go to London.",
         "I want to go to London."
       ],
@@ -8919,9 +9062,10 @@
       "id": "phrase-shopping-A1-0",
       "topic": "shopping",
       "level": "A1",
-      "en": "I'm looking for a T-shirt.",
+      "en": "I am looking for a T-shirt.",
       "cz": "Hledám tričko.",
       "accepted": [
+        "I am looking for a T-shirt.",
         "I'm looking for a T-shirt.",
         "I'd like a T-shirt."
       ],
@@ -8931,9 +9075,10 @@
       "id": "phrase-shopping-A1-1",
       "topic": "shopping",
       "level": "A1",
-      "en": "I'd like a blue one.",
+      "en": "I would like a blue one.",
       "cz": "Chtěl bych modré.",
       "accepted": [
+        "I would like a blue one.",
         "I'd like a blue one.",
         "A blue one, please."
       ],
@@ -8979,9 +9124,10 @@
       "id": "phrase-shopping-A1-5",
       "topic": "shopping",
       "level": "A1",
-      "en": "I'll take it, please.",
+      "en": "I will take it, please.",
       "cz": "Vezmu si ho, prosím.",
       "accepted": [
+        "I will take it, please.",
         "I'll take it, please.",
         "I'd like to buy it, please."
       ],
@@ -9219,7 +9365,7 @@
       "id": "phrase-work-A1-1",
       "topic": "work",
       "level": "A1",
-      "en": "I'm a teacher.",
+      "en": "I am a teacher.",
       "cz": "Jsem učitel.",
       "accepted": [
         "I'm a teacher.",
@@ -9255,9 +9401,10 @@
       "id": "phrase-work-A1-4",
       "topic": "work",
       "level": "A1",
-      "en": "I don't work on Sundays.",
+      "en": "I do not work on Sundays.",
       "cz": "V neděli nepracuji.",
       "accepted": [
+        "I do not work on Sundays.",
         "I don't work on Sundays.",
         "No, I don't."
       ],
@@ -9795,9 +9942,10 @@
       "id": "phrase-social-A1-1",
       "topic": "social",
       "level": "A1",
-      "en": "I'm from the Czech Republic.",
+      "en": "I am from the Czech Republic.",
       "cz": "Jsem z České republiky.",
       "accepted": [
+        "I am from the Czech Republic.",
         "I'm from the Czech Republic.",
         "I come from the Czech Republic."
       ],
@@ -10095,9 +10243,10 @@
       "id": "phrase-home-A1-2",
       "topic": "home",
       "level": "A1",
-      "en": "There isn't a garden.",
+      "en": "There is not a garden.",
       "cz": "Není tam zahrada.",
       "accepted": [
+        "There is not a garden.",
         "There isn't a garden.",
         "No, there is no garden."
       ],
@@ -10131,9 +10280,10 @@
       "id": "phrase-home-A1-5",
       "topic": "home",
       "level": "A1",
-      "en": "It's near the school.",
+      "en": "It is near the school.",
       "cz": "Je poblíž školy.",
       "accepted": [
+        "It is near the school.",
         "It's near the school.",
         "It's close to the school."
       ],
@@ -10359,9 +10509,10 @@
       "id": "phrase-study-A1-0",
       "topic": "study",
       "level": "A1",
-      "en": "I'd like to study English.",
+      "en": "I would like to study English.",
       "cz": "Chtěl bych studovat angličtinu.",
       "accepted": [
+        "I would like to study English.",
         "I'd like to study English.",
         "I want to learn English."
       ],
@@ -10371,7 +10522,7 @@
       "id": "phrase-study-A1-1",
       "topic": "study",
       "level": "A1",
-      "en": "I'm a student.",
+      "en": "I am a student.",
       "cz": "Jsem student.",
       "accepted": [
         "I'm a student.",
@@ -10407,9 +10558,10 @@
       "id": "phrase-study-A1-4",
       "topic": "study",
       "level": "A1",
-      "en": "I don't understand.",
+      "en": "I do not understand.",
       "cz": "Nerozumím.",
       "accepted": [
+        "I do not understand.",
         "I don't understand.",
         "I'm sorry, I don't understand."
       ],
@@ -10647,9 +10799,10 @@
       "id": "phrase-services-A1-0",
       "topic": "services",
       "level": "A1",
-      "en": "I'd like to send a letter.",
+      "en": "I would like to send a letter.",
       "cz": "Chtěl bych poslat dopis.",
       "accepted": [
+        "I would like to send a letter.",
         "I'd like to send a letter.",
         "I want to post a letter."
       ],
@@ -10947,9 +11100,10 @@
       "id": "phrase-outdoors-A1-1",
       "topic": "outdoors",
       "level": "A1",
-      "en": "I'd like to go to the park.",
+      "en": "I would like to go to the park.",
       "cz": "Chtěl bych jít do parku.",
       "accepted": [
+        "I would like to go to the park.",
         "I'd like to go to the park.",
         "I want to go to the park."
       ],
@@ -10959,9 +11113,10 @@
       "id": "phrase-outdoors-A1-2",
       "topic": "outdoors",
       "level": "A1",
-      "en": "It's sunny.",
+      "en": "It is sunny.",
       "cz": "Je slunečno.",
       "accepted": [
+        "It is sunny.",
         "It's sunny.",
         "The weather is sunny."
       ],
@@ -10971,9 +11126,10 @@
       "id": "phrase-outdoors-A1-3",
       "topic": "outdoors",
       "level": "A1",
-      "en": "It's warm.",
+      "en": "It is warm.",
       "cz": "Je teplo.",
       "accepted": [
+        "It is warm.",
         "It's warm.",
         "No, it's warm."
       ],
@@ -10995,9 +11151,10 @@
       "id": "phrase-outdoors-A1-5",
       "topic": "outdoors",
       "level": "A1",
-      "en": "I'm ready.",
+      "en": "I am ready.",
       "cz": "Jsem připraven.",
       "accepted": [
+        "I am ready.",
         "I'm ready.",
         "I'm ready to go."
       ],
@@ -15797,9 +15954,10 @@
       "id": "phrase-travel-A1-transfer",
       "topic": "travel",
       "level": "A1",
-      "en": "I'd like to go to Oxford.",
+      "en": "I would like to go to Oxford.",
       "cz": "Chtěl bych jet do Oxfordu.",
       "accepted": [
+        "I would like to go to Oxford.",
         "I'd like to go to Oxford.",
         "I want to go to Oxford."
       ],
@@ -15893,9 +16051,10 @@
       "id": "phrase-shopping-A1-transfer",
       "topic": "shopping",
       "level": "A1",
-      "en": "I'm looking for a jacket.",
+      "en": "I am looking for a jacket.",
       "cz": "Hledám bundu.",
       "accepted": [
+        "I am looking for a jacket.",
         "I'm looking for a jacket.",
         "I'd like a jacket."
       ],
@@ -15941,7 +16100,7 @@
       "id": "phrase-work-A1-transfer",
       "topic": "work",
       "level": "A1",
-      "en": "I'm a doctor.",
+      "en": "I am a doctor.",
       "cz": "Jsem lékař.",
       "accepted": [
         "I'm a doctor.",
@@ -16133,9 +16292,10 @@
       "id": "phrase-study-A1-transfer",
       "topic": "study",
       "level": "A1",
-      "en": "I'd like to study Spanish.",
+      "en": "I would like to study Spanish.",
       "cz": "Chtěl bych studovat španělštinu.",
       "accepted": [
+        "I would like to study Spanish.",
         "I'd like to study Spanish.",
         "I want to learn Spanish."
       ],
@@ -16181,9 +16341,10 @@
       "id": "phrase-services-A1-transfer",
       "topic": "services",
       "level": "A1",
-      "en": "I'd like to send a parcel.",
+      "en": "I would like to send a parcel.",
       "cz": "Chtěl bych poslat balík.",
       "accepted": [
+        "I would like to send a parcel.",
         "I'd like to send a parcel.",
         "I want to post a parcel."
       ],
@@ -16229,9 +16390,10 @@
       "id": "phrase-outdoors-A1-transfer",
       "topic": "outdoors",
       "level": "A1",
-      "en": "It's cold.",
+      "en": "It is cold.",
       "cz": "Je zima.",
       "accepted": [
+        "It is cold.",
         "It's cold.",
         "The weather is cold."
       ],
@@ -16457,9 +16619,10 @@
       "id": "foundation-dont-understand",
       "topic": "basics",
       "level": "A1",
-      "en": "I don't understand.",
+      "en": "I do not understand.",
       "cz": "Nerozumím.",
       "accepted": [
+        "I do not understand.",
         "I don't understand."
       ],
       "kind": "word",

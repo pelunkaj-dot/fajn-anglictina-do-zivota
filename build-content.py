@@ -1,4 +1,4 @@
-import json,pathlib
+import json,pathlib,re
 root=pathlib.Path(__file__).parent
 source=json.loads((root/'assets/course-source.json').read_text())
 translations={};lines=(root/'assets/prompt-translations.txt').read_text().splitlines()
@@ -7,6 +7,15 @@ for i in range(0,len(lines),7):
 assert len(translations)==48
 foundations=json.loads((root/'assets/foundations.json').read_text())
 glossary=json.loads((root/'assets/chunk-glossary.json').read_text())
+# A1 presents full forms first. Heard contractions stay accepted and are explained on request.
+def full_a1(text):
+ pairs={"I'd":"I would","I'm":"I am","I'll":"I will","I've":"I have","It's":"It is","What's":"What is","isn't":"is not","don't":"do not","can't":"cannot","you're":"you are","we're":"we are","that's":"that is"}
+ for short,full in pairs.items():
+  text=re.sub(r'\b'+re.escape(short)+r'\b',full,text,flags=re.I)
+ return text
+for key,value in list(glossary.items()):
+ expanded=full_a1(key)
+ if expanded!=key:glossary.setdefault(expanded,value)
 def chunks(answer,topic,level):
  import re
  result=[];occupied=set();lower=answer.lower()
@@ -51,6 +60,17 @@ for m in missions:
  t=m['transfer'];vocab.append({'id':'phrase-'+t['id'],'topic':m['topic'],'level':m['level'],'en':t['answer'],'cz':t['translation'],'accepted':t['accepted'],'kind':'phrase'})
 for f in foundations:
  vocab.append({'id':'foundation-'+f['id'],'topic':'basics','level':f['level'],'en':f['en'],'cz':f['cz'],'accepted':[f['en']],'kind':'word','note':f['note']})
+for m in missions:
+ if m['level']=='A1':
+  for t in [*m['turns'],m['transfer']]:
+   original=t['answer'];t['answer']=full_a1(original);t['prompt']=full_a1(t['prompt'])
+   if t['answer'] not in t['accepted']:t['accepted'].insert(0,t['answer'])
+   t['hint']=hint(t['answer']);t['chunks']=chunks(t['answer'],m['topic'],'A1')
+   if original!=t['answer']:t['contraction']={'short':original,'full':t['answer'],'note':'Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také.'}
+for v in vocab:
+ if v['level']=='A1':
+  v['en']=full_a1(v['en'])
+  if v['en'] not in v['accepted']:v['accepted'].insert(0,v['en'])
 out={'foundations':foundations,'levels' :levels,'topics':topics,'missions':missions,'vocabulary':vocab}
 (root/'assets/course.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(topics)} topics, {len(missions)} missions, {sum(len(m["turns"]) for m in missions)} turns, {len(vocab)} vocabulary entries')
