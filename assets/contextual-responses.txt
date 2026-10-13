@@ -1,0 +1,384 @@
+restaurant|A1
+Two, please.|For two.|Two.
+The menu, please.|A menu, please.|Can we see the menu?
+Chicken soup, please.|Chicken soup.
+Water, please.|A glass of water.
+No, thanks.|No, thank you.
+The bill, please.|The check, please.|Can we pay, please?
+Four, please.|For four.|Four.
+restaurant|A2
+Yes, for seven o'clock.|Yes, at seven.|A reservation for seven.
+A vegetarian menu, please.|Is there a vegetarian menu?
+Pasta without cheese, please.|The pasta, no cheese, please.
+Is the bread included?|Does the bread cost extra?
+My soup is cold.|The soup is cold.|This soup is cold.
+By card, please.|By card.|Can I pay by card?
+Soup without cream, please.|The soup, no cream, please.
+restaurant|B1
+What local dish would you recommend?|Any local dishes you recommend?
+I have a dairy allergy.|I am allergic to dairy.
+Without butter, please.|Can you make it without butter?
+Fish, not chicken, please.|I asked for fish, not chicken.
+Can we split the bill?|Separate bills, please.
+Does this include service?|Is service included?
+I have a nut allergy.|Nuts give me an allergic reaction.
+restaurant|B2
+Does the sauce have nuts in it?|Can you check the sauce for nuts?
+Could it have traces of nuts?|Could nuts from the kitchen get into it?
+We have to leave in thirty minutes.|We need to leave in half an hour.
+Can we cancel if you haven't started cooking it?|If you haven't started preparing it, please cancel the order.
+You charged us twice for the same dish.|This dish is on the bill twice.
+Thanks for fixing it so quickly.|Thank you for resolving it promptly.
+Does the dessert contain dairy?|Can you check if there is dairy in the dessert?
+travel|A1
+London, please.|To London.|London.
+Return, please.|A return, please.|Return.
+When does the train leave?|What time does it leave?
+Which platform?|What platform?
+Again, please.|Please say that again.|Sorry, could you repeat that?
+Thank you.|Thanks.|Thanks for your help.
+Oxford, please.|To Oxford.|Oxford.
+travel|A2
+Two to Oxford, please.|Two tickets for Oxford, please.
+How long does it take?|How long is the journey?
+Do I have to change?|Is it direct?
+Any student discount?|Do you offer a student discount?
+In my bag.|It's in my bag.|My bag.
+Where is the platform?|Where's the platform?
+Three to London, please.|Three tickets for London, please.
+travel|B1
+My train was cancelled.|The train I was taking has been cancelled.
+Can I use my ticket on the next train?|Does my ticket work on the next train?
+I have a connecting train to catch.|I need to make my train connection.
+In Birmingham.|I'm changing in Birmingham.|Birmingham.
+Do I have to book a seat?|Is a seat reservation required?
+Can you print the new route?|Please print the new itinerary.
+I have a connecting bus to catch.|I need to make my bus connection.
+travel|B2
+I missed my connection because of the delay.|The delay made me miss my connection.
+More than an hour late.|It was over an hour late.
+Can I get compensation?|Do I qualify for compensation?
+What documents do you need?|Which documents should I attach?
+Can I have proof of the delay in writing?|Please confirm the delay in writing.
+When do I have to submit the claim?|How long do I have to make the claim?
+I missed my flight because of the delay.|The delay made me miss my flight.
+hotel|A1
+Yes, I have a booking.|Yes, a reservation.|Yes.
+Alex Novak.|I'm Alex Novak.|I am Alex Novak.
+Which room?|What room am I in?
+Where is the elevator?|Where's the lift?|The lift, where is it?
+The Wi-Fi password, please.|What is the password for the Wi-Fi?
+Thanks. Good night.|Thank you and good night.
+Sam Green.|I'm Sam Green.|I am Sam Green.
+hotel|A2
+Three nights.|For three nights.
+When is breakfast?|Breakfast, what time?
+Is it included?|Does breakfast cost extra?
+An extra towel, please.|Another towel, please.
+The air conditioning doesn't work.|The air conditioner isn't working.
+When is check-out?|What time is check-out?
+Two nights.|For two nights.
+hotel|B1
+It's too noisy.|The room is too loud.
+Can I have a room higher up?|A room on a higher floor, please.
+Does it cost extra?|Is there an additional charge?
+Can I check out later?|Could I have a late check-out?
+Can you keep my bags after check-out?|Please store my luggage after I check out.
+A receipt for my employer, please.|Could I get a receipt for work?
+Can I have a room lower down?|A room on a lower floor, please.
+hotel|B2
+This isn't the room described in my booking.|The room is different from the booking description.
+The booking clearly said river view.|A river view was specifically included in my reservation.
+Could you reduce the price to reflect that?|Could you offer a fair discount?
+I want to sort this out while I'm here.|I'd like this resolved during my stay.
+Please confirm that in writing.|Can you put our agreement in writing?
+Thanks for helping us find a solution.|Thank you for working with me to resolve this.
+The booking clearly said breakfast was included.|Breakfast was specifically included in my reservation.
+shopping|A1
+A T-shirt, please.|A T-shirt.|I want a T-shirt.
+Blue.|Blue, please.|I would like blue.
+Medium, please.|Medium.|Size M, please.|M.
+How much?|What does it cost?
+Do you take cards?|Can I use a card?|Is card payment OK?
+I'll take it.|I will take it.|I'll buy it.|I will buy it.
+A jacket, please.|A jacket.|I want a jacket.
+shopping|A2
+A winter jacket, please.|A winter jacket.
+Where can I try it on?|Where are the fitting rooms?
+Too small.|It's too small.
+Have you got it in black?|Is there a black one?
+Can I bring it back if it doesn't fit?|Can I return it if the size is wrong?|Can I return it?
+A bag, please.|Could I get a bag?
+Too big.|It's too big.
+shopping|B1
+I want to return these headphones.|Can I return these headphones?
+They broke after a week.|They didn't work after one week.
+It's in my email.|The receipt is in my email.
+A refund, please.|I'd rather get my money back.
+How long does it take to get the money back?|When will I get the refund?
+Can you confirm the return?|A return confirmation, please.
+I want to return these shoes.|Can I return these shoes?
+shopping|B2
+What arrived isn't what was described.|The item doesn't match the description.
+It was advertised as water-resistant.|The advert said it was water-resistant.
+I used it exactly as instructed.|I did exactly what the instructions said.
+No store credit, please. I'd like my money back.|I'd rather have my money back than store credit.
+How long do you expect this to take?|What is the expected time to resolve this?
+Please email me any further updates.|I'd like all further messages by email.
+A replacement, not store credit, please.|I'd rather have a replacement than store credit.
+work|A1
+Sam.|I am Sam.|I'm Sam.
+A teacher.|Teacher.|I'm a teacher.
+At a school.|In a school.|At school.|In school.|A school.
+At eight.|Eight o'clock.|At eight o'clock.
+No, not on Sundays.|Not on Sundays.|No.
+You too.|Nice to meet you, too.|Likewise.
+A doctor.|Doctor.|I'm a doctor.
+work|A2
+A presentation.|I'm working on a presentation.
+By Friday.|I have to finish by Friday.
+Help with the last page, please.|Could you help with the last page?
+After lunch?|Let's meet after lunch.
+I'll email you the file.|I will email you the file.
+Thanks for your help.|Thanks for helping me.
+By Monday.|I have to finish by Monday.
+work|B1
+We're behind schedule.|We're late with the project.
+We're waiting to hear from the supplier.|The supplier hasn't responded yet.
+Can we have two more days?|Could we move the deadline back by two days?
+I'll take care of the report.|I can be responsible for the report.
+I'll keep you all informed.|I'll update everyone regularly.
+Tomorrow is fine.|Tomorrow works for me.
+Can we have three more days?|Could we move the deadline back by three days?
+work|B2
+I'm not sure this is feasible.|I have doubts about whether this can be done.
+The estimate leaves out maintenance costs.|Maintenance isn't included in the cost estimate.
+Let's try a pilot before the full rollout.|We should test it on a small scale before introducing it everywhere.
+It could take longer, but it would be less risky.|It might delay things, but we'd reduce the risk.
+Let's agree on clear criteria beforehand.|We should set clear criteria before we start.
+I'll prepare a draft by the end of today.|I can draft the proposal before the end of the day.
+The estimate leaves out training costs.|Training isn't included in the cost estimate.
+health|A1
+I need to see a doctor.|A doctor, please.
+A headache.|I've got a headache.|My head hurts.
+Yes, a fever.|Yes, I have a fever.|A fever.|Yes.
+Two days.|For two days.
+Where is the bathroom?|Where's the toilet?
+Thanks.|Thank you.
+A sore throat.|My throat hurts.|I've got a sore throat.
+health|A2
+A sore throat.|My throat hurts.
+Yesterday.|Since yesterday.
+I take allergy medicine.|I'm taking medicine for my allergies.
+Yes, it's with me.|Yes, I've got it here.
+Slowly, please.|Please speak more slowly.
+Where is the closest pharmacy?|Where's the nearest pharmacy?
+On Monday.|Monday.|Since Monday.
+health|B1
+Dizzy since Monday.|I've felt dizzy since Monday.
+Worse when I stand up.|It's worse when I get up.
+Once last year.|It happened one time last year.
+Penicillin.|I'm allergic to penicillin.
+Please write that down.|Could I have the instructions in writing?
+When is the follow-up?|When should I return for a check-up?
+Worse when I walk.|Walking makes it worse.
+health|B2
+The symptoms haven't gone away with treatment.|The treatment hasn't stopped the symptoms.
+I've felt sick since starting the medicine.|Since I started the medication, I've been feeling nauseous.
+What are the benefits and risks of the other option?|Can you tell me the pros and cons of the alternative?
+How common are those side effects?|What is the chance of those side effects?
+Do I need to prepare for the tests?|Is any preparation needed for the tests?
+A copy of the report in English, please.|Can you give me the report in English?
+I've felt dizzy since starting the medicine.|Since I started the medication, I've been feeling dizzy.
+social|A1
+Anna.|I am Anna.|I'm Anna.
+The Czech Republic.|From the Czech Republic.
+Brno.|In Brno.
+Music.|I enjoy music.
+A little.|A little English.|Only a little.
+You too.|Nice to meet you, too.|Likewise.
+Tom.|I am Tom.|I'm Tom.
+social|A2
+The cinema on Saturday.|I'm going to a film on Saturday.
+Want to come with me?|Would you like to join me?
+At six?|Six o'clock?|How about six?
+Outside the cinema.|In front of the cinema.
+Sure.|Of course.|Yes.|That's fine.
+See you Saturday.|See you on Saturday!
+At seven?|Seven o'clock?|How about seven?
+social|B1
+I'd like to, but I have other plans.|Sorry, I'd love to come, but I'm already busy.
+How about next week instead?|Let's meet next week instead.
+Tuesday, but only after work.|Only after work on Tuesday.
+Any preferences?|What would you prefer?
+How about the small restaurant near the park?|We could try a small restaurant by the park.
+I'll reserve a table.|I'll make a reservation.
+Wednesday, but only after work.|Only after work on Wednesday.
+social|B2
+I'm still getting used to the new surroundings.|I'm still adjusting to living here.
+I miss meeting friends without planning it.|I miss spontaneous get-togethers with friends.
+I've been unsure about joining one.|I've hesitated to join a group.
+I'd really appreciate it.|That would mean a lot to me.
+Would it be OK to bring a colleague?|Could I bring a colleague along?
+Thanks for making me feel welcome.|Thank you for helping me feel at home.
+Would it be OK to bring my sister?|Could I bring my sister along?
+home|A1
+In a small flat.|A small flat.|I live in a small apartment.
+Two bedrooms.|There are two bedrooms.
+No.|No garden.|There is no garden.
+Next to the living room.|Beside the living room.
+Yes.|Yes, I do.|I like it.
+Yes, near the school.|Yes, it is.|Near the school.
+In a small house.|A small house.
+home|A2
+What's the rent per month?|How much per month?
+Does the rent include bills?|Are utilities included?
+When can I move into the flat?|When is it available to move into?
+Can I have pets?|Are animals allowed?
+One cat.|I have a cat.
+Tomorrow works for me.|I can come round tomorrow.
+What's the rent per week?|How much per week?
+home|B1
+The tap in the kitchen is leaking.|Water is dripping from the kitchen tap.
+Two days ago.|Since two days ago.
+When can the plumber come?|When is the plumber available?
+I'll be working tomorrow morning.|I'm at work tomorrow morning.
+I'll check with my neighbour.|I'll ask the neighbour.
+I'll ring back this afternoon.|I'll get back to you this afternoon.
+Three days ago.|Since three days ago.
+home|B2
+I want to check the terms before I sign.|I'd like to understand the terms before signing.
+Who pays for small repairs?|Who handles minor repairs?
+Can you spell that out in the contract?|Please put that clearly in the agreement.
+When would I get my deposit back?|What do I need to do to get my deposit back?
+Let's record the condition when I move in.|We should take a record of the condition at the start of the tenancy.
+Please email me the updated contract.|Can you send the revised lease by email?
+When can the lease be ended?|What are the conditions for ending the lease?
+study|A1
+English.|English, please.|I want to study English.
+Yes.|Yes, I am.|I'm a student.
+Yes.|Yes, I do.|I've got a notebook.
+What page?|Which page are we on?
+I don't understand.|Sorry, I don't understand.|Sorry, I do not understand.
+Slowly, please.|More slowly, please.
+Spanish.|Spanish, please.|I want to study Spanish.
+study|A2
+When does it start?|What's the start date?
+How often are the classes?|How many classes per week?
+Mondays and Wednesdays.|On Mondays and Wednesdays.
+Is a textbook needed?|Should I get a textbook?
+How much is the course?|What's the price of the course?
+Please email me the details.|Can you send the details by email?
+Tuesdays and Thursdays.|On Tuesdays and Thursdays.
+study|B1
+I mainly want to improve my speaking.|Speaking is what I most want to improve.
+I understand, but I can't answer quickly.|I can follow, but responding quickly is difficult.
+How big is the group?|How many people are in each class?
+Can I try a lesson first?|Could I come to a trial class?
+I'm looking forward to it.|I can't wait to join the class.
+Can I complete it online?|Is there an online form?
+I mainly want to improve my listening.|Listening is what I most want to improve.
+study|B2
+I want to feel more confident in professional discussions.|I'd like more confidence when discussing professional topics.
+Please give specific feedback on mistakes I keep making.|I'd like concrete feedback on repeated mistakes.
+Groups help if everyone gets time to speak.|Group classes are useful as long as everyone can speak.
+I prefer short sessions regularly.|Short, frequent study suits me better.
+How will you measure my progress?|How do you check how I'm improving?
+Let's set realistic goals for each stage.|Could we agree on achievable goals along the way?
+Please give specific feedback on my pronunciation.|I'd like concrete feedback on how I pronounce things.
+services|A1
+I want to send a letter.|Can I send this letter?
+The Czech Republic.|To the Czech Republic, please.
+One stamp.|A stamp, please.|One stamp, please.
+An envelope, please.|I would like an envelope.
+How much?|What does it cost?
+Thanks. Bye.|Thank you. Bye.|Thanks. Goodbye.
+I want to send a parcel.|Can I send this parcel?
+services|A2
+Ms Brown, please.|Is Ms Brown available?|Could I speak to Ms Brown?
+Alex Novak.|Alex Novak speaking.|It's Alex Novak.
+Could I leave a message?|Can I leave her a message?
+Please ask her to call me back.|Can she call me back?
+I'll email my number.|I will send my number by email.
+Thanks for helping.|Thanks for your help.
+I'll email my address.|I will send my address by email.
+services|B1
+My internet doesn't work.|I can't connect to the internet.
+Yes, twice already.|I've restarted it two times already.
+Last night.|Since last night.
+Is the whole area affected?|Is it down across the area?
+When will it be back?|When will the internet work again?
+A reference number, please.|What's the case number?
+This morning.|Since this morning.
+services|B2
+There's a charge I wasn't expecting on my bill.|My bill has an unexpected fee.
+I didn't agree to that service.|I never authorised that service.
+Please show me where I agreed to it.|Can you show proof that I gave consent?
+Please put the charge on hold until you've investigated.|Can you pause the charge while you look into this?
+Please send a written summary of my complaint.|Can you summarise the complaint in writing?
+When should I expect an official reply?|How long will a formal response take?
+There are two charges I wasn't expecting on my bill.|My bill has two unexpected fees.
+outdoors|A1
+Yes, I like walking.|Yes, I do.|Yes.
+To the park.|The park.|I want to go to the park.
+Sunny.|It's sunny.
+No, it's warm.|It is warm.|Warm.
+Yes, a bottle of water.|I have a water bottle.
+Ready.|I'm ready.|Yes, I'm ready.
+Cold.|It's cold.
+outdoors|A2
+Does it lead to the lake?|Is this the way to the lake?
+How far away is it?|How far to the lake?
+Is it an easy walk?|Is the trail easy?
+Can we take a short break?|A short break, please.
+Can we sit here on the grass?|Is it OK to sit on the grass?
+Back before five.|I must be back before five.
+Back before six.|I must be back before six.
+outdoors|B1
+Rain is possible this afternoon.|It may rain this afternoon.
+Let's take a shorter route.|How about a shorter walk?
+Are there clear signs on the trail?|Is it clearly marked?
+I have a downloaded map.|I've got an offline map.
+Let's stay together.|We should keep together.
+I'll tell someone when we'll be back.|I'll let someone know our expected return time.
+Snow is possible tomorrow.|It may snow tomorrow.
+outdoors|B2
+What endangered species live here?|Which species here are at risk?
+How can visitors avoid disturbing the wildlife?|What can visitors do to disturb wildlife less?
+I see why protecting the habitat matters.|I understand why we need to protect this environment.
+Let's use reusable containers rather than throwaway packaging.|Reusable containers would be better than disposable packaging.
+Can we volunteer to help protect this area?|Are there conservation projects we can volunteer for?
+Please send the details of the next event.|Can I get information about the next event?
+Let's use reusable bottles rather than disposable ones.|Reusable bottles would be better than throwaway bottles.
+culture|A1
+Films.|Movies.|I enjoy films.
+Two, please.|Two tickets.|Two tickets, please.
+Friday.|Friday, please.|For Friday.
+Where's the entrance?|Where do we go in?
+Are photos allowed here?|Can I take a photo here?
+Thanks.|Thank you.
+Music.|I enjoy music.
+culture|A2
+The Saturday concert.|The concert on Saturday, please.
+Two together, please.|Two seats next to each other, please.
+Any student discount?|Is there a student discount?
+How long is the concert?|How long does it last?
+Is there a break?|Will there be an interval?
+Can I pick them up tomorrow?|Could I collect my tickets tomorrow?
+The Sunday concert.|The concert on Sunday, please.
+culture|B1
+Interesting story, but a predictable ending.|The story was good, but I could guess the ending.
+The lead actor was very convincing.|I thought the main actor's performance was convincing.
+I'd recommend it if you like dramas.|It's worth seeing for people who enjoy dramas.
+Not yet.|I haven't read it yet.
+I'd like to compare it with the film.|I'm interested in how the book and film compare.
+Sounds good.|That sounds like a good idea.
+Yes, I've read it already.|Yes, already.
+culture|B2
+It's ambiguous, so you can read it in different ways.|The unclear ending allows different interpretations.
+It got the atmosphere right, but made the characters too simple.|The atmosphere worked, but the characters were simplified too much.
+The camerawork made the isolation feel stronger.|The way it was filmed increased the feeling of isolation.
+I understand that, but the slow pace added tension.|They have a point, but going slowly helped create tension.
+I might notice missed details if I watched it again.|Watching again could reveal things I overlooked.
+I'd recommend it if you like thought-provoking stories.|It's for viewers who enjoy stories that make them think.
+The music made it feel more tense.|The music strengthened the tension.

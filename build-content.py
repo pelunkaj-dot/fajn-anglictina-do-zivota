@@ -71,6 +71,36 @@ for v in vocab:
  if v['level']=='A1':
   v['en']=full_a1(v['en'])
   if v['en'] not in v['accepted']:v['accepted'].insert(0,v['en'])
+# Every situation is individually reviewed for natural, context-complete responses.
+context_lines=(root/'assets/contextual-responses.txt').read_text().splitlines()
+assert len(context_lines)==48*8
+reviewed=set()
+# In beginner dialogue, teach the short reply first where the context supplies the rest.
+short_primary={
+ 'restaurant-A1-1':'Jídelní lístek, prosím.','restaurant-A1-2':'Kuřecí polévku, prosím.','restaurant-A1-5':'Účet, prosím.',
+ 'travel-A1-0':'Do Londýna, prosím.','travel-A1-transfer':'Do Oxfordu, prosím.',
+ 'hotel-A1-1':'Alex Novák.','hotel-A1-transfer':'Sam Green.',
+ 'shopping-A1-0':'Tričko, prosím.','shopping-A1-2':'Velikost M, prosím.','shopping-A1-transfer':'Bundu, prosím.',
+ 'work-A1-0':'Sam.','work-A1-1':'Učitel.','work-A1-2':'Ve škole.','work-A1-3':'V osm.','work-A1-transfer':'Lékař.',
+ 'health-A1-1':'Bolest hlavy.','health-A1-transfer':'Bolest v krku.',
+ 'social-A1-0':'Anna.','social-A1-1':'Česká republika.','social-A1-2':'Brno.','social-A1-3':'Hudbu.','social-A1-4':'Trochu.','social-A1-transfer':'Tom.',
+ 'study-A1-0':'Angličtinu, prosím.','study-A1-transfer':'Španělštinu, prosím.',
+ 'outdoors-A1-1':'Do parku.','outdoors-A1-2':'Slunečno.','outdoors-A1-3':'Ne, je teplo.','outdoors-A1-5':'Připraven.','outdoors-A1-transfer':'Zima.',
+ 'culture-A1-0':'Filmy.','culture-A1-transfer':'Hudbu.'
+}
+for i in range(0,len(context_lines),8):
+ topic,level=context_lines[i].split('|')
+ mission=next(m for m in missions if m['id']==topic+'-'+level)
+ for turn,line in zip([*mission['turns'],mission['transfer']],context_lines[i+1:i+8]):
+  variants=line.split('|');assert all(variants),turn['id']
+  turn['accepted']=list(dict.fromkeys([*turn['accepted'],*variants]));turn['contextReviewed']=True
+  if turn['id'] in short_primary:
+   turn['answer']=full_a1(variants[0]);turn['translation']=short_primary[turn['id']];turn['hint']=hint(turn['answer']);turn['chunks']=chunks(turn['answer'],topic,level)
+   if not turn['chunks']:turn['chunks']=[{'en':turn['answer'],'cz':turn['translation']}]
+  turn['accepted']=list(dict.fromkeys([turn['answer'],*turn['accepted']]))
+  entry=next(v for v in vocab if v['id']=='phrase-'+turn['id']);entry['accepted']=turn['accepted'];entry['en']=turn['answer'];entry['cz']=turn['translation']
+  reviewed.add(turn['id'])
+assert len(reviewed)==336
 out={'foundations':foundations,'levels' :levels,'topics':topics,'missions':missions,'vocabulary':vocab}
 (root/'assets/course.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
 print(f'{len(topics)} topics, {len(missions)} missions, {sum(len(m["turns"]) for m in missions)} turns, {len(vocab)} vocabulary entries')
