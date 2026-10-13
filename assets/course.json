@@ -2291,30 +2291,29 @@
           "id": "shopping-A1-1",
           "prompt": "Which colour would you like?",
           "intent": "Řekni, že chceš modré.",
-          "answer": "I would like a blue one.",
-          "translation": "Chtěl bych modré.",
+          "answer": "Blue, please.",
+          "translation": "Modré, prosím.",
           "accepted": [
-            "I would like a blue one.",
+            "Blue, please.",
             "I'd like a blue one.",
-            "A blue one, please."
+            "A blue one, please.",
+            "Blue.",
+            "I would like blue.",
+            "I would like blue, please.",
+            "I would like a blue one."
           ],
-          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: I would like…",
+          "hint": "Použij začátek níže a dokonči požadovaný význam. Začátek vzoru: Blue,…",
           "promptCz": "Jakou barvu byste chtěli?",
           "chunks": [
             {
-              "en": "I would like",
-              "cz": "dal bych si / chtěl bych"
+              "en": "Blue",
+              "cz": "modré"
             },
             {
-              "en": "a blue one",
-              "cz": "modré (tričko)"
+              "en": "please",
+              "cz": "prosím"
             }
-          ],
-          "contraction": {
-            "short": "I'd like a blue one.",
-            "full": "I would like a blue one.",
-            "note": "Stažený tvar znamená totéž jako plná podoba. Na A1 začínáme plnou podobou; zkrácenou můžeš používat také."
-          }
+          ]
         },
         {
           "id": "shopping-A1-2",
@@ -9075,12 +9074,16 @@
       "id": "phrase-shopping-A1-1",
       "topic": "shopping",
       "level": "A1",
-      "en": "I would like a blue one.",
-      "cz": "Chtěl bych modré.",
+      "en": "Blue, please.",
+      "cz": "Modré, prosím.",
       "accepted": [
-        "I would like a blue one.",
+        "Blue, please.",
         "I'd like a blue one.",
-        "A blue one, please."
+        "A blue one, please.",
+        "Blue.",
+        "I would like blue.",
+        "I would like blue, please.",
+        "I would like a blue one."
       ],
       "kind": "phrase"
     },

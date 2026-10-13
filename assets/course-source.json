@@ -1,86 +1,2214 @@
 {
-"restaurant": {"title":"Restaurace a kavárna","place":"Corner Café","colour":"#dc895d","icon":"cup","levels":{
-"A1":[
-["Hello. A table for how many people?","Požádej o stůl pro dva.","A table for two, please.","Stůl pro dva, prosím.","Can we have a table for two, please?"],
-["Here is your table.","Požádej o jídelní lístek.","Can I have the menu, please?","Mohu dostat jídelní lístek, prosím?","The menu, please."],
-["What would you like to eat?","Objednej si kuřecí polévku.","I'd like chicken soup, please.","Dal bych si kuřecí polévku, prosím.","Can I have chicken soup, please?"],
-["And what would you like to drink?","Objednej si sklenici vody.","A glass of water, please.","Sklenici vody, prosím.","I'd like a glass of water, please."],
-["Would you like a dessert?","Zdvořile odmítni.","No, thank you.","Ne, děkuji.","No, thanks."],
-["Is there anything else?","Požádej o účet.","Can I have the bill, please?","Mohu dostat účet, prosím?","Can I have the check, please?"]],
-"A2":[
-["Good evening. Do you have a reservation?","Řekni, že máš rezervaci na sedmou.","I have a reservation for seven o'clock.","Mám rezervaci na sedmou hodinu.","I've booked a table for seven o'clock."],
-["Would you like to see the menu?","Požádej o vegetariánské menu.","Do you have a vegetarian menu?","Máte vegetariánské menu?","Is there a vegetarian menu?"],
-["What can I get you?","Objednej si těstoviny bez sýra.","I'd like the pasta without cheese, please.","Dal bych si těstoviny bez sýra, prosím.","Can I have the pasta without cheese, please?"],
-["Would you like some bread?","Zeptej se, zda je chléb v ceně.","Is the bread included in the price?","Je chléb zahrnutý v ceně?","Does the price include the bread?"],
-["How is your meal?","Řekni, že je polévka studená.","Excuse me, my soup is cold.","Promiňte, moje polévka je studená.","I'm sorry, but my soup is cold."],
-["How would you like to pay?","Řekni, že chceš platit kartou.","I'd like to pay by card.","Chtěl bych platit kartou.","Can I pay by card?"]],
-"B1":[
-["Have you decided what to order?","Požádej o doporučení místního jídla.","Could you recommend a local dish?","Mohl byste doporučit místní jídlo?","What local dish would you recommend?"],
-["Our special contains cream.","Vysvětli alergii na mléčné výrobky.","I'm allergic to dairy products.","Mám alergii na mléčné výrobky.","I have an allergy to dairy products."],
-["We can make something else.","Zeptej se, zda lze jídlo připravit bez másla.","Could you prepare it without butter?","Mohli byste ho připravit bez másla?","Would it be possible to make it without butter?"],
-["Here is your order.","Řekni, že jsi objednal rybu, nikoli kuře.","I ordered the fish, not the chicken.","Objednal jsem si rybu, ne kuře.","I'm sorry, but I asked for the fish, not the chicken."],
-["Would you like the bill?","Požádej o rozdělení účtu.","Could we split the bill, please?","Mohli bychom rozdělit účet, prosím?","Could we pay separately, please?"],
-["The total is on the receipt.","Zeptej se, zda je zahrnuto obslužné.","Is the service charge included?","Je zahrnuto obslužné?","Does that include the service charge?"]],
-"B2":[
-["What are your dietary requirements?","Požádej o ověření, zda omáčka obsahuje ořechy.","Could you check whether the sauce contains nuts?","Mohl byste ověřit, zda omáčka obsahuje ořechy?","Would you mind checking whether there are nuts in the sauce?"],
-["It doesn't contain nuts, but we use them in the kitchen.","Zeptej se na riziko křížové kontaminace.","Is there a risk of cross-contamination?","Hrozí riziko křížové kontaminace?","Could there be any cross-contamination?"],
-["Your meal may take forty minutes.","Řekni, že za půl hodiny musíš odejít.","I'm afraid we need to leave in half an hour.","Bohužel musíme za půl hodiny odejít.","Unfortunately, we have to leave in thirty minutes."],
-["I'm sorry about the delay.","Navrhni objednávku zrušit, pokud se ještě nezačala připravovat.","If it hasn't been prepared yet, could we cancel the order?","Pokud se ještě nezačala připravovat, mohli bychom objednávku zrušit?","Could we cancel the order if you haven't started preparing it yet?"],
-["Here is your bill.","Upozorni, že bylo stejné jídlo účtováno dvakrát.","It looks as though we've been charged twice for the same dish.","Vypadá to, že nám stejné jídlo bylo účtováno dvakrát.","I think you've charged us twice for the same dish."],
-["I'll correct that straight away.","Poděkuj za rychlé vyřešení.","Thank you for sorting that out so promptly.","Děkuji za tak rychlé vyřešení.","I appreciate you dealing with that so quickly."]]}},
-"travel":{"title":"Cestování a doprava","place":"Central Station","colour":"#e5af49","icon":"train","levels":{
-"A1":[["Hello. Where would you like to go?","Řekni, že chceš jet do Londýna.","I'd like to go to London.","Chtěl bych jet do Londýna.","I want to go to London."],["Single or return?","Požádej o zpáteční jízdenku.","A return ticket, please.","Zpáteční jízdenku, prosím.","A round-trip ticket, please."],["That will be twenty pounds.","Zeptej se, kdy vlak odjíždí.","What time does the train leave?","V kolik hodin vlak odjíždí?","When does the train leave?"],["It leaves at ten.","Zeptej se na nástupiště.","Which platform is it?","Které je to nástupiště?","What platform does it leave from?"],["It's platform four.","Požádej o zopakování.","Can you repeat that, please?","Můžete to zopakovat, prosím?","Can you say that again, please?"],["Platform four.","Poděkuj za pomoc.","Thank you for your help.","Děkuji za pomoc.","Thanks for your help."]],
-"A2":[["Where are you travelling today?","Požádej o dvě jízdenky do Oxfordu.","Two tickets to Oxford, please.","Dvě jízdenky do Oxfordu, prosím.","I'd like two tickets to Oxford, please."],["There is a train at half past nine.","Zeptej se, jak dlouho cesta trvá.","How long does the journey take?","Jak dlouho cesta trvá?","How long is the journey?"],["About an hour.","Zeptej se, zda musíš přestupovat.","Do I need to change trains?","Musím přestupovat?","Do we have to change trains?"],["No, it's a direct train.","Zeptej se na studentskou slevu.","Is there a student discount?","Je k dispozici studentská sleva?","Do you offer a student discount?"],["May I see your student card?","Řekni, že ji máš v tašce.","It's in my bag.","Mám ji v tašce.","My student card is in my bag."],["You're all set.","Zeptej se, kde najdeš nástupiště.","Where can I find the platform?","Kde najdu nástupiště?","How do I get to the platform?"]],
-"B1":[["How can I help?","Řekni, že byl tvůj vlak zrušen.","My train has been cancelled.","Můj vlak byl zrušen.","The train I was going to take has been cancelled."],["You can catch the next service.","Zeptej se, zda na něj platí tvoje jízdenka.","Is my ticket valid on the next train?","Platí moje jízdenka na další vlak?","Can I use my ticket on the next train?"],["Yes, it is.","Vysvětli, že potřebuješ stihnout návazný vlak.","I need to catch a connecting train.","Potřebuji stihnout návazný vlak.","I have a train connection to catch."],["Where are you changing?","Řekni, že přestupuješ v Birminghamu.","I'm changing trains in Birmingham.","Přestupuji v Birminghamu.","I need to change in Birmingham."],["The next train leaves in ten minutes.","Zeptej se, zda si musíš rezervovat sedadlo.","Do I need to reserve a seat?","Musím si rezervovat sedadlo?","Is a seat reservation required?"],["No reservation is needed.","Požádej o vytištění nového spojení.","Could you print the new itinerary, please?","Mohl byste vytisknout nový itinerář, prosím?","Could I have a printed copy of the new itinerary?"]],
-"B2":[["What seems to be the problem?","Vysvětli, že zpoždění způsobilo zmeškání přípoje.","The delay caused me to miss my connection.","Kvůli zpoždění jsem zmeškal přípoj.","I missed my connecting train because of the delay."],["When did you arrive?","Řekni, že vlak přijel o více než hodinu později.","The train arrived more than an hour late.","Vlak přijel s více než hodinovým zpožděním.","It was over an hour late when we arrived."],["We may be able to help.","Zeptej se na nárok na kompenzaci.","Am I entitled to compensation?","Mám nárok na kompenzaci?","Would I be eligible for compensation?"],["You need to submit a claim.","Zeptej se, jaké doklady je třeba přiložit.","What supporting documents do I need to provide?","Jaké podpůrné doklady musím dodat?","Which documents should I submit with the claim?"],["Keep your ticket and receipt.","Požádej o písemné potvrzení zpoždění.","Could you provide written confirmation of the delay?","Mohl byste poskytnout písemné potvrzení zpoždění?","Could I have confirmation of the delay in writing?"],["You can apply online.","Zeptej se na lhůtu pro podání žádosti.","Is there a deadline for submitting the claim?","Existuje lhůta pro podání žádosti?","How long do I have to submit the claim?"]]}},
-"hotel":{"title":"Hotel a ubytování","place":"Riverside Hotel","colour":"#879ddc","icon":"hotel","levels":{
-"A1":[["Welcome. Do you have a booking?","Řekni, že máš rezervaci.","I have a reservation.","Mám rezervaci.","I have a booking."],["What is your name?","Představ se jako Alex Novák.","My name is Alex Novak.","Jmenuji se Alex Novák.","I'm Alex Novak."],["Here is your key.","Zeptej se na číslo pokoje.","What is my room number?","Jaké je číslo mého pokoje?","Which room is mine?"],["Your room is on the second floor.","Zeptej se, kde je výtah.","Where is the lift?","Kde je výtah?","Where is the elevator?"],["It's on your right.","Zeptej se na heslo k Wi-Fi.","What is the Wi-Fi password?","Jaké je heslo k Wi-Fi?","Can I have the Wi-Fi password, please?"],["It's on your key card.","Poděkuj a popřej dobrou noc.","Thank you. Good night.","Děkuji. Dobrou noc.","Thanks. Good night."]],
-"A2":[["How many nights are you staying?","Řekni, že zůstaneš tři noci.","I'm staying for three nights.","Zůstanu tři noci.","I'll be here for three nights."],["Breakfast is served downstairs.","Zeptej se, v kolik je snídaně.","What time is breakfast?","V kolik hodin je snídaně?","When do you serve breakfast?"],["From seven until ten.","Zeptej se, zda je snídaně v ceně.","Is breakfast included?","Je snídaně zahrnuta v ceně?","Does the price include breakfast?"],["Yes, it is.","Požádej o další ručník.","Can I have an extra towel, please?","Mohu dostat další ručník, prosím?","Could you give me another towel, please?"],["Of course.","Řekni, že klimatizace nefunguje.","The air conditioning isn't working.","Klimatizace nefunguje.","The air conditioning doesn't work."],["We'll send someone up.","Zeptej se, v kolik musíš opustit pokoj.","What time do I need to check out?","V kolik hodin se musím odhlásit?","What time is check-out?"]],
-"B1":[["Is everything all right with your room?","Řekni, že je pokoj příliš hlučný.","My room is too noisy.","Můj pokoj je příliš hlučný.","There's too much noise in my room."],["I'm sorry to hear that.","Požádej o pokoj ve vyšším patře.","Could I move to a room on a higher floor?","Mohl bych se přestěhovat do pokoje ve vyšším patře?","Could you give me a room on a higher floor?"],["We have one available.","Zeptej se, zda změna stojí něco navíc.","Would there be an extra charge?","Platilo by se něco navíc?","Would I have to pay extra?"],["No, there wouldn't.","Zeptej se na možnost pozdějšího odhlášení.","Would a late check-out be possible?","Bylo by možné pozdější odhlášení?","Could I check out later?"],["We can extend it until one.","Požádej o uložení zavazadla po odhlášení.","Could you store my luggage after check-out?","Mohli byste mi po odhlášení uschovat zavazadla?","Could I leave my luggage here after checking out?"],["Certainly.","Požádej o doklad pro zaměstnavatele.","Could I have a receipt for my employer?","Mohl bych dostat doklad pro zaměstnavatele?","Could you give me a receipt for my employer?"]],
-"B2":[["How can we assist you?","Vysvětli, že pokoj neodpovídá popisu rezervace.","The room doesn't match the description in my booking.","Pokoj neodpovídá popisu v mé rezervaci.","The room is different from the one described in my booking."],["What did you expect?","Řekni, že rezervace výslovně uváděla výhled na řeku.","My reservation specifically stated that the room had a river view.","Má rezervace výslovně uváděla, že pokoj má výhled na řeku.","The booking explicitly included a room overlooking the river."],["That room category is fully booked.","Požádej o přiměřené snížení ceny.","Would you be willing to offer a reasonable reduction in the price?","Byli byste ochotni nabídnout přiměřené snížení ceny?","Could you offer an appropriate discount?"],["I'll speak to the manager.","Zdůrazni, že chceš problém vyřešit během pobytu.","I'd prefer to resolve the issue during my stay.","Raději bych problém vyřešil během svého pobytu.","I'd rather get this sorted out while I'm still here."],["We can offer a discount.","Požádej o písemné potvrzení dohody.","Could you confirm the arrangement in writing?","Mohl byste dohodu potvrdit písemně?","Could I have written confirmation of what we've agreed?"],["Of course.","Poděkuj za ochotu najít řešení.","Thank you for being willing to find a solution.","Děkuji za ochotu najít řešení.","I appreciate your willingness to resolve the matter."]]}},
-"shopping":{"title":"Nakupování a reklamace","place":"Market Street","colour":"#c984b3","icon":"shop","levels":{
-"A1":[["Hello. Can I help?","Řekni, že hledáš tričko.","I'm looking for a T-shirt.","Hledám tričko.","I'd like a T-shirt."],["Which colour would you like?","Řekni, že chceš modré.","I'd like a blue one.","Chtěl bych modré.","A blue one, please."],["What size are you?","Řekni, že potřebuješ velikost M.","I need a medium.","Potřebuji velikost M.","Medium, please."],["Here you are.","Zeptej se na cenu.","How much is it?","Kolik to stojí?","What's the price?"],["It's twelve pounds.","Zeptej se, zda můžeš platit kartou.","Can I pay by card?","Mohu platit kartou?","Do you take cards?"],["Yes, you can.","Řekni, že si tričko vezmeš.","I'll take it, please.","Vezmu si ho, prosím.","I'd like to buy it, please."]],
-"A2":[["What are you looking for?","Řekni, že potřebuješ zimní bundu.","I'm looking for a winter jacket.","Hledám zimní bundu.","I need a winter jacket."],["Try this one.","Zeptej se, kde jsou kabinky.","Where are the changing rooms?","Kde jsou převlékací kabinky?","Where can I try it on?"],["They're over there.","Řekni, že je bunda příliš malá.","This jacket is too small.","Tato bunda je příliš malá.","It's too small for me."],["We have a larger size.","Zeptej se, zda ji mají v černé.","Do you have it in black?","Máte ji v černé?","Is it available in black?"],["Yes, we do.","Zeptej se, zda ji můžeš vrátit.","Can I return it if it doesn't fit?","Mohu ji vrátit, pokud mi nebude sedět?","Can I bring it back if it doesn't fit?"],["Keep your receipt.","Požádej o tašku.","Can I have a bag, please?","Mohu dostat tašku, prosím?","A bag, please."]],
-"B1":[["How can I help you today?","Řekni, že chceš vrátit sluchátka.","I'd like to return these headphones.","Chtěl bych vrátit tato sluchátka.","I'd like to bring these headphones back."],["Is there a problem with them?","Řekni, že přestala fungovat po týdnu.","They stopped working after a week.","Po týdnu přestala fungovat.","They only worked for a week."],["Have you got the receipt?","Řekni, že máš potvrzení v e-mailu.","I have the receipt in my email.","Mám doklad v e-mailu.","I've got an email receipt."],["Would you like a replacement?","Řekni, že bys raději vrátil peníze.","I'd prefer a refund.","Raději bych vrácení peněz.","I'd rather have my money back."],["Let me check the policy.","Zeptej se, jak dlouho vrácení peněz trvá.","How long will the refund take?","Jak dlouho bude vrácení peněz trvat?","When will I get my money back?"],["Usually three working days.","Požádej o potvrzení vrácení zboží.","Could I have confirmation of the return?","Mohl bych dostat potvrzení o vrácení zboží?","Could you give me a receipt for the return?"]],
-"B2":[["What is the issue with your order?","Řekni, že doručené zboží neodpovídá popisu.","The item I received doesn't correspond to the description.","Doručené zboží neodpovídá popisu.","What was delivered doesn't match the product description."],["Could you explain the difference?","Řekni, že výrobek byl inzerován jako voděodolný.","The product was advertised as water-resistant.","Výrobek byl inzerován jako voděodolný.","The advertisement described it as water-resistant."],["Have you used it?","Řekni, že jsi přesně dodržel pokyny.","I followed the instructions exactly.","Přesně jsem dodržel pokyny.","I used it exactly as instructed."],["We could offer store credit.","Zdvořile odmítni poukaz a požádej o vrácení peněz.","I'd prefer a refund rather than store credit.","Raději bych vrácení peněz než poukaz do obchodu.","I'd rather receive a refund than a voucher."],["We need to investigate first.","Požádej o sdělení předpokládané doby vyřízení.","Could you let me know the expected processing time?","Mohl byste mi sdělit předpokládanou dobu vyřízení?","How long do you expect the investigation to take?"],["We'll contact you next week.","Požádej o zaslání další komunikace e-mailem.","I'd appreciate it if you could send any further correspondence by email.","Ocenil bych, kdybyste další komunikaci zasílali e-mailem.","Could you please keep me updated by email?"]]}},
-"work":{"title":"Práce a spolupráce","place":"Studio Works","colour":"#6faeb3","icon":"office","levels":{
-"A1":[["Hello. What's your name?","Představ se jako Sam.","My name is Sam.","Jmenuji se Sam.","I'm Sam."],["What do you do?","Řekni, že jsi učitel.","I'm a teacher.","Jsem učitel.","I am a teacher."],["Where do you work?","Řekni, že pracuješ ve škole.","I work in a school.","Pracuji ve škole.","I work at a school."],["When do you start work?","Řekni, že začínáš v osm.","I start work at eight.","Začínám pracovat v osm.","I start at eight o'clock."],["Do you work on Sundays?","Řekni, že v neděli nepracuješ.","I don't work on Sundays.","V neděli nepracuji.","No, I don't."],["Nice to meet you.","Odpověz, že tě také těší.","Nice to meet you too.","Také mě těší.","It's nice to meet you too."]],
-"A2":[["What are you working on?","Řekni, že připravuješ prezentaci.","I'm preparing a presentation.","Připravuji prezentaci.","I'm working on a presentation."],["When is it due?","Řekni, že ji potřebuješ dokončit do pátku.","I need to finish it by Friday.","Musím ji dokončit do pátku.","It needs to be ready by Friday."],["Do you need anything?","Požádej o pomoc s poslední stránkou.","Can you help me with the last page?","Můžeš mi pomoci s poslední stránkou?","Could you help me with the final page?"],["Sure. When are you free?","Navrhni setkání po obědě.","Can we meet after lunch?","Můžeme se sejít po obědě?","Let's meet after lunch."],["Two o'clock works for me.","Řekni, že pošleš soubor e-mailem.","I'll send you the file by email.","Pošlu ti soubor e-mailem.","I'll email you the file."],["Thanks for keeping me updated.","Poděkuj za pomoc.","Thank you for your help.","Děkuji za pomoc.","Thanks for helping me."]],
-"B1":[["How is the project going?","Řekni, že máte zpoždění za plánem.","We're running behind schedule.","Máme zpoždění za plánem.","We're a little behind schedule."],["What caused the delay?","Vysvětli, že čekáš na dodavatele.","We're waiting for the supplier to respond.","Čekáme, až dodavatel odpoví.","We haven't received a response from the supplier yet."],["Can we still meet the deadline?","Navrhni prodloužení termínu o dva dny.","Could we extend the deadline by two days?","Mohli bychom prodloužit termín o dva dny?","Could we have two more days to finish it?"],["That should be possible.","Nabídni převzetí odpovědnosti za zprávu.","I can take responsibility for the report.","Mohu převzít odpovědnost za zprávu.","I'll be responsible for the report."],["Please keep the team informed.","Řekni, že všechny budeš pravidelně informovat.","I'll keep everyone updated.","Budu všechny průběžně informovat.","I'll make sure everyone is kept informed."],["Let's review progress tomorrow.","Potvrď, že zítřek vyhovuje.","Tomorrow works well for me.","Zítřek mi vyhovuje.","I'm available tomorrow."]],
-"B2":[["Do you support the proposed approach?","Zdvořile vyjádři výhradu k proveditelnosti.","I have some reservations about its feasibility.","Mám určité výhrady k jeho proveditelnosti.","I'm not entirely convinced that it's feasible."],["Which part concerns you?","Řekni, že odhad nákladů opomíjí údržbu.","The cost estimate doesn't take maintenance into account.","Odhad nákladů nezohledňuje údržbu.","Maintenance costs haven't been factored into the estimate."],["What would you suggest?","Navrhni pilotní projekt před úplným zavedením.","I'd suggest running a pilot before rolling it out fully.","Navrhoval bych pilotní projekt před úplným zavedením.","We could test it on a smaller scale before a full rollout."],["Would that affect the timeline?","Připusť zpoždění, ale zdůrazni snížení rizika.","It might delay the launch, but it would reduce the risk.","Mohlo by to odložit spuštění, ale snížilo by to riziko.","Although it could take longer, it would minimise the risk."],["How would we measure success?","Navrhni předem stanovit jasná kritéria.","We should agree on clear criteria in advance.","Měli bychom se předem shodnout na jasných kritériích.","Let's establish clear criteria before we start."],["Let's put that in writing.","Nabídni připravit návrh do konce dne.","I'll draft a proposal by the end of the day.","Do konce dne připravím návrh.","I can have a draft proposal ready by close of business."]]}},
-"health":{"title":"U lékaře a v lékárně","place":"Health Centre","colour":"#77b392","icon":"clinic","levels":{
-"A1":[["Hello. How can I help?","Řekni, že potřebuješ lékaře.","I need a doctor.","Potřebuji lékaře.","I need to see a doctor."],["What is wrong?","Řekni, že tě bolí hlava.","I have a headache.","Bolí mě hlava.","I've got a headache."],["Do you have a temperature?","Řekni, že máš horečku.","I have a fever.","Mám horečku.","I've got a temperature."],["One day or two days?","Řekni, že dva dny.","For two days.","Dva dny.","Two days."],["Please wait here.","Zeptej se, kde je toaleta.","Where is the toilet?","Kde je toaleta?","Where is the restroom?"],["It's down the hall.","Poděkuj.","Thank you.","Děkuji.","Thanks."]],
-"A2":[["What seems to be the problem?","Řekni, že tě bolí v krku.","I've got a sore throat.","Bolí mě v krku.","I have a sore throat."],["When did it start?","Řekni, že to začalo včera.","It started yesterday.","Začalo to včera.","Yesterday."],["Are you taking any medicine?","Řekni, že bereš léky na alergii.","I take medicine for my allergies.","Beru léky na alergii.","I'm taking allergy medicine."],["Do you have your insurance card?","Řekni, že ji máš u sebe.","Yes, I have it with me.","Ano, mám ji u sebe.","Yes, I've got it here."],["The doctor will see you shortly.","Požádej lékaře, aby mluvil pomalu.","Could you speak slowly, please?","Mohl byste mluvit pomalu, prosím?","Can you speak more slowly, please?"],["Of course.","Zeptej se, kde je nejbližší lékárna.","Where is the nearest pharmacy?","Kde je nejbližší lékárna?","Is there a pharmacy nearby?"]],
-"B1":[["Can you describe your symptoms?","Řekni, že máš od pondělí závratě.","I've been feeling dizzy since Monday.","Od pondělí mám závratě.","I've felt dizzy since Monday."],["Does it happen all the time?","Řekni, že se to zhoršuje při vstávání.","It gets worse when I stand up.","Zhoršuje se to, když vstanu.","Standing up makes it worse."],["Have you had this before?","Řekni, že se to stalo jednou minulý rok.","It happened once last year.","Jednou se to stalo minulý rok.","I had the same problem once last year."],["Are you allergic to any medication?","Řekni, že máš alergii na penicilin.","I'm allergic to penicillin.","Mám alergii na penicilin.","I have a penicillin allergy."],["I'll explain the next steps.","Požádej o napsání pokynů.","Could you write the instructions down?","Mohl byste pokyny napsat?","Could I have the instructions in writing?"],["Certainly.","Zeptej se, kdy máš přijít na kontrolu.","When should I come back for a check-up?","Kdy mám přijít na kontrolu?","When do I need a follow-up appointment?"]],
-"B2":[["How has the condition changed?","Řekni, že příznaky přetrvávají navzdory léčbě.","The symptoms have persisted despite the treatment.","Příznaky přetrvávají navzdory léčbě.","The treatment hasn't resolved the symptoms."],["Have you noticed any side effects?","Řekni, že od zahájení léčby máš nevolnost.","I've been experiencing nausea since I started the medication.","Od zahájení užívání léků mám nevolnost.","I've felt nauseous since starting the medication."],["We could consider another option.","Zeptej se na přínosy a rizika alternativy.","Could you explain the benefits and risks of the alternative?","Mohl byste vysvětlit přínosy a rizika alternativy?","What are the advantages and potential risks of the other option?"],["I'll go through them with you.","Požádej o upřesnění pravděpodobnosti nežádoucích účinků.","How likely are those side effects to occur?","Jak pravděpodobný je výskyt těchto nežádoucích účinků?","What is the likelihood of experiencing those side effects?"],["We will arrange some tests.","Zeptej se, zda vyšetření vyžaduje přípravu.","Is there anything I need to do to prepare for the tests?","Musím se na vyšetření nějak připravit?","Do the tests require any particular preparation?"],["We'll send you written information.","Požádej o kopii zprávy v angličtině.","Could I have a copy of the report in English?","Mohl bych dostat kopii zprávy v angličtině?","Would it be possible to receive the report in English?"]]}},
-"social":{"title":"Seznamování a přátelé","place":"Community Square","colour":"#d99969","icon":"park","levels":{
-"A1":[["Hi! What's your name?","Představ se jako Anna.","My name is Anna.","Jmenuji se Anna.","I'm Anna."],["Where are you from?","Řekni, že jsi z České republiky.","I'm from the Czech Republic.","Jsem z České republiky.","I come from the Czech Republic."],["Where do you live?","Řekni, že bydlíš v Brně.","I live in Brno.","Bydlím v Brně.","My home is in Brno."],["What do you like doing?","Řekni, že máš rád hudbu.","I like music.","Mám rád hudbu.","I love music."],["Do you speak English?","Řekni, že mluvíš trochu anglicky.","I speak a little English.","Mluvím trochu anglicky.","I can speak a little English."],["Nice to meet you.","Odpověz, že tě také těší.","Nice to meet you too.","Také mě těší.","It's nice to meet you too."]],
-"A2":[["What are you doing this weekend?","Řekni, že jdeš v sobotu do kina.","I'm going to the cinema on Saturday.","V sobotu jdu do kina.","I'm going to the movies on Saturday."],["That sounds fun.","Pozvi kamaráda, aby šel s tebou.","Would you like to come with me?","Chtěl bys jít se mnou?","Do you want to come with me?"],["I'd love to. What time?","Navrhni setkání v šest.","Let's meet at six.","Sejděme se v šest.","Shall we meet at six o'clock?"],["Where shall we meet?","Navrhni setkání před kinem.","Let's meet outside the cinema.","Sejděme se před kinem.","We can meet in front of the cinema."],["Can I bring a friend?","Řekni, že je to v pořádku.","Yes, of course.","Ano, samozřejmě.","Sure, that's fine."],["See you on Saturday!","Rozluč se s tím, že se uvidíte v sobotu.","See you on Saturday.","Uvidíme se v sobotu.","I'll see you on Saturday."]],
-"B1":[["Are you coming to the party?","Řekni, že bys rád, ale máš jiné plány.","I'd love to, but I've already made other plans.","Rád bych, ale už mám jiné plány.","I'd like to come, but I have other plans."],["That's a shame.","Navrhni setkání příští týden.","Could we meet up next week instead?","Mohli bychom se místo toho sejít příští týden?","Shall we get together next week instead?"],["Tuesday might work.","Řekni, že v úterý můžeš až po práci.","I'm only free after work on Tuesday.","V úterý mám čas až po práci.","I can meet after work on Tuesday."],["Let's have dinner then.","Zeptej se, zda má kamarád nějaké preference.","Do you have any preferences?","Máš nějaké preference?","Is there anything you'd particularly like?"],["Somewhere quiet would be nice.","Navrhni malou restauraci poblíž parku.","There's a small restaurant near the park we could try.","Mohli bychom zkusit malou restauraci poblíž parku.","We could try the little restaurant by the park."],["Sounds good.","Řekni, že zarezervuješ stůl.","I'll book a table.","Zarezervuji stůl.","I'll make a reservation."]],
-"B2":[["You seem a bit quiet today.","Řekni, že se snažíš zvyknout si na nové prostředí.","I'm still trying to adjust to the new environment.","Stále se snažím zvyknout si na nové prostředí.","I'm finding it takes time to settle into the new environment."],["What has been the hardest part?","Řekni, že ti chybí spontánní setkávání s přáteli.","I miss being able to meet friends spontaneously.","Chybí mi možnost spontánně se setkávat s přáteli.","What I miss most is seeing friends without having to plan ahead."],["Have you joined any local groups?","Připusť, že jsi s tím váhal.","I've been hesitant about joining a group.","Váhal jsem se zapojením do nějaké skupiny.","I haven't quite felt confident enough to join a group yet."],["I could introduce you to some people.","Řekni, že bys to velmi ocenil.","I'd really appreciate that.","To bych velmi ocenil.","That would mean a lot to me."],["We're meeting on Thursday.","Zeptej se, zda by nebylo nevhodné přivést kolegu.","Would it be all right if I brought a colleague?","Bylo by v pořádku, kdybych přivedl kolegu?","Would you mind if a colleague came along?"],["Not at all.","Poděkuj za to, že ses díky němu cítil vítán.","Thank you for making me feel so welcome.","Děkuji, že jsem se díky tobě cítil tak vítán.","I appreciate you helping me feel at home."]]}},
-"home":{"title":"Bydlení a sousedé","place":"Maple Court","colour":"#9daa70","icon":"home","levels":{
-"A1":[["Where do you live?","Řekni, že bydlíš v malém bytě.","I live in a small flat.","Bydlím v malém bytě.","I live in a small apartment."],["How many rooms are there?","Řekni, že jsou tam dvě ložnice.","There are two bedrooms.","Jsou tam dvě ložnice.","It has two bedrooms."],["Is there a garden?","Řekni, že tam zahrada není.","There isn't a garden.","Není tam zahrada.","No, there is no garden."],["Where is the kitchen?","Řekni, že kuchyň je vedle obývacího pokoje.","The kitchen is next to the living room.","Kuchyň je vedle obývacího pokoje.","It's next to the living room."],["Do you like your home?","Řekni, že máš svůj byt rád.","I like my flat.","Mám svůj byt rád.","I like my apartment."],["Is it near the school?","Řekni, že je poblíž školy.","It's near the school.","Je poblíž školy.","It's close to the school."]],
-"A2":[["Are you interested in the flat?","Zeptej se, kolik je měsíční nájem.","How much is the monthly rent?","Kolik činí měsíční nájem?","What's the rent per month?"],["It's eight hundred pounds.","Zeptej se, zda jsou energie zahrnuty.","Are bills included?","Jsou energie zahrnuty v ceně?","Does that include bills?"],["No, they aren't.","Zeptej se, kdy se můžeš nastěhovat.","When can I move in?","Kdy se mohu nastěhovat?","When is the flat available?"],["At the beginning of next month.","Zeptej se, zda jsou povolena domácí zvířata.","Are pets allowed?","Jsou povolena domácí zvířata?","Can I keep a pet here?"],["Cats are allowed.","Řekni, že máš jednu kočku.","I have one cat.","Mám jednu kočku.","I've got a cat."],["Would you like to view the flat?","Řekni, že můžeš přijít zítra.","I can come tomorrow.","Mohu přijít zítra.","I'm available tomorrow."]],
-"B1":[["Is there a problem in the flat?","Řekni, že z kuchyňského kohoutku kape voda.","The kitchen tap is dripping.","Z kuchyňského kohoutku kape voda.","The kitchen faucet is dripping."],["How long has that been happening?","Řekni, že to začalo před dvěma dny.","It started two days ago.","Začalo to před dvěma dny.","It's been happening for two days."],["I'll call a plumber.","Zeptej se, kdy může přijít.","When would the plumber be able to come?","Kdy by mohl instalatér přijít?","When can the plumber come round?"],["Probably tomorrow morning.","Vysvětli, že budeš dopoledne v práci.","I'll be at work tomorrow morning.","Zítra dopoledne budu v práci.","I'm working tomorrow morning."],["Could a neighbour let them in?","Řekni, že se zeptáš souseda.","I'll ask my neighbour.","Zeptám se souseda.","I can check with my neighbour."],["Please let me know.","Řekni, že zavoláš zpět odpoledne.","I'll call you back this afternoon.","Zavolám vám zpět dnes odpoledne.","I'll get back to you this afternoon."]],
-"B2":[["Why would you like to discuss the lease?","Řekni, že chceš upřesnit podmínky před podpisem.","I'd like to clarify the terms before signing the lease.","Před podpisem nájemní smlouvy bych chtěl upřesnit podmínky.","I'd like to make sure I understand the terms before I sign."],["Which clause concerns you?","Zeptej se, kdo odpovídá za drobné opravy.","Who is responsible for minor repairs?","Kdo odpovídá za drobné opravy?","Whose responsibility are minor repairs?"],["That depends on the circumstances.","Požádej o konkrétní vymezení ve smlouvě.","Could that be specified explicitly in the agreement?","Mohlo by to být ve smlouvě výslovně vymezeno?","Could you make that clear in the contract?"],["We can revise the wording.","Zeptej se na podmínky vrácení kauce.","Under what conditions would the deposit be returned?","Za jakých podmínek by byla kauce vrácena?","What are the conditions for getting the deposit back?"],["The property must be in good condition.","Navrhni zdokumentovat stav při převzetí.","We should document the condition of the property when I move in.","Měli bychom zdokumentovat stav nemovitosti při nastěhování.","Could we record the property's condition at the start of the tenancy?"],["That's a sensible suggestion.","Požádej o upravenou smlouvu e-mailem.","Could you email me the revised agreement?","Mohl byste mi upravenou smlouvu poslat e-mailem?","Could I receive the updated contract by email?"]]}},
-"study":{"title":"Studium a kurzy","place":"Learning Hub","colour":"#8b93cd","icon":"school","levels":{
-"A1":[["What would you like to study?","Řekni, že chceš studovat angličtinu.","I'd like to study English.","Chtěl bych studovat angličtinu.","I want to learn English."],["Are you a student?","Řekni, že jsi student.","I'm a student.","Jsem student.","I am a student."],["Do you have a notebook?","Řekni, že máš sešit.","I have a notebook.","Mám sešit.","I've got a notebook."],["Please open your book.","Zeptej se, na které stránce.","Which page?","Na které stránce?","What page?"],["Page ten.","Řekni, že nerozumíš.","I don't understand.","Nerozumím.","I'm sorry, I don't understand."],["Let me explain again.","Požádej o pomalejší řeč.","Please speak slowly.","Prosím, mluvte pomalu.","Can you speak slowly, please?"]],
-"A2":[["Are you interested in the evening course?","Zeptej se, kdy kurz začíná.","When does the course start?","Kdy kurz začíná?","What's the start date?"],["Next Monday.","Zeptej se, kolikrát týdně se koná.","How many times a week are the classes?","Kolikrát týdně probíhají lekce?","How often are the classes?"],["Twice a week.","Řekni, že můžeš v pondělí a ve středu.","I'm free on Mondays and Wednesdays.","Mám čas v pondělí a ve středu.","I can attend on Mondays and Wednesdays."],["That fits our timetable.","Zeptej se, zda potřebuješ učebnici.","Do I need a textbook?","Potřebuji učebnici?","Should I buy a textbook?"],["We'll provide one.","Zeptej se, kolik kurz stojí.","How much does the course cost?","Kolik kurz stojí?","What's the price of the course?"],["I'll send you the details.","Požádej o jejich zaslání e-mailem.","Could you email me the details?","Mohl byste mi podrobnosti poslat e-mailem?","Can you send me the information by email?"]],
-"B1":[["Have you chosen your course?","Řekni, že chceš zlepšit hlavně mluvení.","I'd mainly like to improve my speaking skills.","Chtěl bych zlepšit především mluvení.","Speaking is the skill I'd most like to improve."],["What do you find difficult?","Řekni, že rozumíš, ale obtížně rychle odpovídáš.","I can understand, but I find it hard to respond quickly.","Rozumím, ale je pro mě těžké rychle odpovídat.","Understanding is easier for me than responding quickly."],["We offer a conversation course.","Zeptej se na počet studentů ve skupině.","How many students are there in a group?","Kolik studentů je ve skupině?","What's the group size?"],["Usually six.","Zeptej se na možnost zkušební lekce.","Would it be possible to attend a trial lesson?","Bylo by možné navštívit zkušební lekci?","Could I try a lesson before signing up?"],["Yes, next Thursday.","Řekni, že se těšíš na účast.","I'm looking forward to joining the class.","Těším se na účast v lekci.","I'm looking forward to taking part."],["Please complete this form.","Zeptej se, zda ho můžeš vyplnit online.","Can I fill it in online?","Mohu ho vyplnit online?","Is it possible to complete the form online?"]],
-"B2":[["What are your learning goals?","Řekni, že chceš získat jistotu při odborných diskusích.","I'd like to become more confident in professional discussions.","Chtěl bych získat větší jistotu při odborných diskusích.","My goal is to feel more confident discussing professional topics."],["What kind of feedback do you find useful?","Požádej o konkrétní zpětnou vazbu k opakujícím se chybám.","I'd appreciate specific feedback on recurring mistakes.","Ocenil bych konkrétní zpětnou vazbu k opakujícím se chybám.","I'd find targeted feedback on repeated errors helpful."],["Would you prefer individual lessons?","Řekni, že skupina je přínosná, pokud má každý prostor mluvit.","Group lessons are useful provided everyone has a chance to speak.","Skupinové lekce jsou užitečné, pokud má každý možnost mluvit.","I'd benefit from a group as long as everyone gets speaking time."],["How much time can you devote to study?","Řekni, že krátké pravidelné učení ti vyhovuje více.","Short, regular sessions work better for me.","Krátké pravidelné učení mi vyhovuje více.","I learn more effectively in brief, frequent sessions."],["We can adapt the course.","Zeptej se, jak se bude měřit pokrok.","How will my progress be assessed?","Jak se bude hodnotit můj pokrok?","What methods will you use to evaluate my progress?"],["We'll review your goals every month.","Navrhni stanovit dosažitelné průběžné cíle.","Could we set achievable short-term goals?","Mohli bychom stanovit dosažitelné krátkodobé cíle?","I'd like us to agree on realistic goals along the way."]]}},
-"services":{"title":"Telefon a běžné služby","place":"Service Point","colour":"#b39874","icon":"post","levels":{
-"A1":[["Hello. How can I help?","Řekni, že chceš poslat dopis.","I'd like to send a letter.","Chtěl bych poslat dopis.","I want to post a letter."],["Where is it going?","Řekni, že do České republiky.","To the Czech Republic.","Do České republiky.","It's going to the Czech Republic."],["Do you need a stamp?","Požádej o jednu známku.","One stamp, please.","Jednu známku, prosím.","I'd like one stamp, please."],["Anything else?","Řekni, že potřebuješ obálku.","I need an envelope.","Potřebuji obálku.","Can I have an envelope, please?"],["Here you are.","Zeptej se na cenu.","How much is it?","Kolik to stojí?","How much does it cost?"],["Three pounds.","Poděkuj a rozluč se.","Thank you. Goodbye.","Děkuji. Na shledanou.","Thanks. Bye."]],
-"A2":[["Hello, customer service.","Požádej o rozhovor s paní Brownovou.","Can I speak to Ms Brown, please?","Mohu mluvit s paní Brownovou, prosím?","Could I speak to Ms Brown, please?"],["Who's calling?","Řekni, že volá Alex Novák.","This is Alex Novak.","Tady Alex Novák.","Alex Novak speaking."],["She's not available at the moment.","Zeptej se, zda můžeš zanechat zprávu.","Can I leave a message?","Mohu zanechat zprávu?","Could you take a message?"],["Of course.","Požádej, aby ti zavolala zpět.","Could she call me back, please?","Mohla by mi zavolat zpět, prosím?","Please ask her to call me back."],["What's your number?","Řekni, že pošleš číslo e-mailem.","I'll send my number by email.","Pošlu své číslo e-mailem.","I'll email you my number."],["I'll pass on your message.","Poděkuj za pomoc.","Thank you for your help.","Děkuji za pomoc.","Thanks for helping."]],
-"B1":[["How can I help you?","Řekni, že tvé internetové připojení nefunguje.","My internet connection isn't working.","Mé internetové připojení nefunguje.","I can't connect to the internet."],["Have you restarted the router?","Řekni, že jsi ho již dvakrát restartoval.","I've already restarted it twice.","Už jsem ho dvakrát restartoval.","I've tried restarting it twice."],["When did the problem start?","Řekni, že připojení přestalo fungovat včera večer.","It stopped working last night.","Přestalo fungovat včera večer.","The connection went down last night."],["We'll run some checks.","Zeptej se, zda je výpadek v celé oblasti.","Is there an outage in the area?","Je v oblasti výpadek?","Is the whole area affected?"],["It appears to be a local fault.","Zeptej se, kdy bude připojení obnoveno.","When do you expect the connection to be restored?","Kdy očekáváte obnovení připojení?","When will the internet be working again?"],["We'll send you an update.","Požádej o číslo případu.","Could I have a reference number?","Mohl bych dostat číslo případu?","What's the reference number for this issue?"]],
-"B2":[["What would you like to discuss?","Řekni, že na vyúčtování je neočekávaný poplatek.","There's an unexpected charge on my bill.","Na mém vyúčtování je neočekávaný poplatek.","I've noticed a charge on my bill that I wasn't expecting."],["What is the charge for?","Řekni, že se týká služby, kterou jsi nepovolil.","It's for a service I didn't authorise.","Je za službu, kterou jsem nepovolil.","I never authorised the service I've been charged for."],["Our records show it was activated.","Požádej o doložení svého souhlasu.","Could you provide evidence of my consent?","Mohli byste doložit můj souhlas?","Could you show me when I agreed to this?"],["We'll investigate.","Požádej o pozastavení poplatku do vyřešení.","Could the charge be suspended while the matter is being investigated?","Mohl by být poplatek pozastaven po dobu prošetřování?","Could you put the charge on hold until this is resolved?"],["I'll escalate the case.","Požádej o písemné shrnutí reklamace.","Could you send me a written summary of the complaint?","Mohli byste mi zaslat písemné shrnutí reklamace?","I'd like a summary of my complaint in writing."],["You'll receive an email.","Zeptej se na předpokládaný termín odpovědi.","When can I expect a formal response?","Kdy mohu očekávat oficiální odpověď?","What is the expected timeframe for a formal reply?"]]}},
-"outdoors":{"title":"Příroda a výlety","place":"Greenway Park","colour":"#80ab70","icon":"trees","levels":{
-"A1":[["Do you like walking?","Řekni, že rád chodíš pěšky.","I like walking.","Rád chodím pěšky.","I enjoy walking."],["Where do you want to go?","Řekni, že chceš jít do parku.","I'd like to go to the park.","Chtěl bych jít do parku.","I want to go to the park."],["What's the weather like?","Řekni, že je slunečno.","It's sunny.","Je slunečno.","The weather is sunny."],["Is it cold?","Řekni, že je teplo.","It's warm.","Je teplo.","No, it's warm."],["Do you have water?","Řekni, že máš láhev vody.","I have a bottle of water.","Mám láhev vody.","I've got a bottle of water."],["Shall we go?","Řekni, že jsi připraven.","I'm ready.","Jsem připraven.","I'm ready to go."]],
-"A2":[["Where does this path go?","Zeptej se, zda vede k jezeru.","Does this path go to the lake?","Vede tato cesta k jezeru?","Is this the way to the lake?"],["Yes, it does.","Zeptej se, jak je jezero daleko.","How far is the lake?","Jak daleko je jezero?","How far is it to the lake?"],["About three kilometres.","Zeptej se, zda je cesta snadná.","Is the path easy?","Je cesta snadná?","Is it an easy walk?"],["There is one steep hill.","Řekni, že potřebuješ krátkou přestávku.","I need a short break.","Potřebuji krátkou přestávku.","Can we take a short break?"],["Let's stop here.","Zeptej se, zda můžete sedět na trávě.","Can we sit on the grass?","Můžeme si sednout na trávu?","Is it OK to sit on the grass?"],["Yes, that's fine.","Řekni, že se musíš vrátit před pátou.","I need to be back before five.","Musím být zpět před pátou.","I have to get back before five o'clock."]],
-"B1":[["Have you checked the forecast?","Řekni, že odpoledne může pršet.","It might rain this afternoon.","Dnes odpoledne může pršet.","There's a chance of rain this afternoon."],["Should we change our route?","Navrhni kratší trasu.","We could take a shorter route.","Mohli bychom jít kratší trasou.","Let's choose a shorter route."],["There is a trail through the woods.","Zeptej se, zda je dobře značená.","Is the trail well marked?","Je stezka dobře značená?","Are there clear signs along the trail?"],["Most of it is.","Řekni, že máš staženou mapu.","I've downloaded a map.","Stáhl jsem si mapu.","I have a downloaded map on my phone."],["That's useful.","Navrhni zůstat spolu.","We should stay together.","Měli bychom zůstat spolu.","Let's make sure we don't split up."],["Agreed.","Řekni, že někomu sdělíš, kdy se vrátíte.","I'll let someone know when we expect to be back.","Dám někomu vědět, kdy očekáváme návrat.","I'll tell someone our expected return time."]],
-"B2":[["Why is this area protected?","Zeptej se, jaké druhy jsou zde ohrožené.","Which species in this area are endangered?","Které druhy v této oblasti jsou ohrožené?"] ,["Several birds nest here.","Zeptej se, jak mohou návštěvníci omezit rušení.","How can visitors minimise disturbance to wildlife?","Jak mohou návštěvníci omezit rušení volně žijících živočichů?","What can visitors do to avoid disturbing wildlife?"],["Please keep to the marked paths.","Řekni, že chápeš význam ochrany prostředí.","I understand the importance of protecting the habitat.","Chápu význam ochrany tohoto prostředí.","I appreciate why the habitat needs to be protected."],["We also encourage people to reduce waste.","Navrhni znovupoužitelné nádoby místo jednorázových obalů.","We could use reusable containers instead of disposable packaging.","Mohli bychom používat znovupoužitelné nádoby místo jednorázových obalů.","Reusable containers would be a better alternative to single-use packaging."],["That's a good idea.","Zeptej se, zda se lze zapojit do dobrovolnické ochrany.","Are there any opportunities to volunteer in conservation?","Existují možnosti dobrovolnictví v ochraně přírody?","Could I get involved in conservation as a volunteer?"],["We organise monthly events.","Požádej o podrobnosti příští akce.","Could you send me the details of the next event?","Mohli byste mi zaslat podrobnosti příští akce?","I'd be interested in receiving information about the next event."]]}},
-"culture":{"title":"Kultura a volný čas","place":"Grand Theatre","colour":"#bf7d89","icon":"theatre","levels":{
-"A1":[["What do you like doing?","Řekni, že máš rád filmy.","I like films.","Mám rád filmy.","I like movies."],["Would you like a ticket?","Požádej o dvě vstupenky.","Two tickets, please.","Dvě vstupenky, prosím.","I'd like two tickets, please."],["Which day?","Řekni, že na pátek.","For Friday, please.","Na pátek, prosím.","Friday, please."],["The show starts at seven.","Zeptej se, kde je vchod.","Where is the entrance?","Kde je vchod?","Where do we go in?"],["Over there.","Zeptej se, zda zde můžeš fotografovat.","Can I take photos here?","Mohu zde fotografovat?","Can I take pictures here?"],["Not during the show.","Poděkuj.","Thank you.","Děkuji.","Thanks."]],
-"A2":[["Which performance would you like to see?","Řekni, že chceš vidět sobotní koncert.","I'd like to see the concert on Saturday.","Chtěl bych vidět sobotní koncert.","I'm interested in Saturday's concert."],["How many tickets do you need?","Požádej o dvě místa vedle sebe.","I'd like two seats together.","Chtěl bych dvě místa vedle sebe.","Can we have two seats next to each other?"],["There are seats in the balcony.","Zeptej se na studentskou slevu.","Do you offer a student discount?","Nabízíte studentskou slevu?","Is there a student discount?"],["Yes, with a student card.","Zeptej se, jak dlouho koncert trvá.","How long does the concert last?","Jak dlouho koncert trvá?","How long is the concert?"],["About two hours.","Zeptej se, zda bude přestávka.","Is there an interval?","Bude přestávka?","Is there an intermission?"],["Yes, after the first hour.","Zeptej se, zda si můžeš vstupenky vyzvednout zítra.","Can I collect the tickets tomorrow?","Mohu si vstupenky vyzvednout zítra?","Can I pick up the tickets tomorrow?"]],
-"B1":[["What did you think of the film?","Řekni, že příběh byl zajímavý, ale konec předvídatelný.","The story was interesting, but the ending was predictable.","Příběh byl zajímavý, ale konec předvídatelný.","I enjoyed the story, although I could predict the ending."],["What about the actors?","Řekni, že hlavní herec podal přesvědčivý výkon.","The lead actor gave a convincing performance.","Hlavní herec podal přesvědčivý výkon.","The main actor was very convincing."],["Would you recommend it?","Řekni, že ho doporučuješ lidem, kteří mají rádi dramata.","I'd recommend it to people who enjoy dramas.","Doporučil bych ho lidem, kteří mají rádi dramata.","It's worth watching if you like dramas."],["Was it based on a book?","Řekni, že jsi knihu zatím nečetl.","I haven't read the book yet.","Knihu jsem zatím nečetl.","I've not read the book yet."],["Would you like to read it?","Řekni, že tě zajímá porovnání s filmem.","I'd like to see how it compares with the film.","Chtěl bych zjistit, jak se dá porovnat s filmem.","I'm interested in comparing it with the film."],["Let's go to another film next week.","Řekni, že to zní jako dobrý plán.","That sounds like a good plan.","To zní jako dobrý plán.","That's a great idea."]],
-"B2":[["How would you interpret the ending?","Řekni, že nejednoznačnost umožňuje různé výklady.","The ambiguity leaves room for different interpretations.","Nejednoznačnost ponechává prostor pro různé výklady.","Its ambiguous nature allows several interpretations."],["Did the adaptation do the novel justice?","Řekni, že vystihla atmosféru, ale zjednodušila postavy.","It captured the atmosphere but oversimplified the characters.","Vystihla atmosféru, ale příliš zjednodušila postavy.","The atmosphere was convincing, although the characters lacked complexity."],["What stood out visually?","Řekni, že kamera podpořila pocit izolace.","The cinematography reinforced the sense of isolation.","Kamera posílila pocit izolace.","The way it was filmed emphasised the characters' isolation."],["Some viewers found it too slow.","Připusť jejich názor, ale obhaj pomalé tempo.","I can see their point, but the slow pace helped build tension.","Chápu jejich názor, ale pomalé tempo pomáhalo budovat napětí.","Although it was slow, I felt that the pacing increased the tension."],["Would you watch it again?","Řekni, že opakované zhlédnutí může odhalit přehlédnuté detaily.","A second viewing might reveal details I missed the first time.","Druhé zhlédnutí by mohlo odhalit detaily, které mi poprvé unikly.","I might notice more subtle details if I watched it again."],["Who would you recommend it to?","Doporuč ho divákům, kteří mají rádi podnětné příběhy.","I'd recommend it to viewers who enjoy thought-provoking stories.","Doporučil bych ho divákům, kteří mají rádi příběhy podněcující k zamyšlení.","It would appeal to people who like stories that make them think."]]}}
+  "restaurant": {
+    "title": "Restaurace a kavárna",
+    "place": "Corner Café",
+    "colour": "#dc895d",
+    "icon": "cup",
+    "levels": {
+      "A1": [
+        [
+          "Hello. A table for how many people?",
+          "Požádej o stůl pro dva.",
+          "A table for two, please.",
+          "Stůl pro dva, prosím.",
+          "Can we have a table for two, please?"
+        ],
+        [
+          "Here is your table.",
+          "Požádej o jídelní lístek.",
+          "Can I have the menu, please?",
+          "Mohu dostat jídelní lístek, prosím?",
+          "The menu, please."
+        ],
+        [
+          "What would you like to eat?",
+          "Objednej si kuřecí polévku.",
+          "I'd like chicken soup, please.",
+          "Dal bych si kuřecí polévku, prosím.",
+          "Can I have chicken soup, please?"
+        ],
+        [
+          "And what would you like to drink?",
+          "Objednej si sklenici vody.",
+          "A glass of water, please.",
+          "Sklenici vody, prosím.",
+          "I'd like a glass of water, please."
+        ],
+        [
+          "Would you like a dessert?",
+          "Zdvořile odmítni.",
+          "No, thank you.",
+          "Ne, děkuji.",
+          "No, thanks."
+        ],
+        [
+          "Is there anything else?",
+          "Požádej o účet.",
+          "Can I have the bill, please?",
+          "Mohu dostat účet, prosím?",
+          "Can I have the check, please?"
+        ]
+      ],
+      "A2": [
+        [
+          "Good evening. Do you have a reservation?",
+          "Řekni, že máš rezervaci na sedmou.",
+          "I have a reservation for seven o'clock.",
+          "Mám rezervaci na sedmou hodinu.",
+          "I've booked a table for seven o'clock."
+        ],
+        [
+          "Would you like to see the menu?",
+          "Požádej o vegetariánské menu.",
+          "Do you have a vegetarian menu?",
+          "Máte vegetariánské menu?",
+          "Is there a vegetarian menu?"
+        ],
+        [
+          "What can I get you?",
+          "Objednej si těstoviny bez sýra.",
+          "I'd like the pasta without cheese, please.",
+          "Dal bych si těstoviny bez sýra, prosím.",
+          "Can I have the pasta without cheese, please?"
+        ],
+        [
+          "Would you like some bread?",
+          "Zeptej se, zda je chléb v ceně.",
+          "Is the bread included in the price?",
+          "Je chléb zahrnutý v ceně?",
+          "Does the price include the bread?"
+        ],
+        [
+          "How is your meal?",
+          "Řekni, že je polévka studená.",
+          "Excuse me, my soup is cold.",
+          "Promiňte, moje polévka je studená.",
+          "I'm sorry, but my soup is cold."
+        ],
+        [
+          "How would you like to pay?",
+          "Řekni, že chceš platit kartou.",
+          "I'd like to pay by card.",
+          "Chtěl bych platit kartou.",
+          "Can I pay by card?"
+        ]
+      ],
+      "B1": [
+        [
+          "Have you decided what to order?",
+          "Požádej o doporučení místního jídla.",
+          "Could you recommend a local dish?",
+          "Mohl byste doporučit místní jídlo?",
+          "What local dish would you recommend?"
+        ],
+        [
+          "Our special contains cream.",
+          "Vysvětli alergii na mléčné výrobky.",
+          "I'm allergic to dairy products.",
+          "Mám alergii na mléčné výrobky.",
+          "I have an allergy to dairy products."
+        ],
+        [
+          "We can make something else.",
+          "Zeptej se, zda lze jídlo připravit bez másla.",
+          "Could you prepare it without butter?",
+          "Mohli byste ho připravit bez másla?",
+          "Would it be possible to make it without butter?"
+        ],
+        [
+          "Here is your order.",
+          "Řekni, že jsi objednal rybu, nikoli kuře.",
+          "I ordered the fish, not the chicken.",
+          "Objednal jsem si rybu, ne kuře.",
+          "I'm sorry, but I asked for the fish, not the chicken."
+        ],
+        [
+          "Would you like the bill?",
+          "Požádej o rozdělení účtu.",
+          "Could we split the bill, please?",
+          "Mohli bychom rozdělit účet, prosím?",
+          "Could we pay separately, please?"
+        ],
+        [
+          "The total is on the receipt.",
+          "Zeptej se, zda je zahrnuto obslužné.",
+          "Is the service charge included?",
+          "Je zahrnuto obslužné?",
+          "Does that include the service charge?"
+        ]
+      ],
+      "B2": [
+        [
+          "What are your dietary requirements?",
+          "Požádej o ověření, zda omáčka obsahuje ořechy.",
+          "Could you check whether the sauce contains nuts?",
+          "Mohl byste ověřit, zda omáčka obsahuje ořechy?",
+          "Would you mind checking whether there are nuts in the sauce?"
+        ],
+        [
+          "It doesn't contain nuts, but we use them in the kitchen.",
+          "Zeptej se na riziko křížové kontaminace.",
+          "Is there a risk of cross-contamination?",
+          "Hrozí riziko křížové kontaminace?",
+          "Could there be any cross-contamination?"
+        ],
+        [
+          "Your meal may take forty minutes.",
+          "Řekni, že za půl hodiny musíš odejít.",
+          "I'm afraid we need to leave in half an hour.",
+          "Bohužel musíme za půl hodiny odejít.",
+          "Unfortunately, we have to leave in thirty minutes."
+        ],
+        [
+          "I'm sorry about the delay.",
+          "Navrhni objednávku zrušit, pokud se ještě nezačala připravovat.",
+          "If it hasn't been prepared yet, could we cancel the order?",
+          "Pokud se ještě nezačala připravovat, mohli bychom objednávku zrušit?",
+          "Could we cancel the order if you haven't started preparing it yet?"
+        ],
+        [
+          "Here is your bill.",
+          "Upozorni, že bylo stejné jídlo účtováno dvakrát.",
+          "It looks as though we've been charged twice for the same dish.",
+          "Vypadá to, že nám stejné jídlo bylo účtováno dvakrát.",
+          "I think you've charged us twice for the same dish."
+        ],
+        [
+          "I'll correct that straight away.",
+          "Poděkuj za rychlé vyřešení.",
+          "Thank you for sorting that out so promptly.",
+          "Děkuji za tak rychlé vyřešení.",
+          "I appreciate you dealing with that so quickly."
+        ]
+      ]
+    }
+  },
+  "travel": {
+    "title": "Cestování a doprava",
+    "place": "Central Station",
+    "colour": "#e5af49",
+    "icon": "train",
+    "levels": {
+      "A1": [
+        [
+          "Hello. Where would you like to go?",
+          "Řekni, že chceš jet do Londýna.",
+          "I'd like to go to London.",
+          "Chtěl bych jet do Londýna.",
+          "I want to go to London."
+        ],
+        [
+          "Single or return?",
+          "Požádej o zpáteční jízdenku.",
+          "A return ticket, please.",
+          "Zpáteční jízdenku, prosím.",
+          "A round-trip ticket, please."
+        ],
+        [
+          "That will be twenty pounds.",
+          "Zeptej se, kdy vlak odjíždí.",
+          "What time does the train leave?",
+          "V kolik hodin vlak odjíždí?",
+          "When does the train leave?"
+        ],
+        [
+          "It leaves at ten.",
+          "Zeptej se na nástupiště.",
+          "Which platform is it?",
+          "Které je to nástupiště?",
+          "What platform does it leave from?"
+        ],
+        [
+          "It's platform four.",
+          "Požádej o zopakování.",
+          "Can you repeat that, please?",
+          "Můžete to zopakovat, prosím?",
+          "Can you say that again, please?"
+        ],
+        [
+          "Platform four.",
+          "Poděkuj za pomoc.",
+          "Thank you for your help.",
+          "Děkuji za pomoc.",
+          "Thanks for your help."
+        ]
+      ],
+      "A2": [
+        [
+          "Where are you travelling today?",
+          "Požádej o dvě jízdenky do Oxfordu.",
+          "Two tickets to Oxford, please.",
+          "Dvě jízdenky do Oxfordu, prosím.",
+          "I'd like two tickets to Oxford, please."
+        ],
+        [
+          "There is a train at half past nine.",
+          "Zeptej se, jak dlouho cesta trvá.",
+          "How long does the journey take?",
+          "Jak dlouho cesta trvá?",
+          "How long is the journey?"
+        ],
+        [
+          "About an hour.",
+          "Zeptej se, zda musíš přestupovat.",
+          "Do I need to change trains?",
+          "Musím přestupovat?",
+          "Do we have to change trains?"
+        ],
+        [
+          "No, it's a direct train.",
+          "Zeptej se na studentskou slevu.",
+          "Is there a student discount?",
+          "Je k dispozici studentská sleva?",
+          "Do you offer a student discount?"
+        ],
+        [
+          "May I see your student card?",
+          "Řekni, že ji máš v tašce.",
+          "It's in my bag.",
+          "Mám ji v tašce.",
+          "My student card is in my bag."
+        ],
+        [
+          "You're all set.",
+          "Zeptej se, kde najdeš nástupiště.",
+          "Where can I find the platform?",
+          "Kde najdu nástupiště?",
+          "How do I get to the platform?"
+        ]
+      ],
+      "B1": [
+        [
+          "How can I help?",
+          "Řekni, že byl tvůj vlak zrušen.",
+          "My train has been cancelled.",
+          "Můj vlak byl zrušen.",
+          "The train I was going to take has been cancelled."
+        ],
+        [
+          "You can catch the next service.",
+          "Zeptej se, zda na něj platí tvoje jízdenka.",
+          "Is my ticket valid on the next train?",
+          "Platí moje jízdenka na další vlak?",
+          "Can I use my ticket on the next train?"
+        ],
+        [
+          "Yes, it is.",
+          "Vysvětli, že potřebuješ stihnout návazný vlak.",
+          "I need to catch a connecting train.",
+          "Potřebuji stihnout návazný vlak.",
+          "I have a train connection to catch."
+        ],
+        [
+          "Where are you changing?",
+          "Řekni, že přestupuješ v Birminghamu.",
+          "I'm changing trains in Birmingham.",
+          "Přestupuji v Birminghamu.",
+          "I need to change in Birmingham."
+        ],
+        [
+          "The next train leaves in ten minutes.",
+          "Zeptej se, zda si musíš rezervovat sedadlo.",
+          "Do I need to reserve a seat?",
+          "Musím si rezervovat sedadlo?",
+          "Is a seat reservation required?"
+        ],
+        [
+          "No reservation is needed.",
+          "Požádej o vytištění nového spojení.",
+          "Could you print the new itinerary, please?",
+          "Mohl byste vytisknout nový itinerář, prosím?",
+          "Could I have a printed copy of the new itinerary?"
+        ]
+      ],
+      "B2": [
+        [
+          "What seems to be the problem?",
+          "Vysvětli, že zpoždění způsobilo zmeškání přípoje.",
+          "The delay caused me to miss my connection.",
+          "Kvůli zpoždění jsem zmeškal přípoj.",
+          "I missed my connecting train because of the delay."
+        ],
+        [
+          "When did you arrive?",
+          "Řekni, že vlak přijel o více než hodinu později.",
+          "The train arrived more than an hour late.",
+          "Vlak přijel s více než hodinovým zpožděním.",
+          "It was over an hour late when we arrived."
+        ],
+        [
+          "We may be able to help.",
+          "Zeptej se na nárok na kompenzaci.",
+          "Am I entitled to compensation?",
+          "Mám nárok na kompenzaci?",
+          "Would I be eligible for compensation?"
+        ],
+        [
+          "You need to submit a claim.",
+          "Zeptej se, jaké doklady je třeba přiložit.",
+          "What supporting documents do I need to provide?",
+          "Jaké podpůrné doklady musím dodat?",
+          "Which documents should I submit with the claim?"
+        ],
+        [
+          "Keep your ticket and receipt.",
+          "Požádej o písemné potvrzení zpoždění.",
+          "Could you provide written confirmation of the delay?",
+          "Mohl byste poskytnout písemné potvrzení zpoždění?",
+          "Could I have confirmation of the delay in writing?"
+        ],
+        [
+          "You can apply online.",
+          "Zeptej se na lhůtu pro podání žádosti.",
+          "Is there a deadline for submitting the claim?",
+          "Existuje lhůta pro podání žádosti?",
+          "How long do I have to submit the claim?"
+        ]
+      ]
+    }
+  },
+  "hotel": {
+    "title": "Hotel a ubytování",
+    "place": "Riverside Hotel",
+    "colour": "#879ddc",
+    "icon": "hotel",
+    "levels": {
+      "A1": [
+        [
+          "Welcome. Do you have a booking?",
+          "Řekni, že máš rezervaci.",
+          "I have a reservation.",
+          "Mám rezervaci.",
+          "I have a booking."
+        ],
+        [
+          "What is your name?",
+          "Představ se jako Alex Novák.",
+          "My name is Alex Novak.",
+          "Jmenuji se Alex Novák.",
+          "I'm Alex Novak."
+        ],
+        [
+          "Here is your key.",
+          "Zeptej se na číslo pokoje.",
+          "What is my room number?",
+          "Jaké je číslo mého pokoje?",
+          "Which room is mine?"
+        ],
+        [
+          "Your room is on the second floor.",
+          "Zeptej se, kde je výtah.",
+          "Where is the lift?",
+          "Kde je výtah?",
+          "Where is the elevator?"
+        ],
+        [
+          "It's on your right.",
+          "Zeptej se na heslo k Wi-Fi.",
+          "What is the Wi-Fi password?",
+          "Jaké je heslo k Wi-Fi?",
+          "Can I have the Wi-Fi password, please?"
+        ],
+        [
+          "It's on your key card.",
+          "Poděkuj a popřej dobrou noc.",
+          "Thank you. Good night.",
+          "Děkuji. Dobrou noc.",
+          "Thanks. Good night."
+        ]
+      ],
+      "A2": [
+        [
+          "How many nights are you staying?",
+          "Řekni, že zůstaneš tři noci.",
+          "I'm staying for three nights.",
+          "Zůstanu tři noci.",
+          "I'll be here for three nights."
+        ],
+        [
+          "Breakfast is served downstairs.",
+          "Zeptej se, v kolik je snídaně.",
+          "What time is breakfast?",
+          "V kolik hodin je snídaně?",
+          "When do you serve breakfast?"
+        ],
+        [
+          "From seven until ten.",
+          "Zeptej se, zda je snídaně v ceně.",
+          "Is breakfast included?",
+          "Je snídaně zahrnuta v ceně?",
+          "Does the price include breakfast?"
+        ],
+        [
+          "Yes, it is.",
+          "Požádej o další ručník.",
+          "Can I have an extra towel, please?",
+          "Mohu dostat další ručník, prosím?",
+          "Could you give me another towel, please?"
+        ],
+        [
+          "Of course.",
+          "Řekni, že klimatizace nefunguje.",
+          "The air conditioning isn't working.",
+          "Klimatizace nefunguje.",
+          "The air conditioning doesn't work."
+        ],
+        [
+          "We'll send someone up.",
+          "Zeptej se, v kolik musíš opustit pokoj.",
+          "What time do I need to check out?",
+          "V kolik hodin se musím odhlásit?",
+          "What time is check-out?"
+        ]
+      ],
+      "B1": [
+        [
+          "Is everything all right with your room?",
+          "Řekni, že je pokoj příliš hlučný.",
+          "My room is too noisy.",
+          "Můj pokoj je příliš hlučný.",
+          "There's too much noise in my room."
+        ],
+        [
+          "I'm sorry to hear that.",
+          "Požádej o pokoj ve vyšším patře.",
+          "Could I move to a room on a higher floor?",
+          "Mohl bych se přestěhovat do pokoje ve vyšším patře?",
+          "Could you give me a room on a higher floor?"
+        ],
+        [
+          "We have one available.",
+          "Zeptej se, zda změna stojí něco navíc.",
+          "Would there be an extra charge?",
+          "Platilo by se něco navíc?",
+          "Would I have to pay extra?"
+        ],
+        [
+          "No, there wouldn't.",
+          "Zeptej se na možnost pozdějšího odhlášení.",
+          "Would a late check-out be possible?",
+          "Bylo by možné pozdější odhlášení?",
+          "Could I check out later?"
+        ],
+        [
+          "We can extend it until one.",
+          "Požádej o uložení zavazadla po odhlášení.",
+          "Could you store my luggage after check-out?",
+          "Mohli byste mi po odhlášení uschovat zavazadla?",
+          "Could I leave my luggage here after checking out?"
+        ],
+        [
+          "Certainly.",
+          "Požádej o doklad pro zaměstnavatele.",
+          "Could I have a receipt for my employer?",
+          "Mohl bych dostat doklad pro zaměstnavatele?",
+          "Could you give me a receipt for my employer?"
+        ]
+      ],
+      "B2": [
+        [
+          "How can we assist you?",
+          "Vysvětli, že pokoj neodpovídá popisu rezervace.",
+          "The room doesn't match the description in my booking.",
+          "Pokoj neodpovídá popisu v mé rezervaci.",
+          "The room is different from the one described in my booking."
+        ],
+        [
+          "What did you expect?",
+          "Řekni, že rezervace výslovně uváděla výhled na řeku.",
+          "My reservation specifically stated that the room had a river view.",
+          "Má rezervace výslovně uváděla, že pokoj má výhled na řeku.",
+          "The booking explicitly included a room overlooking the river."
+        ],
+        [
+          "That room category is fully booked.",
+          "Požádej o přiměřené snížení ceny.",
+          "Would you be willing to offer a reasonable reduction in the price?",
+          "Byli byste ochotni nabídnout přiměřené snížení ceny?",
+          "Could you offer an appropriate discount?"
+        ],
+        [
+          "I'll speak to the manager.",
+          "Zdůrazni, že chceš problém vyřešit během pobytu.",
+          "I'd prefer to resolve the issue during my stay.",
+          "Raději bych problém vyřešil během svého pobytu.",
+          "I'd rather get this sorted out while I'm still here."
+        ],
+        [
+          "We can offer a discount.",
+          "Požádej o písemné potvrzení dohody.",
+          "Could you confirm the arrangement in writing?",
+          "Mohl byste dohodu potvrdit písemně?",
+          "Could I have written confirmation of what we've agreed?"
+        ],
+        [
+          "Of course.",
+          "Poděkuj za ochotu najít řešení.",
+          "Thank you for being willing to find a solution.",
+          "Děkuji za ochotu najít řešení.",
+          "I appreciate your willingness to resolve the matter."
+        ]
+      ]
+    }
+  },
+  "shopping": {
+    "title": "Nakupování a reklamace",
+    "place": "Market Street",
+    "colour": "#c984b3",
+    "icon": "shop",
+    "levels": {
+      "A1": [
+        [
+          "Hello. Can I help?",
+          "Řekni, že hledáš tričko.",
+          "I'm looking for a T-shirt.",
+          "Hledám tričko.",
+          "I'd like a T-shirt."
+        ],
+        [
+          "Which colour would you like?",
+          "Řekni, že chceš modré.",
+          "Blue, please.",
+          "Modré, prosím.",
+          "I'd like a blue one.",
+          "A blue one, please.",
+          "Blue.",
+          "I would like blue.",
+          "I would like blue, please.",
+          "I would like a blue one."
+        ],
+        [
+          "What size are you?",
+          "Řekni, že potřebuješ velikost M.",
+          "I need a medium.",
+          "Potřebuji velikost M.",
+          "Medium, please."
+        ],
+        [
+          "Here you are.",
+          "Zeptej se na cenu.",
+          "How much is it?",
+          "Kolik to stojí?",
+          "What's the price?"
+        ],
+        [
+          "It's twelve pounds.",
+          "Zeptej se, zda můžeš platit kartou.",
+          "Can I pay by card?",
+          "Mohu platit kartou?",
+          "Do you take cards?"
+        ],
+        [
+          "Yes, you can.",
+          "Řekni, že si tričko vezmeš.",
+          "I'll take it, please.",
+          "Vezmu si ho, prosím.",
+          "I'd like to buy it, please."
+        ]
+      ],
+      "A2": [
+        [
+          "What are you looking for?",
+          "Řekni, že potřebuješ zimní bundu.",
+          "I'm looking for a winter jacket.",
+          "Hledám zimní bundu.",
+          "I need a winter jacket."
+        ],
+        [
+          "Try this one.",
+          "Zeptej se, kde jsou kabinky.",
+          "Where are the changing rooms?",
+          "Kde jsou převlékací kabinky?",
+          "Where can I try it on?"
+        ],
+        [
+          "They're over there.",
+          "Řekni, že je bunda příliš malá.",
+          "This jacket is too small.",
+          "Tato bunda je příliš malá.",
+          "It's too small for me."
+        ],
+        [
+          "We have a larger size.",
+          "Zeptej se, zda ji mají v černé.",
+          "Do you have it in black?",
+          "Máte ji v černé?",
+          "Is it available in black?"
+        ],
+        [
+          "Yes, we do.",
+          "Zeptej se, zda ji můžeš vrátit.",
+          "Can I return it if it doesn't fit?",
+          "Mohu ji vrátit, pokud mi nebude sedět?",
+          "Can I bring it back if it doesn't fit?"
+        ],
+        [
+          "Keep your receipt.",
+          "Požádej o tašku.",
+          "Can I have a bag, please?",
+          "Mohu dostat tašku, prosím?",
+          "A bag, please."
+        ]
+      ],
+      "B1": [
+        [
+          "How can I help you today?",
+          "Řekni, že chceš vrátit sluchátka.",
+          "I'd like to return these headphones.",
+          "Chtěl bych vrátit tato sluchátka.",
+          "I'd like to bring these headphones back."
+        ],
+        [
+          "Is there a problem with them?",
+          "Řekni, že přestala fungovat po týdnu.",
+          "They stopped working after a week.",
+          "Po týdnu přestala fungovat.",
+          "They only worked for a week."
+        ],
+        [
+          "Have you got the receipt?",
+          "Řekni, že máš potvrzení v e-mailu.",
+          "I have the receipt in my email.",
+          "Mám doklad v e-mailu.",
+          "I've got an email receipt."
+        ],
+        [
+          "Would you like a replacement?",
+          "Řekni, že bys raději vrátil peníze.",
+          "I'd prefer a refund.",
+          "Raději bych vrácení peněz.",
+          "I'd rather have my money back."
+        ],
+        [
+          "Let me check the policy.",
+          "Zeptej se, jak dlouho vrácení peněz trvá.",
+          "How long will the refund take?",
+          "Jak dlouho bude vrácení peněz trvat?",
+          "When will I get my money back?"
+        ],
+        [
+          "Usually three working days.",
+          "Požádej o potvrzení vrácení zboží.",
+          "Could I have confirmation of the return?",
+          "Mohl bych dostat potvrzení o vrácení zboží?",
+          "Could you give me a receipt for the return?"
+        ]
+      ],
+      "B2": [
+        [
+          "What is the issue with your order?",
+          "Řekni, že doručené zboží neodpovídá popisu.",
+          "The item I received doesn't correspond to the description.",
+          "Doručené zboží neodpovídá popisu.",
+          "What was delivered doesn't match the product description."
+        ],
+        [
+          "Could you explain the difference?",
+          "Řekni, že výrobek byl inzerován jako voděodolný.",
+          "The product was advertised as water-resistant.",
+          "Výrobek byl inzerován jako voděodolný.",
+          "The advertisement described it as water-resistant."
+        ],
+        [
+          "Have you used it?",
+          "Řekni, že jsi přesně dodržel pokyny.",
+          "I followed the instructions exactly.",
+          "Přesně jsem dodržel pokyny.",
+          "I used it exactly as instructed."
+        ],
+        [
+          "We could offer store credit.",
+          "Zdvořile odmítni poukaz a požádej o vrácení peněz.",
+          "I'd prefer a refund rather than store credit.",
+          "Raději bych vrácení peněz než poukaz do obchodu.",
+          "I'd rather receive a refund than a voucher."
+        ],
+        [
+          "We need to investigate first.",
+          "Požádej o sdělení předpokládané doby vyřízení.",
+          "Could you let me know the expected processing time?",
+          "Mohl byste mi sdělit předpokládanou dobu vyřízení?",
+          "How long do you expect the investigation to take?"
+        ],
+        [
+          "We'll contact you next week.",
+          "Požádej o zaslání další komunikace e-mailem.",
+          "I'd appreciate it if you could send any further correspondence by email.",
+          "Ocenil bych, kdybyste další komunikaci zasílali e-mailem.",
+          "Could you please keep me updated by email?"
+        ]
+      ]
+    }
+  },
+  "work": {
+    "title": "Práce a spolupráce",
+    "place": "Studio Works",
+    "colour": "#6faeb3",
+    "icon": "office",
+    "levels": {
+      "A1": [
+        [
+          "Hello. What's your name?",
+          "Představ se jako Sam.",
+          "My name is Sam.",
+          "Jmenuji se Sam.",
+          "I'm Sam."
+        ],
+        [
+          "What do you do?",
+          "Řekni, že jsi učitel.",
+          "I'm a teacher.",
+          "Jsem učitel.",
+          "I am a teacher."
+        ],
+        [
+          "Where do you work?",
+          "Řekni, že pracuješ ve škole.",
+          "I work in a school.",
+          "Pracuji ve škole.",
+          "I work at a school."
+        ],
+        [
+          "When do you start work?",
+          "Řekni, že začínáš v osm.",
+          "I start work at eight.",
+          "Začínám pracovat v osm.",
+          "I start at eight o'clock."
+        ],
+        [
+          "Do you work on Sundays?",
+          "Řekni, že v neděli nepracuješ.",
+          "I don't work on Sundays.",
+          "V neděli nepracuji.",
+          "No, I don't."
+        ],
+        [
+          "Nice to meet you.",
+          "Odpověz, že tě také těší.",
+          "Nice to meet you too.",
+          "Také mě těší.",
+          "It's nice to meet you too."
+        ]
+      ],
+      "A2": [
+        [
+          "What are you working on?",
+          "Řekni, že připravuješ prezentaci.",
+          "I'm preparing a presentation.",
+          "Připravuji prezentaci.",
+          "I'm working on a presentation."
+        ],
+        [
+          "When is it due?",
+          "Řekni, že ji potřebuješ dokončit do pátku.",
+          "I need to finish it by Friday.",
+          "Musím ji dokončit do pátku.",
+          "It needs to be ready by Friday."
+        ],
+        [
+          "Do you need anything?",
+          "Požádej o pomoc s poslední stránkou.",
+          "Can you help me with the last page?",
+          "Můžeš mi pomoci s poslední stránkou?",
+          "Could you help me with the final page?"
+        ],
+        [
+          "Sure. When are you free?",
+          "Navrhni setkání po obědě.",
+          "Can we meet after lunch?",
+          "Můžeme se sejít po obědě?",
+          "Let's meet after lunch."
+        ],
+        [
+          "Two o'clock works for me.",
+          "Řekni, že pošleš soubor e-mailem.",
+          "I'll send you the file by email.",
+          "Pošlu ti soubor e-mailem.",
+          "I'll email you the file."
+        ],
+        [
+          "Thanks for keeping me updated.",
+          "Poděkuj za pomoc.",
+          "Thank you for your help.",
+          "Děkuji za pomoc.",
+          "Thanks for helping me."
+        ]
+      ],
+      "B1": [
+        [
+          "How is the project going?",
+          "Řekni, že máte zpoždění za plánem.",
+          "We're running behind schedule.",
+          "Máme zpoždění za plánem.",
+          "We're a little behind schedule."
+        ],
+        [
+          "What caused the delay?",
+          "Vysvětli, že čekáš na dodavatele.",
+          "We're waiting for the supplier to respond.",
+          "Čekáme, až dodavatel odpoví.",
+          "We haven't received a response from the supplier yet."
+        ],
+        [
+          "Can we still meet the deadline?",
+          "Navrhni prodloužení termínu o dva dny.",
+          "Could we extend the deadline by two days?",
+          "Mohli bychom prodloužit termín o dva dny?",
+          "Could we have two more days to finish it?"
+        ],
+        [
+          "That should be possible.",
+          "Nabídni převzetí odpovědnosti za zprávu.",
+          "I can take responsibility for the report.",
+          "Mohu převzít odpovědnost za zprávu.",
+          "I'll be responsible for the report."
+        ],
+        [
+          "Please keep the team informed.",
+          "Řekni, že všechny budeš pravidelně informovat.",
+          "I'll keep everyone updated.",
+          "Budu všechny průběžně informovat.",
+          "I'll make sure everyone is kept informed."
+        ],
+        [
+          "Let's review progress tomorrow.",
+          "Potvrď, že zítřek vyhovuje.",
+          "Tomorrow works well for me.",
+          "Zítřek mi vyhovuje.",
+          "I'm available tomorrow."
+        ]
+      ],
+      "B2": [
+        [
+          "Do you support the proposed approach?",
+          "Zdvořile vyjádři výhradu k proveditelnosti.",
+          "I have some reservations about its feasibility.",
+          "Mám určité výhrady k jeho proveditelnosti.",
+          "I'm not entirely convinced that it's feasible."
+        ],
+        [
+          "Which part concerns you?",
+          "Řekni, že odhad nákladů opomíjí údržbu.",
+          "The cost estimate doesn't take maintenance into account.",
+          "Odhad nákladů nezohledňuje údržbu.",
+          "Maintenance costs haven't been factored into the estimate."
+        ],
+        [
+          "What would you suggest?",
+          "Navrhni pilotní projekt před úplným zavedením.",
+          "I'd suggest running a pilot before rolling it out fully.",
+          "Navrhoval bych pilotní projekt před úplným zavedením.",
+          "We could test it on a smaller scale before a full rollout."
+        ],
+        [
+          "Would that affect the timeline?",
+          "Připusť zpoždění, ale zdůrazni snížení rizika.",
+          "It might delay the launch, but it would reduce the risk.",
+          "Mohlo by to odložit spuštění, ale snížilo by to riziko.",
+          "Although it could take longer, it would minimise the risk."
+        ],
+        [
+          "How would we measure success?",
+          "Navrhni předem stanovit jasná kritéria.",
+          "We should agree on clear criteria in advance.",
+          "Měli bychom se předem shodnout na jasných kritériích.",
+          "Let's establish clear criteria before we start."
+        ],
+        [
+          "Let's put that in writing.",
+          "Nabídni připravit návrh do konce dne.",
+          "I'll draft a proposal by the end of the day.",
+          "Do konce dne připravím návrh.",
+          "I can have a draft proposal ready by close of business."
+        ]
+      ]
+    }
+  },
+  "health": {
+    "title": "U lékaře a v lékárně",
+    "place": "Health Centre",
+    "colour": "#77b392",
+    "icon": "clinic",
+    "levels": {
+      "A1": [
+        [
+          "Hello. How can I help?",
+          "Řekni, že potřebuješ lékaře.",
+          "I need a doctor.",
+          "Potřebuji lékaře.",
+          "I need to see a doctor."
+        ],
+        [
+          "What is wrong?",
+          "Řekni, že tě bolí hlava.",
+          "I have a headache.",
+          "Bolí mě hlava.",
+          "I've got a headache."
+        ],
+        [
+          "Do you have a temperature?",
+          "Řekni, že máš horečku.",
+          "I have a fever.",
+          "Mám horečku.",
+          "I've got a temperature."
+        ],
+        [
+          "One day or two days?",
+          "Řekni, že dva dny.",
+          "For two days.",
+          "Dva dny.",
+          "Two days."
+        ],
+        [
+          "Please wait here.",
+          "Zeptej se, kde je toaleta.",
+          "Where is the toilet?",
+          "Kde je toaleta?",
+          "Where is the restroom?"
+        ],
+        [
+          "It's down the hall.",
+          "Poděkuj.",
+          "Thank you.",
+          "Děkuji.",
+          "Thanks."
+        ]
+      ],
+      "A2": [
+        [
+          "What seems to be the problem?",
+          "Řekni, že tě bolí v krku.",
+          "I've got a sore throat.",
+          "Bolí mě v krku.",
+          "I have a sore throat."
+        ],
+        [
+          "When did it start?",
+          "Řekni, že to začalo včera.",
+          "It started yesterday.",
+          "Začalo to včera.",
+          "Yesterday."
+        ],
+        [
+          "Are you taking any medicine?",
+          "Řekni, že bereš léky na alergii.",
+          "I take medicine for my allergies.",
+          "Beru léky na alergii.",
+          "I'm taking allergy medicine."
+        ],
+        [
+          "Do you have your insurance card?",
+          "Řekni, že ji máš u sebe.",
+          "Yes, I have it with me.",
+          "Ano, mám ji u sebe.",
+          "Yes, I've got it here."
+        ],
+        [
+          "The doctor will see you shortly.",
+          "Požádej lékaře, aby mluvil pomalu.",
+          "Could you speak slowly, please?",
+          "Mohl byste mluvit pomalu, prosím?",
+          "Can you speak more slowly, please?"
+        ],
+        [
+          "Of course.",
+          "Zeptej se, kde je nejbližší lékárna.",
+          "Where is the nearest pharmacy?",
+          "Kde je nejbližší lékárna?",
+          "Is there a pharmacy nearby?"
+        ]
+      ],
+      "B1": [
+        [
+          "Can you describe your symptoms?",
+          "Řekni, že máš od pondělí závratě.",
+          "I've been feeling dizzy since Monday.",
+          "Od pondělí mám závratě.",
+          "I've felt dizzy since Monday."
+        ],
+        [
+          "Does it happen all the time?",
+          "Řekni, že se to zhoršuje při vstávání.",
+          "It gets worse when I stand up.",
+          "Zhoršuje se to, když vstanu.",
+          "Standing up makes it worse."
+        ],
+        [
+          "Have you had this before?",
+          "Řekni, že se to stalo jednou minulý rok.",
+          "It happened once last year.",
+          "Jednou se to stalo minulý rok.",
+          "I had the same problem once last year."
+        ],
+        [
+          "Are you allergic to any medication?",
+          "Řekni, že máš alergii na penicilin.",
+          "I'm allergic to penicillin.",
+          "Mám alergii na penicilin.",
+          "I have a penicillin allergy."
+        ],
+        [
+          "I'll explain the next steps.",
+          "Požádej o napsání pokynů.",
+          "Could you write the instructions down?",
+          "Mohl byste pokyny napsat?",
+          "Could I have the instructions in writing?"
+        ],
+        [
+          "Certainly.",
+          "Zeptej se, kdy máš přijít na kontrolu.",
+          "When should I come back for a check-up?",
+          "Kdy mám přijít na kontrolu?",
+          "When do I need a follow-up appointment?"
+        ]
+      ],
+      "B2": [
+        [
+          "How has the condition changed?",
+          "Řekni, že příznaky přetrvávají navzdory léčbě.",
+          "The symptoms have persisted despite the treatment.",
+          "Příznaky přetrvávají navzdory léčbě.",
+          "The treatment hasn't resolved the symptoms."
+        ],
+        [
+          "Have you noticed any side effects?",
+          "Řekni, že od zahájení léčby máš nevolnost.",
+          "I've been experiencing nausea since I started the medication.",
+          "Od zahájení užívání léků mám nevolnost.",
+          "I've felt nauseous since starting the medication."
+        ],
+        [
+          "We could consider another option.",
+          "Zeptej se na přínosy a rizika alternativy.",
+          "Could you explain the benefits and risks of the alternative?",
+          "Mohl byste vysvětlit přínosy a rizika alternativy?",
+          "What are the advantages and potential risks of the other option?"
+        ],
+        [
+          "I'll go through them with you.",
+          "Požádej o upřesnění pravděpodobnosti nežádoucích účinků.",
+          "How likely are those side effects to occur?",
+          "Jak pravděpodobný je výskyt těchto nežádoucích účinků?",
+          "What is the likelihood of experiencing those side effects?"
+        ],
+        [
+          "We will arrange some tests.",
+          "Zeptej se, zda vyšetření vyžaduje přípravu.",
+          "Is there anything I need to do to prepare for the tests?",
+          "Musím se na vyšetření nějak připravit?",
+          "Do the tests require any particular preparation?"
+        ],
+        [
+          "We'll send you written information.",
+          "Požádej o kopii zprávy v angličtině.",
+          "Could I have a copy of the report in English?",
+          "Mohl bych dostat kopii zprávy v angličtině?",
+          "Would it be possible to receive the report in English?"
+        ]
+      ]
+    }
+  },
+  "social": {
+    "title": "Seznamování a přátelé",
+    "place": "Community Square",
+    "colour": "#d99969",
+    "icon": "park",
+    "levels": {
+      "A1": [
+        [
+          "Hi! What's your name?",
+          "Představ se jako Anna.",
+          "My name is Anna.",
+          "Jmenuji se Anna.",
+          "I'm Anna."
+        ],
+        [
+          "Where are you from?",
+          "Řekni, že jsi z České republiky.",
+          "I'm from the Czech Republic.",
+          "Jsem z České republiky.",
+          "I come from the Czech Republic."
+        ],
+        [
+          "Where do you live?",
+          "Řekni, že bydlíš v Brně.",
+          "I live in Brno.",
+          "Bydlím v Brně.",
+          "My home is in Brno."
+        ],
+        [
+          "What do you like doing?",
+          "Řekni, že máš rád hudbu.",
+          "I like music.",
+          "Mám rád hudbu.",
+          "I love music."
+        ],
+        [
+          "Do you speak English?",
+          "Řekni, že mluvíš trochu anglicky.",
+          "I speak a little English.",
+          "Mluvím trochu anglicky.",
+          "I can speak a little English."
+        ],
+        [
+          "Nice to meet you.",
+          "Odpověz, že tě také těší.",
+          "Nice to meet you too.",
+          "Také mě těší.",
+          "It's nice to meet you too."
+        ]
+      ],
+      "A2": [
+        [
+          "What are you doing this weekend?",
+          "Řekni, že jdeš v sobotu do kina.",
+          "I'm going to the cinema on Saturday.",
+          "V sobotu jdu do kina.",
+          "I'm going to the movies on Saturday."
+        ],
+        [
+          "That sounds fun.",
+          "Pozvi kamaráda, aby šel s tebou.",
+          "Would you like to come with me?",
+          "Chtěl bys jít se mnou?",
+          "Do you want to come with me?"
+        ],
+        [
+          "I'd love to. What time?",
+          "Navrhni setkání v šest.",
+          "Let's meet at six.",
+          "Sejděme se v šest.",
+          "Shall we meet at six o'clock?"
+        ],
+        [
+          "Where shall we meet?",
+          "Navrhni setkání před kinem.",
+          "Let's meet outside the cinema.",
+          "Sejděme se před kinem.",
+          "We can meet in front of the cinema."
+        ],
+        [
+          "Can I bring a friend?",
+          "Řekni, že je to v pořádku.",
+          "Yes, of course.",
+          "Ano, samozřejmě.",
+          "Sure, that's fine."
+        ],
+        [
+          "See you on Saturday!",
+          "Rozluč se s tím, že se uvidíte v sobotu.",
+          "See you on Saturday.",
+          "Uvidíme se v sobotu.",
+          "I'll see you on Saturday."
+        ]
+      ],
+      "B1": [
+        [
+          "Are you coming to the party?",
+          "Řekni, že bys rád, ale máš jiné plány.",
+          "I'd love to, but I've already made other plans.",
+          "Rád bych, ale už mám jiné plány.",
+          "I'd like to come, but I have other plans."
+        ],
+        [
+          "That's a shame.",
+          "Navrhni setkání příští týden.",
+          "Could we meet up next week instead?",
+          "Mohli bychom se místo toho sejít příští týden?",
+          "Shall we get together next week instead?"
+        ],
+        [
+          "Tuesday might work.",
+          "Řekni, že v úterý můžeš až po práci.",
+          "I'm only free after work on Tuesday.",
+          "V úterý mám čas až po práci.",
+          "I can meet after work on Tuesday."
+        ],
+        [
+          "Let's have dinner then.",
+          "Zeptej se, zda má kamarád nějaké preference.",
+          "Do you have any preferences?",
+          "Máš nějaké preference?",
+          "Is there anything you'd particularly like?"
+        ],
+        [
+          "Somewhere quiet would be nice.",
+          "Navrhni malou restauraci poblíž parku.",
+          "There's a small restaurant near the park we could try.",
+          "Mohli bychom zkusit malou restauraci poblíž parku.",
+          "We could try the little restaurant by the park."
+        ],
+        [
+          "Sounds good.",
+          "Řekni, že zarezervuješ stůl.",
+          "I'll book a table.",
+          "Zarezervuji stůl.",
+          "I'll make a reservation."
+        ]
+      ],
+      "B2": [
+        [
+          "You seem a bit quiet today.",
+          "Řekni, že se snažíš zvyknout si na nové prostředí.",
+          "I'm still trying to adjust to the new environment.",
+          "Stále se snažím zvyknout si na nové prostředí.",
+          "I'm finding it takes time to settle into the new environment."
+        ],
+        [
+          "What has been the hardest part?",
+          "Řekni, že ti chybí spontánní setkávání s přáteli.",
+          "I miss being able to meet friends spontaneously.",
+          "Chybí mi možnost spontánně se setkávat s přáteli.",
+          "What I miss most is seeing friends without having to plan ahead."
+        ],
+        [
+          "Have you joined any local groups?",
+          "Připusť, že jsi s tím váhal.",
+          "I've been hesitant about joining a group.",
+          "Váhal jsem se zapojením do nějaké skupiny.",
+          "I haven't quite felt confident enough to join a group yet."
+        ],
+        [
+          "I could introduce you to some people.",
+          "Řekni, že bys to velmi ocenil.",
+          "I'd really appreciate that.",
+          "To bych velmi ocenil.",
+          "That would mean a lot to me."
+        ],
+        [
+          "We're meeting on Thursday.",
+          "Zeptej se, zda by nebylo nevhodné přivést kolegu.",
+          "Would it be all right if I brought a colleague?",
+          "Bylo by v pořádku, kdybych přivedl kolegu?",
+          "Would you mind if a colleague came along?"
+        ],
+        [
+          "Not at all.",
+          "Poděkuj za to, že ses díky němu cítil vítán.",
+          "Thank you for making me feel so welcome.",
+          "Děkuji, že jsem se díky tobě cítil tak vítán.",
+          "I appreciate you helping me feel at home."
+        ]
+      ]
+    }
+  },
+  "home": {
+    "title": "Bydlení a sousedé",
+    "place": "Maple Court",
+    "colour": "#9daa70",
+    "icon": "home",
+    "levels": {
+      "A1": [
+        [
+          "Where do you live?",
+          "Řekni, že bydlíš v malém bytě.",
+          "I live in a small flat.",
+          "Bydlím v malém bytě.",
+          "I live in a small apartment."
+        ],
+        [
+          "How many rooms are there?",
+          "Řekni, že jsou tam dvě ložnice.",
+          "There are two bedrooms.",
+          "Jsou tam dvě ložnice.",
+          "It has two bedrooms."
+        ],
+        [
+          "Is there a garden?",
+          "Řekni, že tam zahrada není.",
+          "There isn't a garden.",
+          "Není tam zahrada.",
+          "No, there is no garden."
+        ],
+        [
+          "Where is the kitchen?",
+          "Řekni, že kuchyň je vedle obývacího pokoje.",
+          "The kitchen is next to the living room.",
+          "Kuchyň je vedle obývacího pokoje.",
+          "It's next to the living room."
+        ],
+        [
+          "Do you like your home?",
+          "Řekni, že máš svůj byt rád.",
+          "I like my flat.",
+          "Mám svůj byt rád.",
+          "I like my apartment."
+        ],
+        [
+          "Is it near the school?",
+          "Řekni, že je poblíž školy.",
+          "It's near the school.",
+          "Je poblíž školy.",
+          "It's close to the school."
+        ]
+      ],
+      "A2": [
+        [
+          "Are you interested in the flat?",
+          "Zeptej se, kolik je měsíční nájem.",
+          "How much is the monthly rent?",
+          "Kolik činí měsíční nájem?",
+          "What's the rent per month?"
+        ],
+        [
+          "It's eight hundred pounds.",
+          "Zeptej se, zda jsou energie zahrnuty.",
+          "Are bills included?",
+          "Jsou energie zahrnuty v ceně?",
+          "Does that include bills?"
+        ],
+        [
+          "No, they aren't.",
+          "Zeptej se, kdy se můžeš nastěhovat.",
+          "When can I move in?",
+          "Kdy se mohu nastěhovat?",
+          "When is the flat available?"
+        ],
+        [
+          "At the beginning of next month.",
+          "Zeptej se, zda jsou povolena domácí zvířata.",
+          "Are pets allowed?",
+          "Jsou povolena domácí zvířata?",
+          "Can I keep a pet here?"
+        ],
+        [
+          "Cats are allowed.",
+          "Řekni, že máš jednu kočku.",
+          "I have one cat.",
+          "Mám jednu kočku.",
+          "I've got a cat."
+        ],
+        [
+          "Would you like to view the flat?",
+          "Řekni, že můžeš přijít zítra.",
+          "I can come tomorrow.",
+          "Mohu přijít zítra.",
+          "I'm available tomorrow."
+        ]
+      ],
+      "B1": [
+        [
+          "Is there a problem in the flat?",
+          "Řekni, že z kuchyňského kohoutku kape voda.",
+          "The kitchen tap is dripping.",
+          "Z kuchyňského kohoutku kape voda.",
+          "The kitchen faucet is dripping."
+        ],
+        [
+          "How long has that been happening?",
+          "Řekni, že to začalo před dvěma dny.",
+          "It started two days ago.",
+          "Začalo to před dvěma dny.",
+          "It's been happening for two days."
+        ],
+        [
+          "I'll call a plumber.",
+          "Zeptej se, kdy může přijít.",
+          "When would the plumber be able to come?",
+          "Kdy by mohl instalatér přijít?",
+          "When can the plumber come round?"
+        ],
+        [
+          "Probably tomorrow morning.",
+          "Vysvětli, že budeš dopoledne v práci.",
+          "I'll be at work tomorrow morning.",
+          "Zítra dopoledne budu v práci.",
+          "I'm working tomorrow morning."
+        ],
+        [
+          "Could a neighbour let them in?",
+          "Řekni, že se zeptáš souseda.",
+          "I'll ask my neighbour.",
+          "Zeptám se souseda.",
+          "I can check with my neighbour."
+        ],
+        [
+          "Please let me know.",
+          "Řekni, že zavoláš zpět odpoledne.",
+          "I'll call you back this afternoon.",
+          "Zavolám vám zpět dnes odpoledne.",
+          "I'll get back to you this afternoon."
+        ]
+      ],
+      "B2": [
+        [
+          "Why would you like to discuss the lease?",
+          "Řekni, že chceš upřesnit podmínky před podpisem.",
+          "I'd like to clarify the terms before signing the lease.",
+          "Před podpisem nájemní smlouvy bych chtěl upřesnit podmínky.",
+          "I'd like to make sure I understand the terms before I sign."
+        ],
+        [
+          "Which clause concerns you?",
+          "Zeptej se, kdo odpovídá za drobné opravy.",
+          "Who is responsible for minor repairs?",
+          "Kdo odpovídá za drobné opravy?",
+          "Whose responsibility are minor repairs?"
+        ],
+        [
+          "That depends on the circumstances.",
+          "Požádej o konkrétní vymezení ve smlouvě.",
+          "Could that be specified explicitly in the agreement?",
+          "Mohlo by to být ve smlouvě výslovně vymezeno?",
+          "Could you make that clear in the contract?"
+        ],
+        [
+          "We can revise the wording.",
+          "Zeptej se na podmínky vrácení kauce.",
+          "Under what conditions would the deposit be returned?",
+          "Za jakých podmínek by byla kauce vrácena?",
+          "What are the conditions for getting the deposit back?"
+        ],
+        [
+          "The property must be in good condition.",
+          "Navrhni zdokumentovat stav při převzetí.",
+          "We should document the condition of the property when I move in.",
+          "Měli bychom zdokumentovat stav nemovitosti při nastěhování.",
+          "Could we record the property's condition at the start of the tenancy?"
+        ],
+        [
+          "That's a sensible suggestion.",
+          "Požádej o upravenou smlouvu e-mailem.",
+          "Could you email me the revised agreement?",
+          "Mohl byste mi upravenou smlouvu poslat e-mailem?",
+          "Could I receive the updated contract by email?"
+        ]
+      ]
+    }
+  },
+  "study": {
+    "title": "Studium a kurzy",
+    "place": "Learning Hub",
+    "colour": "#8b93cd",
+    "icon": "school",
+    "levels": {
+      "A1": [
+        [
+          "What would you like to study?",
+          "Řekni, že chceš studovat angličtinu.",
+          "I'd like to study English.",
+          "Chtěl bych studovat angličtinu.",
+          "I want to learn English."
+        ],
+        [
+          "Are you a student?",
+          "Řekni, že jsi student.",
+          "I'm a student.",
+          "Jsem student.",
+          "I am a student."
+        ],
+        [
+          "Do you have a notebook?",
+          "Řekni, že máš sešit.",
+          "I have a notebook.",
+          "Mám sešit.",
+          "I've got a notebook."
+        ],
+        [
+          "Please open your book.",
+          "Zeptej se, na které stránce.",
+          "Which page?",
+          "Na které stránce?",
+          "What page?"
+        ],
+        [
+          "Page ten.",
+          "Řekni, že nerozumíš.",
+          "I don't understand.",
+          "Nerozumím.",
+          "I'm sorry, I don't understand."
+        ],
+        [
+          "Let me explain again.",
+          "Požádej o pomalejší řeč.",
+          "Please speak slowly.",
+          "Prosím, mluvte pomalu.",
+          "Can you speak slowly, please?"
+        ]
+      ],
+      "A2": [
+        [
+          "Are you interested in the evening course?",
+          "Zeptej se, kdy kurz začíná.",
+          "When does the course start?",
+          "Kdy kurz začíná?",
+          "What's the start date?"
+        ],
+        [
+          "Next Monday.",
+          "Zeptej se, kolikrát týdně se koná.",
+          "How many times a week are the classes?",
+          "Kolikrát týdně probíhají lekce?",
+          "How often are the classes?"
+        ],
+        [
+          "Twice a week.",
+          "Řekni, že můžeš v pondělí a ve středu.",
+          "I'm free on Mondays and Wednesdays.",
+          "Mám čas v pondělí a ve středu.",
+          "I can attend on Mondays and Wednesdays."
+        ],
+        [
+          "That fits our timetable.",
+          "Zeptej se, zda potřebuješ učebnici.",
+          "Do I need a textbook?",
+          "Potřebuji učebnici?",
+          "Should I buy a textbook?"
+        ],
+        [
+          "We'll provide one.",
+          "Zeptej se, kolik kurz stojí.",
+          "How much does the course cost?",
+          "Kolik kurz stojí?",
+          "What's the price of the course?"
+        ],
+        [
+          "I'll send you the details.",
+          "Požádej o jejich zaslání e-mailem.",
+          "Could you email me the details?",
+          "Mohl byste mi podrobnosti poslat e-mailem?",
+          "Can you send me the information by email?"
+        ]
+      ],
+      "B1": [
+        [
+          "Have you chosen your course?",
+          "Řekni, že chceš zlepšit hlavně mluvení.",
+          "I'd mainly like to improve my speaking skills.",
+          "Chtěl bych zlepšit především mluvení.",
+          "Speaking is the skill I'd most like to improve."
+        ],
+        [
+          "What do you find difficult?",
+          "Řekni, že rozumíš, ale obtížně rychle odpovídáš.",
+          "I can understand, but I find it hard to respond quickly.",
+          "Rozumím, ale je pro mě těžké rychle odpovídat.",
+          "Understanding is easier for me than responding quickly."
+        ],
+        [
+          "We offer a conversation course.",
+          "Zeptej se na počet studentů ve skupině.",
+          "How many students are there in a group?",
+          "Kolik studentů je ve skupině?",
+          "What's the group size?"
+        ],
+        [
+          "Usually six.",
+          "Zeptej se na možnost zkušební lekce.",
+          "Would it be possible to attend a trial lesson?",
+          "Bylo by možné navštívit zkušební lekci?",
+          "Could I try a lesson before signing up?"
+        ],
+        [
+          "Yes, next Thursday.",
+          "Řekni, že se těšíš na účast.",
+          "I'm looking forward to joining the class.",
+          "Těším se na účast v lekci.",
+          "I'm looking forward to taking part."
+        ],
+        [
+          "Please complete this form.",
+          "Zeptej se, zda ho můžeš vyplnit online.",
+          "Can I fill it in online?",
+          "Mohu ho vyplnit online?",
+          "Is it possible to complete the form online?"
+        ]
+      ],
+      "B2": [
+        [
+          "What are your learning goals?",
+          "Řekni, že chceš získat jistotu při odborných diskusích.",
+          "I'd like to become more confident in professional discussions.",
+          "Chtěl bych získat větší jistotu při odborných diskusích.",
+          "My goal is to feel more confident discussing professional topics."
+        ],
+        [
+          "What kind of feedback do you find useful?",
+          "Požádej o konkrétní zpětnou vazbu k opakujícím se chybám.",
+          "I'd appreciate specific feedback on recurring mistakes.",
+          "Ocenil bych konkrétní zpětnou vazbu k opakujícím se chybám.",
+          "I'd find targeted feedback on repeated errors helpful."
+        ],
+        [
+          "Would you prefer individual lessons?",
+          "Řekni, že skupina je přínosná, pokud má každý prostor mluvit.",
+          "Group lessons are useful provided everyone has a chance to speak.",
+          "Skupinové lekce jsou užitečné, pokud má každý možnost mluvit.",
+          "I'd benefit from a group as long as everyone gets speaking time."
+        ],
+        [
+          "How much time can you devote to study?",
+          "Řekni, že krátké pravidelné učení ti vyhovuje více.",
+          "Short, regular sessions work better for me.",
+          "Krátké pravidelné učení mi vyhovuje více.",
+          "I learn more effectively in brief, frequent sessions."
+        ],
+        [
+          "We can adapt the course.",
+          "Zeptej se, jak se bude měřit pokrok.",
+          "How will my progress be assessed?",
+          "Jak se bude hodnotit můj pokrok?",
+          "What methods will you use to evaluate my progress?"
+        ],
+        [
+          "We'll review your goals every month.",
+          "Navrhni stanovit dosažitelné průběžné cíle.",
+          "Could we set achievable short-term goals?",
+          "Mohli bychom stanovit dosažitelné krátkodobé cíle?",
+          "I'd like us to agree on realistic goals along the way."
+        ]
+      ]
+    }
+  },
+  "services": {
+    "title": "Telefon a běžné služby",
+    "place": "Service Point",
+    "colour": "#b39874",
+    "icon": "post",
+    "levels": {
+      "A1": [
+        [
+          "Hello. How can I help?",
+          "Řekni, že chceš poslat dopis.",
+          "I'd like to send a letter.",
+          "Chtěl bych poslat dopis.",
+          "I want to post a letter."
+        ],
+        [
+          "Where is it going?",
+          "Řekni, že do České republiky.",
+          "To the Czech Republic.",
+          "Do České republiky.",
+          "It's going to the Czech Republic."
+        ],
+        [
+          "Do you need a stamp?",
+          "Požádej o jednu známku.",
+          "One stamp, please.",
+          "Jednu známku, prosím.",
+          "I'd like one stamp, please."
+        ],
+        [
+          "Anything else?",
+          "Řekni, že potřebuješ obálku.",
+          "I need an envelope.",
+          "Potřebuji obálku.",
+          "Can I have an envelope, please?"
+        ],
+        [
+          "Here you are.",
+          "Zeptej se na cenu.",
+          "How much is it?",
+          "Kolik to stojí?",
+          "How much does it cost?"
+        ],
+        [
+          "Three pounds.",
+          "Poděkuj a rozluč se.",
+          "Thank you. Goodbye.",
+          "Děkuji. Na shledanou.",
+          "Thanks. Bye."
+        ]
+      ],
+      "A2": [
+        [
+          "Hello, customer service.",
+          "Požádej o rozhovor s paní Brownovou.",
+          "Can I speak to Ms Brown, please?",
+          "Mohu mluvit s paní Brownovou, prosím?",
+          "Could I speak to Ms Brown, please?"
+        ],
+        [
+          "Who's calling?",
+          "Řekni, že volá Alex Novák.",
+          "This is Alex Novak.",
+          "Tady Alex Novák.",
+          "Alex Novak speaking."
+        ],
+        [
+          "She's not available at the moment.",
+          "Zeptej se, zda můžeš zanechat zprávu.",
+          "Can I leave a message?",
+          "Mohu zanechat zprávu?",
+          "Could you take a message?"
+        ],
+        [
+          "Of course.",
+          "Požádej, aby ti zavolala zpět.",
+          "Could she call me back, please?",
+          "Mohla by mi zavolat zpět, prosím?",
+          "Please ask her to call me back."
+        ],
+        [
+          "What's your number?",
+          "Řekni, že pošleš číslo e-mailem.",
+          "I'll send my number by email.",
+          "Pošlu své číslo e-mailem.",
+          "I'll email you my number."
+        ],
+        [
+          "I'll pass on your message.",
+          "Poděkuj za pomoc.",
+          "Thank you for your help.",
+          "Děkuji za pomoc.",
+          "Thanks for helping."
+        ]
+      ],
+      "B1": [
+        [
+          "How can I help you?",
+          "Řekni, že tvé internetové připojení nefunguje.",
+          "My internet connection isn't working.",
+          "Mé internetové připojení nefunguje.",
+          "I can't connect to the internet."
+        ],
+        [
+          "Have you restarted the router?",
+          "Řekni, že jsi ho již dvakrát restartoval.",
+          "I've already restarted it twice.",
+          "Už jsem ho dvakrát restartoval.",
+          "I've tried restarting it twice."
+        ],
+        [
+          "When did the problem start?",
+          "Řekni, že připojení přestalo fungovat včera večer.",
+          "It stopped working last night.",
+          "Přestalo fungovat včera večer.",
+          "The connection went down last night."
+        ],
+        [
+          "We'll run some checks.",
+          "Zeptej se, zda je výpadek v celé oblasti.",
+          "Is there an outage in the area?",
+          "Je v oblasti výpadek?",
+          "Is the whole area affected?"
+        ],
+        [
+          "It appears to be a local fault.",
+          "Zeptej se, kdy bude připojení obnoveno.",
+          "When do you expect the connection to be restored?",
+          "Kdy očekáváte obnovení připojení?",
+          "When will the internet be working again?"
+        ],
+        [
+          "We'll send you an update.",
+          "Požádej o číslo případu.",
+          "Could I have a reference number?",
+          "Mohl bych dostat číslo případu?",
+          "What's the reference number for this issue?"
+        ]
+      ],
+      "B2": [
+        [
+          "What would you like to discuss?",
+          "Řekni, že na vyúčtování je neočekávaný poplatek.",
+          "There's an unexpected charge on my bill.",
+          "Na mém vyúčtování je neočekávaný poplatek.",
+          "I've noticed a charge on my bill that I wasn't expecting."
+        ],
+        [
+          "What is the charge for?",
+          "Řekni, že se týká služby, kterou jsi nepovolil.",
+          "It's for a service I didn't authorise.",
+          "Je za službu, kterou jsem nepovolil.",
+          "I never authorised the service I've been charged for."
+        ],
+        [
+          "Our records show it was activated.",
+          "Požádej o doložení svého souhlasu.",
+          "Could you provide evidence of my consent?",
+          "Mohli byste doložit můj souhlas?",
+          "Could you show me when I agreed to this?"
+        ],
+        [
+          "We'll investigate.",
+          "Požádej o pozastavení poplatku do vyřešení.",
+          "Could the charge be suspended while the matter is being investigated?",
+          "Mohl by být poplatek pozastaven po dobu prošetřování?",
+          "Could you put the charge on hold until this is resolved?"
+        ],
+        [
+          "I'll escalate the case.",
+          "Požádej o písemné shrnutí reklamace.",
+          "Could you send me a written summary of the complaint?",
+          "Mohli byste mi zaslat písemné shrnutí reklamace?",
+          "I'd like a summary of my complaint in writing."
+        ],
+        [
+          "You'll receive an email.",
+          "Zeptej se na předpokládaný termín odpovědi.",
+          "When can I expect a formal response?",
+          "Kdy mohu očekávat oficiální odpověď?",
+          "What is the expected timeframe for a formal reply?"
+        ]
+      ]
+    }
+  },
+  "outdoors": {
+    "title": "Příroda a výlety",
+    "place": "Greenway Park",
+    "colour": "#80ab70",
+    "icon": "trees",
+    "levels": {
+      "A1": [
+        [
+          "Do you like walking?",
+          "Řekni, že rád chodíš pěšky.",
+          "I like walking.",
+          "Rád chodím pěšky.",
+          "I enjoy walking."
+        ],
+        [
+          "Where do you want to go?",
+          "Řekni, že chceš jít do parku.",
+          "I'd like to go to the park.",
+          "Chtěl bych jít do parku.",
+          "I want to go to the park."
+        ],
+        [
+          "What's the weather like?",
+          "Řekni, že je slunečno.",
+          "It's sunny.",
+          "Je slunečno.",
+          "The weather is sunny."
+        ],
+        [
+          "Is it cold?",
+          "Řekni, že je teplo.",
+          "It's warm.",
+          "Je teplo.",
+          "No, it's warm."
+        ],
+        [
+          "Do you have water?",
+          "Řekni, že máš láhev vody.",
+          "I have a bottle of water.",
+          "Mám láhev vody.",
+          "I've got a bottle of water."
+        ],
+        [
+          "Shall we go?",
+          "Řekni, že jsi připraven.",
+          "I'm ready.",
+          "Jsem připraven.",
+          "I'm ready to go."
+        ]
+      ],
+      "A2": [
+        [
+          "Where does this path go?",
+          "Zeptej se, zda vede k jezeru.",
+          "Does this path go to the lake?",
+          "Vede tato cesta k jezeru?",
+          "Is this the way to the lake?"
+        ],
+        [
+          "Yes, it does.",
+          "Zeptej se, jak je jezero daleko.",
+          "How far is the lake?",
+          "Jak daleko je jezero?",
+          "How far is it to the lake?"
+        ],
+        [
+          "About three kilometres.",
+          "Zeptej se, zda je cesta snadná.",
+          "Is the path easy?",
+          "Je cesta snadná?",
+          "Is it an easy walk?"
+        ],
+        [
+          "There is one steep hill.",
+          "Řekni, že potřebuješ krátkou přestávku.",
+          "I need a short break.",
+          "Potřebuji krátkou přestávku.",
+          "Can we take a short break?"
+        ],
+        [
+          "Let's stop here.",
+          "Zeptej se, zda můžete sedět na trávě.",
+          "Can we sit on the grass?",
+          "Můžeme si sednout na trávu?",
+          "Is it OK to sit on the grass?"
+        ],
+        [
+          "Yes, that's fine.",
+          "Řekni, že se musíš vrátit před pátou.",
+          "I need to be back before five.",
+          "Musím být zpět před pátou.",
+          "I have to get back before five o'clock."
+        ]
+      ],
+      "B1": [
+        [
+          "Have you checked the forecast?",
+          "Řekni, že odpoledne může pršet.",
+          "It might rain this afternoon.",
+          "Dnes odpoledne může pršet.",
+          "There's a chance of rain this afternoon."
+        ],
+        [
+          "Should we change our route?",
+          "Navrhni kratší trasu.",
+          "We could take a shorter route.",
+          "Mohli bychom jít kratší trasou.",
+          "Let's choose a shorter route."
+        ],
+        [
+          "There is a trail through the woods.",
+          "Zeptej se, zda je dobře značená.",
+          "Is the trail well marked?",
+          "Je stezka dobře značená?",
+          "Are there clear signs along the trail?"
+        ],
+        [
+          "Most of it is.",
+          "Řekni, že máš staženou mapu.",
+          "I've downloaded a map.",
+          "Stáhl jsem si mapu.",
+          "I have a downloaded map on my phone."
+        ],
+        [
+          "That's useful.",
+          "Navrhni zůstat spolu.",
+          "We should stay together.",
+          "Měli bychom zůstat spolu.",
+          "Let's make sure we don't split up."
+        ],
+        [
+          "Agreed.",
+          "Řekni, že někomu sdělíš, kdy se vrátíte.",
+          "I'll let someone know when we expect to be back.",
+          "Dám někomu vědět, kdy očekáváme návrat.",
+          "I'll tell someone our expected return time."
+        ]
+      ],
+      "B2": [
+        [
+          "Why is this area protected?",
+          "Zeptej se, jaké druhy jsou zde ohrožené.",
+          "Which species in this area are endangered?",
+          "Které druhy v této oblasti jsou ohrožené?"
+        ],
+        [
+          "Several birds nest here.",
+          "Zeptej se, jak mohou návštěvníci omezit rušení.",
+          "How can visitors minimise disturbance to wildlife?",
+          "Jak mohou návštěvníci omezit rušení volně žijících živočichů?",
+          "What can visitors do to avoid disturbing wildlife?"
+        ],
+        [
+          "Please keep to the marked paths.",
+          "Řekni, že chápeš význam ochrany prostředí.",
+          "I understand the importance of protecting the habitat.",
+          "Chápu význam ochrany tohoto prostředí.",
+          "I appreciate why the habitat needs to be protected."
+        ],
+        [
+          "We also encourage people to reduce waste.",
+          "Navrhni znovupoužitelné nádoby místo jednorázových obalů.",
+          "We could use reusable containers instead of disposable packaging.",
+          "Mohli bychom používat znovupoužitelné nádoby místo jednorázových obalů.",
+          "Reusable containers would be a better alternative to single-use packaging."
+        ],
+        [
+          "That's a good idea.",
+          "Zeptej se, zda se lze zapojit do dobrovolnické ochrany.",
+          "Are there any opportunities to volunteer in conservation?",
+          "Existují možnosti dobrovolnictví v ochraně přírody?",
+          "Could I get involved in conservation as a volunteer?"
+        ],
+        [
+          "We organise monthly events.",
+          "Požádej o podrobnosti příští akce.",
+          "Could you send me the details of the next event?",
+          "Mohli byste mi zaslat podrobnosti příští akce?",
+          "I'd be interested in receiving information about the next event."
+        ]
+      ]
+    }
+  },
+  "culture": {
+    "title": "Kultura a volný čas",
+    "place": "Grand Theatre",
+    "colour": "#bf7d89",
+    "icon": "theatre",
+    "levels": {
+      "A1": [
+        [
+          "What do you like doing?",
+          "Řekni, že máš rád filmy.",
+          "I like films.",
+          "Mám rád filmy.",
+          "I like movies."
+        ],
+        [
+          "Would you like a ticket?",
+          "Požádej o dvě vstupenky.",
+          "Two tickets, please.",
+          "Dvě vstupenky, prosím.",
+          "I'd like two tickets, please."
+        ],
+        [
+          "Which day?",
+          "Řekni, že na pátek.",
+          "For Friday, please.",
+          "Na pátek, prosím.",
+          "Friday, please."
+        ],
+        [
+          "The show starts at seven.",
+          "Zeptej se, kde je vchod.",
+          "Where is the entrance?",
+          "Kde je vchod?",
+          "Where do we go in?"
+        ],
+        [
+          "Over there.",
+          "Zeptej se, zda zde můžeš fotografovat.",
+          "Can I take photos here?",
+          "Mohu zde fotografovat?",
+          "Can I take pictures here?"
+        ],
+        [
+          "Not during the show.",
+          "Poděkuj.",
+          "Thank you.",
+          "Děkuji.",
+          "Thanks."
+        ]
+      ],
+      "A2": [
+        [
+          "Which performance would you like to see?",
+          "Řekni, že chceš vidět sobotní koncert.",
+          "I'd like to see the concert on Saturday.",
+          "Chtěl bych vidět sobotní koncert.",
+          "I'm interested in Saturday's concert."
+        ],
+        [
+          "How many tickets do you need?",
+          "Požádej o dvě místa vedle sebe.",
+          "I'd like two seats together.",
+          "Chtěl bych dvě místa vedle sebe.",
+          "Can we have two seats next to each other?"
+        ],
+        [
+          "There are seats in the balcony.",
+          "Zeptej se na studentskou slevu.",
+          "Do you offer a student discount?",
+          "Nabízíte studentskou slevu?",
+          "Is there a student discount?"
+        ],
+        [
+          "Yes, with a student card.",
+          "Zeptej se, jak dlouho koncert trvá.",
+          "How long does the concert last?",
+          "Jak dlouho koncert trvá?",
+          "How long is the concert?"
+        ],
+        [
+          "About two hours.",
+          "Zeptej se, zda bude přestávka.",
+          "Is there an interval?",
+          "Bude přestávka?",
+          "Is there an intermission?"
+        ],
+        [
+          "Yes, after the first hour.",
+          "Zeptej se, zda si můžeš vstupenky vyzvednout zítra.",
+          "Can I collect the tickets tomorrow?",
+          "Mohu si vstupenky vyzvednout zítra?",
+          "Can I pick up the tickets tomorrow?"
+        ]
+      ],
+      "B1": [
+        [
+          "What did you think of the film?",
+          "Řekni, že příběh byl zajímavý, ale konec předvídatelný.",
+          "The story was interesting, but the ending was predictable.",
+          "Příběh byl zajímavý, ale konec předvídatelný.",
+          "I enjoyed the story, although I could predict the ending."
+        ],
+        [
+          "What about the actors?",
+          "Řekni, že hlavní herec podal přesvědčivý výkon.",
+          "The lead actor gave a convincing performance.",
+          "Hlavní herec podal přesvědčivý výkon.",
+          "The main actor was very convincing."
+        ],
+        [
+          "Would you recommend it?",
+          "Řekni, že ho doporučuješ lidem, kteří mají rádi dramata.",
+          "I'd recommend it to people who enjoy dramas.",
+          "Doporučil bych ho lidem, kteří mají rádi dramata.",
+          "It's worth watching if you like dramas."
+        ],
+        [
+          "Was it based on a book?",
+          "Řekni, že jsi knihu zatím nečetl.",
+          "I haven't read the book yet.",
+          "Knihu jsem zatím nečetl.",
+          "I've not read the book yet."
+        ],
+        [
+          "Would you like to read it?",
+          "Řekni, že tě zajímá porovnání s filmem.",
+          "I'd like to see how it compares with the film.",
+          "Chtěl bych zjistit, jak se dá porovnat s filmem.",
+          "I'm interested in comparing it with the film."
+        ],
+        [
+          "Let's go to another film next week.",
+          "Řekni, že to zní jako dobrý plán.",
+          "That sounds like a good plan.",
+          "To zní jako dobrý plán.",
+          "That's a great idea."
+        ]
+      ],
+      "B2": [
+        [
+          "How would you interpret the ending?",
+          "Řekni, že nejednoznačnost umožňuje různé výklady.",
+          "The ambiguity leaves room for different interpretations.",
+          "Nejednoznačnost ponechává prostor pro různé výklady.",
+          "Its ambiguous nature allows several interpretations."
+        ],
+        [
+          "Did the adaptation do the novel justice?",
+          "Řekni, že vystihla atmosféru, ale zjednodušila postavy.",
+          "It captured the atmosphere but oversimplified the characters.",
+          "Vystihla atmosféru, ale příliš zjednodušila postavy.",
+          "The atmosphere was convincing, although the characters lacked complexity."
+        ],
+        [
+          "What stood out visually?",
+          "Řekni, že kamera podpořila pocit izolace.",
+          "The cinematography reinforced the sense of isolation.",
+          "Kamera posílila pocit izolace.",
+          "The way it was filmed emphasised the characters' isolation."
+        ],
+        [
+          "Some viewers found it too slow.",
+          "Připusť jejich názor, ale obhaj pomalé tempo.",
+          "I can see their point, but the slow pace helped build tension.",
+          "Chápu jejich názor, ale pomalé tempo pomáhalo budovat napětí.",
+          "Although it was slow, I felt that the pacing increased the tension."
+        ],
+        [
+          "Would you watch it again?",
+          "Řekni, že opakované zhlédnutí může odhalit přehlédnuté detaily.",
+          "A second viewing might reveal details I missed the first time.",
+          "Druhé zhlédnutí by mohlo odhalit detaily, které mi poprvé unikly.",
+          "I might notice more subtle details if I watched it again."
+        ],
+        [
+          "Who would you recommend it to?",
+          "Doporuč ho divákům, kteří mají rádi podnětné příběhy.",
+          "I'd recommend it to viewers who enjoy thought-provoking stories.",
+          "Doporučil bych ho divákům, kteří mají rádi příběhy podněcující k zamyšlení.",
+          "It would appeal to people who like stories that make them think."
+        ]
+      ]
+    }
+  }
 }
